@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 
-import homePage from '../assets/images/home_page.png';
 import inGamePage from '../assets/images/in_game_page.png';
 import { config } from '../config';
 import { CheckArrowIcon } from '../assets/icons/CheckArrowIcon';
@@ -52,13 +51,6 @@ export const ProductsCodePush = () => {
           </div>
           <div className="w-4/5 lg:w-2/3 lg:pl-16 mx-auto pt-16 lg:pt-0 flex-1">
             <div className="relative inline-flex space-x-4">
-              <img
-                src={homePage}
-                alt="Get Started with DartSense on Android"
-                width="280"
-                height="500"
-                className="rounded-xl dartsense-border-gray"
-              />
               <img
                 src={inGamePage}
                 alt="Get Started with DartSense on Android"
