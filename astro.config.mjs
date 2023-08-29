@@ -4,7 +4,6 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://jtdLab.github.io',
-  base: 'dart_sense_website',
+  site: 'https://dartsense.com',
   integrations: [react(), tailwind()],
 });
