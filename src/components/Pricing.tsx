@@ -6,7 +6,8 @@ import { CheckArrowIcon } from '../assets/icons/CheckArrowIcon';
 const pricing: Pricing[] = [
   {
     title: 'AI Voice Recognition',
-    description: 'Unleash the magic of AI Voice Recognition and redefine the way you play.',
+    description:
+      'Unleash the magic of AI Voice Recognition and redefine the way you play.',
     price: 7.99,
     features: [
       { title: 'Elias' },
@@ -21,14 +22,11 @@ const pricing: Pricing[] = [
   },
   {
     title: 'AI Voice Recognition & Advanced Game Stats',
-    description: 'Track your progress, analyze your play, and take your skills to the next level.',
+    description:
+      'Track your progress, analyze your play, and take your skills to the next level.',
     price: 9.99,
     highlight: true,
-    features: [
-      { title: 'Bla' },
-      { title: 'Blub' },
-      { title: 'Furz' },
-    ],
+    features: [{ title: 'Bla' }, { title: 'Blub' }, { title: 'Furz' }],
     cta: {
       title: 'Get Started',
       link: config.consoleUrl,
@@ -134,7 +132,8 @@ export const Pricing = () => {
                 Join now
               </h2>
               <p className="mb-6 text-dartsenseTextGray">
-                Play and train locally or online with your friends powered by AI Voice Recognition.
+                Play and train locally or online with your friends powered by AI
+                Voice Recognition.
               </p>
             </div>
             <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-center justify-center mt-20">

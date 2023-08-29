@@ -6,8 +6,7 @@ import { config } from '../config';
 const faqs = [
   {
     question: 'Does DartSense work without an internet connection?',
-    answer:
-      'Yes.',
+    answer: 'Yes.',
   },
   {
     question: 'How many devices can I use with my subscription?',
