@@ -1,0 +1,62 @@
+/* Typography */
+
+.dartsense-block-big-title {
+  @apply text-white text-5xl xl:text-6xl font-bold tracking-normal;
+}
+.dartsense-block-subtitle {
+  @apply text-xs text-dartsenseSecondary  tracking-wider font-bold uppercase;
+}
+.dartsense-content-title {
+  @apply text-white text-lg font-bold tracking-normal;
+}
+
+/* Backgrounds */
+
+.dartsense-bg1 {
+  @apply bg-dartsenseBg1  fill-dartsenseBg1;
+}
+.dartsense-bg2 {
+  @apply bg-dartsenseBg2  fill-dartsenseBg2;
+}
+.dartsense-bg3 {
+  @apply bg-dartsenseBg3  fill-dartsenseBg3;
+}
+body,
+html {
+  @apply bg-dartsenseBg2;
+}
+
+/* Borders */
+
+.dartsense-border-gray {
+  @apply border border-solid border-[rgb(255,255,255,0.15)];
+}
+.dartsense-border-gray-darker {
+  @apply border border-solid border-[rgb(255,255,255,0.07)];
+}
+
+/* Buttons */
+
+.dartsense-button-colored {
+  @apply rounded-lg font-bold bg-dartsensePrimary text-white flex justify-center items-center hover:bg-[#0196C0] cursor-pointer transition;
+}
+
+/* Navbar */
+
+.navbar-link {
+  @apply text-white lg:text-base text-2xl leading-6 mr-4 ml-4 2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition duration-300 h-full pt-2;
+}
+
+/* Preventing FOUC */
+@font-face {
+  font-display: var(--fontsource-Inter-font-display, optional);
+}
+
+/* Tooltip */
+.tooltip {
+  @apply invisible absolute p-2 md:p-4 rounded shadow-lg md:ml-4 -ml-14 text-sm bg-dartsenseBg1 -mt-28 md:-mt-20;
+}
+
+.tooltip-container:hover .tooltip {
+  @apply visible z-50;
+}
