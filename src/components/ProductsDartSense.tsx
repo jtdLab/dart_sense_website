@@ -4,7 +4,7 @@ import inGamePage from '../assets/images/in_game_page.png';
 import { config } from '../config';
 import { CheckArrowIcon } from '../assets/icons/CheckArrowIcon';
 
-export const ProductsCodePush = () => {
+export const ProductsDartSense = () => {
   return (
     <section
       className="lg:mb-16 w-full flex flex-col justify-center items-center bg-dartsenseBg1"

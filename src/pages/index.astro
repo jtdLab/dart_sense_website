@@ -1,20 +1,19 @@
 ---
-import MainLayout from '../layouts/MainLayout.astro';
-import { Hero } from '../components/Hero.jsx';
-import { NewsLetter } from '../components/NewsLetter.jsx';
-import { Navbar } from '../components/Navbar.jsx';
-import { ProductsCodePush } from '../components/ProductsCodePush.jsx';
-import { PromoVideo } from '../components/PromoVideo.jsx';
-import { Pricing } from '../components/Pricing.jsx';
-import { Team } from '../components/Team.jsx';
-import { FAQ } from '../components/FAQ.jsx';
 import { Divider } from '../components/Divider';
+import { FAQ } from '../components/FAQ.jsx';
 import { Footer } from '../components/Footer.jsx';
+import { Hero } from '../components/Hero.jsx';
+import { Navbar } from '../components/Navbar.jsx';
+import { NewsLetter } from '../components/NewsLetter.jsx';
+import { Pricing } from '../components/Pricing.jsx';
+import { ProductsDartSense } from '../components/ProductsDartSense';
 import { ScrollToTopButton } from '../components/ScrollToTopButton';
+import { Team } from '../components/Team.jsx';
 import { config } from '../config';
+import MainLayout from '../layouts/MainLayout.astro';
 
-import '../styles/Theme.css';
 import '../styles/Shapes.css';
+import '../styles/Theme.css';
 
 const links = [
   { label: 'Home', href: '#home', ariaLabel: 'Home' },
@@ -29,7 +28,7 @@ const links = [
 <MainLayout title={config.app}>
   <Navbar links={links} client:load />
   <Hero client:load />
-  <ProductsCodePush client:load />
+  <ProductsDartSense client:load />
   <!-- <PromoVideo client:load /> -->
   <Divider />
   <Pricing client:load />
