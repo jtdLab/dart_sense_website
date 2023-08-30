@@ -8,7 +8,7 @@ export const ProductsCodePush = () => {
   return (
     <section
       className="lg:mb-16 w-full flex flex-col justify-center items-center bg-dartsenseBg1"
-      id="products-code-push"
+      id="products-dart-sense"
     >
       <motion.div
         initial={{ opacity: 0 }}
@@ -62,7 +62,7 @@ export const ProductsCodePush = () => {
           </div>
         </div>
       </motion.div>
-      <div className="custom-shape-divider-top-code-push w-full">
+      <div className="custom-shape-divider-top-dart-sense w-full">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"

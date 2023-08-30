@@ -19,13 +19,13 @@
 
 /* Code Push Bottom */
 
-.custom-shape-divider-bottom-code-push {
+.custom-shape-divider-bottom-dart-sense {
   width: 100%;
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
 }
-.custom-shape-divider-bottom-code-push svg {
+.custom-shape-divider-bottom-dart-sense svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
@@ -35,11 +35,11 @@
 
 /* Code Push Top */
 
-.custom-shape-divider-top-code-push {
+.custom-shape-divider-top-dart-sense {
   overflow: hidden;
   line-height: 0;
 }
-.custom-shape-divider-top-code-push svg {
+.custom-shape-divider-top-dart-sense svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
