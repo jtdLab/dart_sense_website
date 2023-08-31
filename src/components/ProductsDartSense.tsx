@@ -52,7 +52,7 @@ export const ProductsDartSense = () => {
           <div className="w-4/5 lg:w-2/3 lg:pl-16 mx-auto pt-16 lg:pt-0 flex-1">
             <div className="relative inline-flex space-x-4">
               <img
-                src={inGamePage}
+                src={inGamePage.src}
                 alt="Get Started with DartSense on Android"
                 width="280"
                 height="500"
