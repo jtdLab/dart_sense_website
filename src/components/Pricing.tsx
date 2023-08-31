@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 
-import { config } from '../config';
 import { CheckArrowIcon } from '../assets/icons/CheckArrowIcon';
 
 const pricing: Pricing[] = [
@@ -17,7 +16,7 @@ const pricing: Pricing[] = [
     ],
     cta: {
       title: 'Get Started',
-      link: config.consoleUrl,
+      link: '/dashboard',
     },
   },
   {
@@ -29,7 +28,7 @@ const pricing: Pricing[] = [
     features: [{ title: 'Bla' }, { title: 'Blub' }, { title: 'Furz' }],
     cta: {
       title: 'Get Started',
-      link: config.consoleUrl,
+      link: '/dashboard',
     },
   },
 ];

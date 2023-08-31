@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion';
 
-import inGamePage from '../assets/images/in_game_page.png';
-import { config } from '../config';
 import { CheckArrowIcon } from '../assets/icons/CheckArrowIcon';
+import inGamePage from '../assets/images/in_game_page.png';
 
 export const ProductsDartSense = () => {
   return (
@@ -42,7 +41,7 @@ export const ProductsDartSense = () => {
             <div className="flex flex-col sm:flex-row">
               <a
                 target="_blank"
-                href={config.consoleUrl}
+                href="/dashboard"
                 className="dartsense-button-colored w-full h-12 mr-0 sm:mr-4 lg:mr-4 mb-2 sm:mb-0"
               >
                 Get Started
@@ -52,7 +51,7 @@ export const ProductsDartSense = () => {
           <div className="w-4/5 lg:w-2/3 lg:pl-16 mx-auto pt-16 lg:pt-0 flex-1">
             <div className="relative inline-flex space-x-4">
               <img
-                src={inGamePage}
+                src={inGamePage.src}
                 alt="Get Started with DartSense on Android"
                 width="280"
                 height="500"

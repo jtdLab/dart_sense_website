@@ -1,0 +1,11 @@
+---
+import Center from '../components/Center.astro';
+import { SignUp } from '../components/SignUp.jsx';
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout title="Register">
+  <Center>
+    <SignUp client:load/>
+  </Center>
+</MainLayout>

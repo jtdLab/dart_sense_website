@@ -75,7 +75,7 @@ export const Navbar = (props: Props) => {
             </a>
             <a
               className="text-white ml-4 border-2 border-slate-600 rounded-md p-2 hover:border-slate-400"
-              href={config.consoleUrl}
+              href="/signin"
               target="_blank"
               aria-label="source code"
             >
@@ -112,7 +112,7 @@ export const Navbar = (props: Props) => {
             >
               <a
                 className="navbar-link"
-                href={config.consoleUrl}
+                href="/signin"
                 target="_blank"
                 aria-label="source code"
               >

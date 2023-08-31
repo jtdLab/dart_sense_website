@@ -1,0 +1,33 @@
+---
+import { getAuth } from 'firebase-admin/auth';
+import Center from '../components/Center.astro';
+import { app } from '../firebase/server';
+import MainLayout from '../layouts/MainLayout.astro';
+
+const auth = getAuth(app);
+
+/* Check current session */
+if (!Astro.cookies.has('session')) {
+  return Astro.redirect('/signin');
+}
+const sessionCookie = Astro.cookies.get('session').value;
+const decodedCookie = await auth.verifySessionCookie(sessionCookie);
+const user = await auth.getUser(decodedCookie.uid);
+
+if (!user) {
+  return Astro.redirect('/signin');
+}
+---
+
+<MainLayout title="dashboard">
+  <Center>
+    <div class="mx-auto max-w-screen-md sm:text-center">
+      <h2 class="mb-4 text-4xl lg:text-5xl font-bold font-heading text-white tracking-tight sm:text-4xl">
+        Welcome {user.displayName}
+      </h2>
+      <form action="/api/auth/signout">
+        <button type="submit" class="w-full py-3 px-5 text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-primary-700 border-primary-600 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 hover:bg-primary-700 focus:ring-primary-800">Sign out</button>
+      </form>
+    </div>
+  </Center>
+</MainLayout>

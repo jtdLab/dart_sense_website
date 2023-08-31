@@ -1,0 +1,23 @@
+---
+import { getAuth } from 'firebase-admin/auth';
+import Center from '../components/Center.astro';
+import { SignIn } from '../components/SignIn';
+import { app } from '../firebase/server';
+import MainLayout from '../layouts/MainLayout.astro';
+
+/* Check if the user is authenticated */
+const auth = getAuth(app);
+if (Astro.cookies.has('session')) {
+  const sessionCookie = Astro.cookies.get('session').value;
+  const decodedCookie = await auth.verifySessionCookie(sessionCookie);
+  if (decodedCookie) {
+    return Astro.redirect('/dashboard');
+  }
+}
+---
+
+<MainLayout title="Sign in">
+  <Center>
+    <SignIn client:load/>
+  </Center>
+</MainLayout>
