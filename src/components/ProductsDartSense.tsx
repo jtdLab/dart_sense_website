@@ -21,8 +21,8 @@ export const ProductsDartSense = () => {
               Play Steel Darts without typing
             </h2>
             <p className="mb-8 text-dartsenseTextGray leading-loose">
-              DartSense VoicePlay allows users to play Steel
-              Darts using their voice.
+              DartSense VoicePlay allows users to play Steel Darts using their
+              voice.
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">
