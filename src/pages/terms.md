@@ -6,7 +6,9 @@ description: DartSense Terms of Use
 
 # Terms of Service
 
-_Last updated March 21th, 2023._
+TODO
+
+<!-- _Last updated March 21th, 2023._
 
 By using the dartsense.com website ("Service"), or any services of Jtd Lab,
 Inc("DartSense"), you are agreeing to be bound by the following terms and
@@ -216,4 +218,4 @@ plus the following specific terms:
   Service). You agree that these Terms of
 - Service and Your use of the Service are governed under California law.
 
-Questions about the Terms of Service should be sent to contact@dartsense.com
+Questions about the Terms of Service should be sent to contact@dartsense.com -->

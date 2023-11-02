@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 
-import inGamePage from '../assets/images/in_game_page.png';
 import { config } from '../config';
 import { CheckArrowIcon } from '../assets/icons/CheckArrowIcon';
 
@@ -19,24 +18,24 @@ export const ProductsDartSense = () => {
         <div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center bg-dartsenseBg1 pt-12 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col">
           <div className="w-3/4 lg:w-1/2 flex flex-col lg:mx-unset mx-auto">
             <h2 className="mt-10 mb-8 text-4xl md:text-5xl dartsense-block-big-title">
-              Play dart without typing
+              Play Steel Darts without typing
             </h2>
             <p className="mb-8 text-dartsenseTextGray leading-loose">
-              DartSense is a mobile application that allows users to keep track
-              of their scores & stats without typing
+              DartSense VoicePlay allows users to play Steel
+              Darts using their voice.
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Offline Voice Recognition powered by AI</span>
+                <span>97% Recognition Rate</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Play offline or online with your friends</span>
+                <span>100% Offline</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Get indepth insights with advanced stats</span>
+                <span>Fast & Private</span>
               </li>
             </ul>
             <div className="flex flex-col sm:flex-row">
@@ -47,17 +46,6 @@ export const ProductsDartSense = () => {
               >
                 Get Started
               </a>
-            </div>
-          </div>
-          <div className="w-4/5 lg:w-2/3 lg:pl-16 mx-auto pt-16 lg:pt-0 flex-1">
-            <div className="relative inline-flex space-x-4">
-              <img
-                src={inGamePage.src}
-                alt="Get Started with DartSense on Android"
-                width="280"
-                height="500"
-                className="rounded-xl dartsense-border-gray"
-              />
             </div>
           </div>
         </div>

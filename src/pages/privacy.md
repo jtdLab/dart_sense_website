@@ -6,7 +6,9 @@ description: DartSense Privacy Policy
 
 # Privacy Policy
 
-_Last updated March 14, 2023._
+TODO
+
+<!-- _Last updated March 14, 2023._
 
 ### General Information
 
@@ -152,4 +154,4 @@ via email at privacy@dartsense.com.
 - Stripe, USA, Payment processing
 - Mailchimp, USA, Customer interactions
 - Discord, USA, Customer support
-- GitHub, USA, Code, bug reports, contributions
+- GitHub, USA, Code, bug reports, contributions -->

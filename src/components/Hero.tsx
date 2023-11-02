@@ -16,8 +16,8 @@ export const Hero = () => {
             <div className="text-7xl lg:text-8xl xl:text-8xl font-extrabold tracking-wide text-white px-8 sm:px-8 md:px-20 lg:px-4">
               <span className="">DartSense</span>
             </div>
-            <span className="bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-500 via-purple-500 animate-gradient-xy inline text-4xl md:text-5xl lg:text-5xl xl:text-5xl">
-              powered by AI
+            <span className="bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-500 via-purple-500 animate-gradient-xy inline text-7xl lg:text-8xl xl:text-8xl">
+              VoicePlay
             </span>
           </div>
         </motion.div>

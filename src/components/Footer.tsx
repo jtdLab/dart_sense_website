@@ -19,7 +19,7 @@ export const Footer = () => {
                 </div>
               </div>
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
-                We build apps to make your life easier without spying on you.
+                We make playing Steel Darts even more fun.
               </p>
               <div className="w-36 mx-auto lg:mx-0">
                 <a
@@ -43,15 +43,6 @@ export const Footer = () => {
                       aria-label="contact us"
                     >
                       Contact Us
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-gray-400 hover:text-gray-300"
-                      href="/jobs"
-                      aria-label="jobs"
-                    >
-                      Jobs
                     </a>
                   </li>
                 </ul>
@@ -82,7 +73,7 @@ export const Footer = () => {
             </div>
           </div>
           <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
-            &copy; 2023, Jtd Lab Inc.
+            &copy; 2023, TODO
           </p>
         </div>
       </div>

@@ -5,15 +5,16 @@ import { CheckArrowIcon } from '../assets/icons/CheckArrowIcon';
 
 const pricing: Pricing[] = [
   {
-    title: 'AI Voice Recognition',
+    title: 'Voice Play I',
     description:
       'Unleash the magic of AI Voice Recognition and redefine the way you play.',
-    price: 7.99,
+    price: 4.99,
+    cycle: 'month',
     features: [
-      { title: 'Elias' },
-      { title: 'stink' },
-      { title: 'nach' },
-      { title: 'fisch' },
+      { title: 'Accurate' },
+      { title: 'Offline' },
+      { title: 'Fast' },
+      { title: 'Private' },
     ],
     cta: {
       title: 'Get Started',
@@ -21,12 +22,18 @@ const pricing: Pricing[] = [
     },
   },
   {
-    title: 'AI Voice Recognition & Advanced Game Stats',
+    title: 'Voice Play II',
     description:
-      'Track your progress, analyze your play, and take your skills to the next level.',
-    price: 9.99,
+      'Unleash the magic of AI Voice Recognition and redefine the way you play.',
+    price: 49.99,
+    cycle: 'year',
     highlight: true,
-    features: [{ title: 'Bla' }, { title: 'Blub' }, { title: 'Furz' }],
+    features: [
+      { title: 'Accurate' },
+      { title: 'Offline' },
+      { title: 'Fast' },
+      { title: 'Private' },
+    ],
     cta: {
       title: 'Get Started',
       link: config.consoleUrl,
@@ -49,6 +56,7 @@ interface Pricing {
   description: string;
   features: Feature[];
   price?: number;
+  cycle?: string;
   cta: CTA;
   highlight?: boolean;
 }
@@ -72,7 +80,7 @@ const PricingCard = (props: Pricing) => {
                 <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
                   ${props.price}
                 </div>
-                <div className="text-gray-500">{'/ month'}</div>
+                <div className="text-gray-500">{`/ ${props.cycle}`}</div>
               </>
             ) : (
               <div className="text-3xl sm:text-4xl font-bold text-white text-left mt-4 mr-2 mb-2">
