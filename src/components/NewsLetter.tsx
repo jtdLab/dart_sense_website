@@ -62,7 +62,7 @@ export const NewsLetter = () => {
                     <div className="hidden" aria-hidden="true">
                       <input
                         type="text"
-                        name="b_782cd1f159c245fdb1a73bfb3_f3a2318a39"
+                        name="TODO"
                         tabIndex={-1}
                         value=""
                         readOnly
