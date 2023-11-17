@@ -19,12 +19,7 @@ export const NewsLetter = () => {
               Stay informed with updates from DartSense.
             </p>
             <div id="mc_embed_signup">
-              <form
-                action="https://dev.us21.list-manage.com/subscribe/post?u=782cd1f159c245fdb1a73bfb3&amp;id=f3a2318a39&amp;f_id=007fece1f0"
-                method="post"
-                id="mc-embedded-subscribe-form"
-                target="_self"
-              >
+              <form id="mc-embedded-subscribe-form" target="_self">
                 <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                   <div className="relative w-full">
                     <label

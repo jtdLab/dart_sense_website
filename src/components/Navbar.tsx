@@ -73,14 +73,14 @@ export const Navbar = (props: Props) => {
             >
               <DiscordIcon />
             </a>
-            <a
+{/*             <a
               className="text-white ml-4 border-2 border-slate-600 rounded-md p-2 hover:border-slate-400"
               href={config.consoleUrl}
               target="_blank"
               aria-label="source code"
             >
               Sign In
-            </a>
+            </a> */}
           </div>
         </motion.div>
         {props.links ? (

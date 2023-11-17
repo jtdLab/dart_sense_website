@@ -8,11 +8,11 @@ const faqs = [
     question: 'Does DartSense work without an internet connection?',
     answer: 'Yes.',
   },
-  {
+/*   {
     question: 'How many devices can I use with my subscription?',
     answer:
       'A subscription is bound to ONE device for 30 days after the first usage. After that period the subscription can be bound to another device.',
-  },
+  }, */
 ];
 
 export const FAQ = () => (

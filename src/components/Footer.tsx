@@ -53,6 +53,15 @@ export const Footer = () => {
                   <li className="mb-4">
                     <a
                       className="text-gray-400 hover:text-gray-300"
+                      href="/imprint"
+                      aria-label="imprint"
+                    >
+                      Imprint
+                    </a>
+                  </li>
+{/*                 <li className="mb-4">
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
                       href="/terms"
                       aria-label="terms of use"
                     >
@@ -67,13 +76,13 @@ export const Footer = () => {
                     >
                       Privacy Policy
                     </a>
-                  </li>
+                  </li>  */}
                 </ul>
               </div>
             </div>
           </div>
           <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
-            &copy; 2023, TODO
+            &copy; 2023, JTD Lab
           </p>
         </div>
       </div>

@@ -5,16 +5,16 @@ import { CheckArrowIcon } from '../assets/icons/CheckArrowIcon';
 
 const pricing: Pricing[] = [
   {
-    title: 'Voice Play I',
+    title: 'Voice Play (monthly)',
     description:
-      'Unleash the magic of AI Voice Recognition and redefine the way you play.',
-    price: 4.99,
+      'Unleash the magic of VoicePlay and redefine the way you play.',
+    price: 3.99,
     cycle: 'month',
+    highlight: true,
     features: [
-      { title: 'Accurate' },
-      { title: 'Offline' },
+      { title: '97% Accuracy' },
+      { title: '100% Offline' },
       { title: 'Fast' },
-      { title: 'Private' },
     ],
     cta: {
       title: 'Get Started',
@@ -22,17 +22,31 @@ const pricing: Pricing[] = [
     },
   },
   {
-    title: 'Voice Play II',
+    title: 'Voice Play (3 months)',
     description:
-      'Unleash the magic of AI Voice Recognition and redefine the way you play.',
-    price: 49.99,
-    cycle: 'year',
-    highlight: true,
+      'Unleash the magic of VoicePlay and redefine the way you play.',
+    price: 10.99,
+    cycle: '3 months',
     features: [
-      { title: 'Accurate' },
-      { title: 'Offline' },
+      { title: '97% Accuracy' },
+      { title: '100% Offline' },
       { title: 'Fast' },
-      { title: 'Private' },
+    ],
+    cta: {
+      title: 'Get Started',
+      link: config.consoleUrl,
+    },
+  },
+  {
+    title: 'Voice Play (annually)',
+    description:
+      'Unleash the magic of VoicePlay and redefine the way you play.',
+    price: 39.99,
+    cycle: 'year',
+    features: [
+      { title: '97% Accuracy' },
+      { title: '100% Offline' },
+      { title: 'Fast' },
     ],
     cta: {
       title: 'Get Started',
@@ -63,7 +77,7 @@ interface Pricing {
 
 const PricingCard = (props: Pricing) => {
   return (
-    <div className="w-[350px] sm:w-[380px] lg:w-3/10 px-4 mb-8 lg:mb-0">
+    <div className="w-[350px] sm:w-[380px] lg:w-3/10 px-4 mb-8">
       <div
         className={
           props.highlight &&
@@ -140,8 +154,7 @@ export const Pricing = () => {
                 Join now
               </h2>
               <p className="mb-6 text-dartsenseTextGray">
-                Play and train locally or online with your friends powered by AI
-                Voice Recognition.
+                Play Steel Darts powered by VoicePlay
               </p>
             </div>
             <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-center justify-center mt-20">
