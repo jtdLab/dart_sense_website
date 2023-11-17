@@ -10,12 +10,9 @@ description: DartSense Imprint
 
 David Schlauch (Kleinunternehmer)
 
-
-Abtwilerstr. 11, 87776 Sontheim 
-
+Abtwilerstr. 11, 87776 Sontheim
 
 Germany
-
 
 ## Email
 
