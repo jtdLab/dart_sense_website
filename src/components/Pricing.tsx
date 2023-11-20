@@ -8,13 +8,14 @@ const pricing: Pricing[] = [
     title: 'Voice Play (monthly)',
     description:
       'Unleash the magic of VoicePlay and redefine the way you play.',
-    price: 3.99,
+    price: 2.99,
     cycle: 'month',
     highlight: true,
     features: [
       { title: '97% Accuracy' },
       { title: '100% Offline' },
       { title: 'Fast' },
+      { title: '1 Device' },
     ],
     cta: {
       title: 'Get Started',
@@ -22,31 +23,15 @@ const pricing: Pricing[] = [
     },
   },
   {
-    title: 'Voice Play (3 months)',
+    title: 'Voice Play (lifetime)',
     description:
       'Unleash the magic of VoicePlay and redefine the way you play.',
-    price: 10.99,
-    cycle: '3 months',
+    price: 99.99,
     features: [
       { title: '97% Accuracy' },
       { title: '100% Offline' },
       { title: 'Fast' },
-    ],
-    cta: {
-      title: 'Get Started',
-      link: config.consoleUrl,
-    },
-  },
-  {
-    title: 'Voice Play (annually)',
-    description:
-      'Unleash the magic of VoicePlay and redefine the way you play.',
-    price: 39.99,
-    cycle: 'year',
-    features: [
-      { title: '97% Accuracy' },
-      { title: '100% Offline' },
-      { title: 'Fast' },
+      { title: 'Unlimited Devices' },
     ],
     cta: {
       title: 'Get Started',
@@ -94,7 +79,9 @@ const PricingCard = (props: Pricing) => {
                 <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
                   ${props.price}
                 </div>
-                <div className="text-gray-500">{`/ ${props.cycle}`}</div>
+                {props.cycle != null && (
+                  <div className="text-gray-500">{`/ ${props.cycle}`}</div>
+                )}
               </>
             ) : (
               <div className="text-3xl sm:text-4xl font-bold text-white text-left mt-4 mr-2 mb-2">
