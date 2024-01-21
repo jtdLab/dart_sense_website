@@ -5,14 +5,33 @@ import { config } from '../config';
 
 const faqs = [
   {
-    question: 'Does DartSense work without an internet connection?',
+    question: 'Does VoicePlay work in noisy environments?',
+    answer:
+      'VoicePlay was developed for quiet to silent environments, especially for practicing. Usage in louder environments is unstable and at your own risk.',
+  },
+  {
+    question: 'How can I play in a noisy environment? (not recommended)',
+    answer:
+      'You can try disabling auto-commit, configuring VoicePlay to require separate confirmation for each command.',
+  },
+  {
+    question: 'Does VoicePlay work without an internet connection?',
     answer: 'Yes.',
   },
-  /*   {
+  {
     question: 'How many devices can I use with my subscription?',
+    answer: `A subscription is bound to ONE device at a time. If you sign in on a new device, you'll be automatically logged out from the previous one.`,
+  },
+  {
+    question: 'Have questions about billing or need assistance with payment?',
     answer:
-      'A subscription is bound to ONE device for 30 days after the first usage. After that period the subscription can be bound to another device.',
-  }, */
+      'For billing inquiries and assistance with payments, please visit our dedicated Discord channel: [Billing Discord Link].',
+  },
+  {
+    question: 'Experiencing technical issues or want to report a bug?',
+    answer:
+      'For technical support and bug reporting, please visit our dedicated Discord channel: [Technical Discord Link].',
+  },
 ];
 
 export const FAQ = () => (
