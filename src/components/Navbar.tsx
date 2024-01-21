@@ -110,14 +110,14 @@ export const Navbar = (props: Props) => {
         items-center gap-10 pb-10 border-y border-solid border-dartsenseBg3 pt-10
         "
             >
-              <a
+              {/* <a
                 className="navbar-link"
                 href={config.consoleUrl}
                 target="_blank"
                 aria-label="source code"
               >
                 Sign In
-              </a>
+              </a> */}
               {props.links?.map(({ label, href, ariaLabel }) => (
                 <a
                   key={href}
