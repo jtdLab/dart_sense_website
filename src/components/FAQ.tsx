@@ -32,7 +32,7 @@ export const FAQ = (props: Props) => (
                 <FAQBox
                   title={faq.question}
                   content={faq.answer}
-                  defaultOpen={true}
+                  defaultOpen={false}
                 />
               </div>
             ))}
