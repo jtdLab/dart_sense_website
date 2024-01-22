@@ -1,9 +1,18 @@
 import { config } from '../config';
 
 import { DiscordIcon } from '../assets/icons/DiscordIcon';
+import { InstagramIcon } from '../assets/icons/InstagramIcon';
 import { DartSenseLogo } from '../assets/logos/DartSenseLogo';
 
-export const Footer = () => {
+interface Props {
+  slogan: string;
+  companySection: string;
+  companySectionContactUs: string;
+  legalSection: string;
+  legalSectionImprint: string;
+}
+
+export const Footer = (props: Props) => {
   return (
     <footer>
       <div className="pt-10  lg:pt-20 lg:pb-12 bg-dartsenseBg1 radius-for-skewed ">
@@ -19,7 +28,7 @@ export const Footer = () => {
                 </div>
               </div>
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
-                We make playing Steel Darts even more fun.
+                {props.slogan}
               </p>
               <div className="w-36 mx-auto lg:mx-0">
                 <a
@@ -30,11 +39,21 @@ export const Footer = () => {
                 >
                   <DiscordIcon />
                 </a>
+                <a
+                  className="inline-block w-10 h-10 mr-2 p-2 bg-dartsenseBg2 dartsense-border-gray hover:bg-gray-700 rounded-xl"
+                  target="_blank"
+                  aria-label="instagram"
+                  href={config.instagramUrl}
+                >
+                  <InstagramIcon />
+                </a>
               </div>
             </div>
             <div className="w-full lg:w-2/3 lg:pl-16 hidden lg:flex flex-wrap justify-between">
               <div className="w-full md:w-1/3 lg:w-auto">
-                <h3 className="mb-6 text-2xl font-bold text-white">Company</h3>
+                <h3 className="mb-6 text-2xl font-bold text-white">
+                  {props.companySection}
+                </h3>
                 <ul>
                   <li className="mb-4">
                     <a
@@ -42,13 +61,15 @@ export const Footer = () => {
                       href={`mailto:${config.contactEmail}`}
                       aria-label="contact us"
                     >
-                      Contact Us
+                      {props.companySectionContactUs}
                     </a>
                   </li>
                 </ul>
               </div>
               <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
-                <h3 className="mb-6 text-2xl font-bold text-white">Legal</h3>
+                <h3 className="mb-6 text-2xl font-bold text-white">
+                  {props.legalSection}
+                </h3>
                 <ul>
                   <li className="mb-4">
                     <a
@@ -56,7 +77,7 @@ export const Footer = () => {
                       href="/imprint"
                       aria-label="imprint"
                     >
-                      Imprint
+                      {props.legalSectionImprint}
                     </a>
                   </li>
                   {/*                 <li className="mb-4">
@@ -81,9 +102,9 @@ export const Footer = () => {
               </div>
             </div>
           </div>
-          <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
-            &copy; 2023, JTD Lab
-          </p>
+          {/* <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
+            &copy; 2024, JTD Lab
+          </p> */}
         </div>
       </div>
     </footer>

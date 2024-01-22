@@ -1,40 +1,20 @@
-import ReactMarkdown from 'react-markdown';
-import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useState } from 'react';
+import ReactMarkdown from 'react-markdown';
 import { config } from '../config';
 
-const faqs = [
-  {
-    question: 'Does VoicePlay work in noisy environments?',
-    answer:
-      'VoicePlay was developed for quiet to silent environments, especially for practicing. Usage in louder environments is unstable and at your own risk.',
-  },
-  {
-    question: 'How can I play in a noisy environment? (not recommended)',
-    answer:
-      'You can try disabling auto-commit, configuring VoicePlay to require separate confirmation for each command.',
-  },
-  {
-    question: 'Does VoicePlay work without an internet connection?',
-    answer: 'Yes.',
-  },
-  {
-    question: 'How many devices can I use with my subscription?',
-    answer: `A subscription is bound to ONE device at a time. If you sign in on a new device, you'll be automatically logged out from the previous one.`,
-  },
-  {
-    question: 'Have questions about billing or need assistance with payment?',
-    answer:
-      'For billing inquiries and assistance with payments, please visit our dedicated Discord channel: [Billing Discord Link].',
-  },
-  {
-    question: 'Experiencing technical issues or want to report a bug?',
-    answer:
-      'For technical support and bug reporting, please visit our dedicated Discord channel: [Technical Discord Link].',
-  },
-];
+interface Faq {
+  question: string;
+  answer: string;
+}
 
-export const FAQ = () => (
+interface Props {
+  faqs?: Faq[];
+  forAdditionalQuestions: string;
+  askUsOnDiscord: string;
+}
+
+export const FAQ = (props: Props) => (
   <section className="relative pt-16 pb-16 bg-blueGray-50 overflow-hidden">
     <div className="absolute -top-10" id="faq" />
     <motion.div
@@ -47,7 +27,7 @@ export const FAQ = () => (
         <div className="md:max-w-4xl mx-auto">
           <h2 className="mb-16 dartsense-block-big-title text-center">FAQs</h2>
           <div className="mb-11 flex flex-wrap -m-1">
-            {faqs.map((faq, index) => (
+            {props.faqs.map((faq, index) => (
               <div key={index} className="w-full p-1">
                 <FAQBox
                   title={faq.question}
@@ -59,9 +39,9 @@ export const FAQ = () => (
           </div>
           <div>
             <p className="text-center text-white">
-              For additional questions,{' '}
+              {props.forAdditionalQuestions}{' '}
               <a target="_blank" className="underline" href={config.discordUrl}>
-                ask us on Discord.
+                {props.askUsOnDiscord}
               </a>
             </p>
           </div>
@@ -87,6 +67,7 @@ const FAQBox = ({ defaultOpen, title, content }) => {
           className={`prose prose-invert text-dartsenseTextGray pt-4 transition-all duration-300 overflow-hidden ${
             isOpen ? 'max-h-96' : 'max-h-0'
           }`}
+          // skipHtml={false} TODO: can be used later?
           children={`${content}`}
         ></ReactMarkdown>
       </div>

@@ -1,0 +1,49 @@
+{
+  "site": {
+    "title": "DartSense"
+  },
+  "voicePlay": {
+    "title": "Spiele Steel Darts ohne lästiges Eintippen",
+    "slogan": "Bleibe im Flow und verbessere dein Spiel.",
+    "bullet1": "97% Genauigkeit",
+    "bullet2": "Geringe Latenz",
+    "bullet3": "100% Offline"
+  },
+  "faqs": [
+    {
+      "question": "Funktioniert VoicePlay auch in lauten Umgebungen?",
+      "answer": "VoicePlay wurde für leise bis stille Umgebungen entwickelt, insbesondere für das Training. Die Verwendung in lauten Umgebungen ist instabil und auf eigene Gefahr."
+    },
+    {
+      "question": "Wie kann ich in einer lauten Umgebung spielen? (nicht empfohlen)",
+      "answer": "Sie können versuchen, die automatische Bestätigung zu deaktivieren und VoicePlay so zu konfigurieren, dass für jede Anweisung eine separate Bestätigung erforderlich ist."
+    },
+    {
+      "question": "Funktioniert VoicePlay ohne Internetverbindung?",
+      "answer": "Ja."
+    },
+    {
+      "question": "Wie viele Geräte kann ich mit meinem Abonnement verwenden?",
+      "answer": "Ein Abonnement ist jeweils an EIN Gerät gebunden. Wenn Sie sich auf einem neuen Gerät anmelden, werden Sie automatisch von Ihrem vorherigen abgemeldet."
+    },
+    {
+      "question": "Haben Sie Fragen zur Abrechnung oder benötigen Sie Hilfe bei der Zahlung?",
+      "answer": "Für Fragen zur Abrechnung und Unterstützung bei Zahlungen besuchen Sie bitte unseren dedizierten [Discord-Kanal](https://discord.com/channels/1177282736935940127/1177285970429755462)."
+    },
+    {
+      "question": "Treffen Sie auf technische Probleme oder möchten Sie einen Fehler melden?",
+      "answer": "Für technischen Support und Fehlermeldungen besuchen Sie bitte unseren dedizierten [Discord-Kanal](https://discord.com/channels/1177282736935940127/1177288347530563655)."
+    }
+  ],
+  "faq": {
+    "forAdditionalQuestions": "Bei weiteren Fragen,",
+    "askUsOnDiscord": "stehen wir gerne auf Discord zur Verfügung."
+  },
+  "footer": {
+    "slogan": "Perfektioniere dein Spiel, während DartSense für dich zählt.",
+    "companySection": "Unternehmen",
+    "companySectionContactUs": "Kontakt",
+    "legalSection": "Rechtliches",
+    "legalSectionImprint": "Impressum"
+  }
+}

@@ -11,11 +11,13 @@ interface NavbarLink {
   ariaLabel: string;
 }
 
-interface Props {
-  links?: NavbarLink[];
-}
+// Cant use this because index.astro yells then
+// interface Props {
+//   links?: NavbarLink[];
+//   langselector: any;
+// }
 
-export const Navbar = (props: Props) => {
+export const Navbar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -95,6 +97,7 @@ export const Navbar = (props: Props) => {
         ) : (
           <></>
         )}
+        {props.langselector}
       </div>
       {/* Mobile navbar */}
       <AnimatePresence>
@@ -129,6 +132,7 @@ export const Navbar = (props: Props) => {
                   {label}
                 </a>
               ))}
+              {props.langselector}
             </div>
           </motion.div>
         )}
