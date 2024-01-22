@@ -1,0 +1,49 @@
+{
+  "site": {
+    "title": "DartSense"
+  },
+  "voicePlay": {
+    "title": "Play Steel Darts without typing",
+    "slogan": "Stay in flow and improve your game.",
+    "bullet1": "97% Accuracy",
+    "bullet2": "Low Latency",
+    "bullet3": "100% Offline"
+  },
+  "faqs": [
+    {
+      "question": "Does VoicePlay work in noisy environments?",
+      "answer": "VoicePlay was developed for quiet to silent environments, especially for practicing. Usage in louder environments is unstable and at your own risk."
+    },
+    {
+      "question": "How can I play in a noisy environment? (not recommended)",
+      "answer": "You can try disabling auto-commit, configuring VoicePlay to require separate confirmation for each command."
+    },
+    {
+      "question": "Does VoicePlay work without an internet connection?",
+      "answer": "Yes."
+    },
+    {
+      "question": "How many devices can I use with my subscription?",
+      "answer": "A subscription is bound to ONE device at a time. If you sign in on a new device, you'll be automatically logged out from the previous one."
+    },
+    {
+      "question": "Have questions about billing or need assistance with payment?",
+      "answer": "For billing inquiries and assistance with payments, please visit our dedicated [Discord channel](https://discord.com/channels/1177282736935940127/1177285970429755462)."
+    },
+    {
+      "question": "Experiencing technical issues or want to report a bug?",
+      "answer": "For technical support and bug reporting, please visit our dedicated [Discord channel](https://discord.com/channels/1177282736935940127/1177288347530563655)."
+    }
+  ],
+  "faq": {
+    "forAdditionalQuestions": "For additional questions,",
+    "askUsOnDiscord": "ask us on Discord."
+  },
+  "footer": {
+    "slogan": "Perfect your game while DartSense handles counting.",
+    "companySection": "Company",
+    "companySectionContactUs": "Contact Us",
+    "legalSection": "Legal",
+    "legalSectionImprint": "Imprint"
+  }
+}
