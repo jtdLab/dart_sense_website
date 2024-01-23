@@ -80,8 +80,8 @@ export const ProductsDartSense = (props: Props) => {
               <img
                 src={demo.src}
                 alt="DartSense Demo"
-                width="300"
-                height="150"
+                // TODO work around
+                style={{ height: '600px' }}
                 className="rounded-l"
               />
             </div>

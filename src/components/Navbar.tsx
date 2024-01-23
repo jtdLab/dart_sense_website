@@ -126,7 +126,7 @@ export const Navbar = (props) => {
               {props.links?.map(({ label, href, ariaLabel }) => (
                 <a
                   key={href}
-                  className="navbar-link"
+                  className="navbar-link p-2"
                   href={href}
                   onClick={() => setIsOpen(false)}
                   aria-label={ariaLabel}
