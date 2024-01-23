@@ -30,7 +30,7 @@ export const Footer = (props: Props) => {
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
                 {props.slogan}
               </p>
-              <div className="w-36 mx-auto lg:mx-0">
+              <div className="w-36 mx-auto lg:mx-0 flex justify-center lg:justify-start">
                 <a
                   className="inline-block w-10 h-10 mr-2 p-2 bg-dartsenseBg2 dartsense-border-gray hover:bg-gray-700 rounded-xl"
                   target="_blank"

@@ -14,7 +14,7 @@ interface NavbarLink {
 // Cant use this because index.astro yells then
 // interface Props {
 //   links?: NavbarLink[];
-//   langselector: any;
+//   languageSelector: any;
 // }
 
 export const Navbar = (props) => {
@@ -59,23 +59,24 @@ export const Navbar = (props) => {
             ))}
           </div>
         </motion.div>
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.3 }}
-          exit={{ opacity: 0 }}
-        >
-          <div className="grow basis-0 justify-end items-center hidden lg:flex">
-            <a
-              className="text-white rounded-xl
+        <div className="flex p-4 items-center">
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.3 }}
+            exit={{ opacity: 0 }}
+          >
+            <div className="grow basis-0 justify-end items-center hidden lg:flex">
+              <a
+                className="text-white rounded-xl
            bg-dartsenseBg2 text-sm flex"
-              href={config.discordUrl}
-              target="_blank"
-              aria-label="discord"
-            >
-              <DiscordIcon />
-            </a>
-            {/*             <a
+                href={config.discordUrl}
+                target="_blank"
+                aria-label="discord"
+              >
+                <DiscordIcon />
+              </a>
+              {/*             <a
               className="text-white ml-4 border-2 border-slate-600 rounded-md p-2 hover:border-slate-400"
               href={config.consoleUrl}
               target="_blank"
@@ -83,11 +84,13 @@ export const Navbar = (props) => {
             >
               Sign In
             </a> */}
-          </div>
-        </motion.div>
+            </div>
+          </motion.div>
+          <div className="hidden lg:flex">{props.languageSelector}</div>
+        </div>
         {props.links ? (
           <div
-            className="lg:hidden flex flex-col  px-2 py-3 border-solid border border-gray-600 rounded-md cursor-pointer hover:bg-dartsenseBg2"
+            className="lg:hidden flex flex-col px-2 py-3 border-solid border border-gray-600 rounded-md cursor-pointer hover:bg-dartsenseBg2"
             onClick={() => setIsOpen(!isOpen)}
           >
             <div className="w-5 h-0.5 bg-gray-500  mb-1"></div>
@@ -97,7 +100,6 @@ export const Navbar = (props) => {
         ) : (
           <></>
         )}
-        {props.langselector}
       </div>
       {/* Mobile navbar */}
       <AnimatePresence>
@@ -132,7 +134,7 @@ export const Navbar = (props) => {
                   {label}
                 </a>
               ))}
-              {props.langselector}
+              {props.languageSelector}
             </div>
           </motion.div>
         )}

@@ -70,9 +70,10 @@ const legalSectionImprint = t("footer.legalSectionImprint");
 <MainLayout title={config.app}>
   <Navbar links={links} client:load>
     <LanguageSelector
-      showFlag={true}
-      class="bg-gray-700 text-white px-3 py-2 rounded-md"
-      slot="langselector"
+      languageMapping={{ en: 'EN', de: 'DE' }}
+      showFlag={false}
+      class="navbar-link appearance-none bg-dartsenseBg1 lg:bg-dartsenseBgTransparent text-white px-3 py-2 rounded-md focus:outline-none"
+      slot="languageSelector"
     />
   </Navbar>
   <Hero client:load />
