@@ -24,6 +24,7 @@
 body,
 html {
   @apply bg-dartsenseBg2;
+  overflow-x: hidden;
 }
 
 /* Borders */
