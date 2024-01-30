@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import demo from '../assets/images/demo.png';
-import appStore from '../assets/images/app_store.png';
-import playStore from '../assets/images/play_store.png';
+import appStore from '../assets/images/app_store_badge.png';
+import playStore from '../assets/images/google_play_badge.png';
 
 import { config } from '../config';
 import { CheckArrowIcon } from '../assets/icons/CheckArrowIcon';
@@ -58,7 +58,7 @@ export const ProductsDartSense = (props: Props) => {
                 <img
                   src={appStore.src}
                   alt="App Store Logo"
-                  className="h-16" // Set a fixed height for uniformity
+                  className="h-12 xs:h-16" // Set a fixed height for uniformity on larger devices
                 />
               </a>
               <a
@@ -70,7 +70,7 @@ export const ProductsDartSense = (props: Props) => {
                 <img
                   src={playStore.src}
                   alt="Play Store Logo"
-                  className="h-16" // Set a fixed height for uniformity
+                  className="h-12 xs:h-16" // Set a fixed height for uniformity on larger devices
                 />
               </a>
             </div>
@@ -80,9 +80,7 @@ export const ProductsDartSense = (props: Props) => {
               <img
                 src={demo.src}
                 alt="DartSense Demo"
-                // TODO work around
-                style={{ height: '600px' }}
-                className="rounded-l"
+                className="rounded-l h-[500px] xs:h-[600px]"
               />
             </div>
           </div>

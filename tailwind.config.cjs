@@ -20,6 +20,13 @@ module.exports = {
         Inter: 'Inter',
       },
       screens: {
+        // xs: '320px',
+        // sm: '480px',
+        // md: '640px',
+        // lg: '768px',
+        // xl: '1024px',
+        // xll: '1280px',
+        // '2xl': '1536px',
         xs: '530px',
         sm: '640px',
         md: '768px',
