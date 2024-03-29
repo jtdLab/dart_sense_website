@@ -61,3 +61,22 @@ html {
 .tooltip-container:hover .tooltip {
   @apply visible z-50;
 }
+
+/* Slick Slider */
+.slick-slide > div {
+  display: grid;
+  place-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+}
+
+.slick-slide img {
+  margin: auto;
+}
+
+.slick-dots li.slick-active button:before {
+  font-size: 14px;
+  line-height: 14px;
+  color: white !important;
+}

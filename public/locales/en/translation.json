@@ -9,6 +9,9 @@
     "bullet2": "Low Latency",
     "bullet3": "100% Offline"
   },
+  "promoSlides": {
+    "title": "See it in action"
+  },
   "faqs": [
     {
       "question": "Does VoicePlay work in noisy environments?",

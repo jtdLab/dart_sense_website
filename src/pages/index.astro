@@ -1,16 +1,14 @@
 ---
 import { LanguageSelector } from "astro-i18next/components";
-import { t, changeLanguage } from "i18next";
-import { Divider } from "../components/Divider";
+import { changeLanguage, t } from "i18next";
+import { Divider } from "../components/Divider.jsx";
 import { FAQ } from "../components/FAQ.jsx";
 import { Footer } from "../components/Footer.jsx";
 import { Hero } from "../components/Hero.jsx";
 import { Navbar } from "../components/Navbar.jsx";
-import { NewsLetter } from "../components/NewsLetter.jsx";
-import { Pricing } from "../components/Pricing.jsx";
 import { ProductsDartSense } from "../components/ProductsDartSense";
+import { PromoSlides } from "../components/PromoSlides.jsx";
 import { ScrollToTopButton } from "../components/ScrollToTopButton";
-import { Team } from "../components/Team.jsx";
 import { config } from "../config";
 import MainLayout from "../layouts/MainLayout.astro";
 import "../styles/Shapes.css";
@@ -32,6 +30,7 @@ const voicePlaySlogan = t("voicePlay.slogan");
 const voicePlayBullet1 = t("voicePlay.bullet1");
 const voicePlayBullet2 = t("voicePlay.bullet2");
 const voicePlayBullet3 = t("voicePlay.bullet3");
+const promoSlidesTitle = t("promoSlides.title");
 const faqs = [
     {
         question: t("faqs.0.question"),
@@ -85,8 +84,11 @@ const legalSectionImprint = t("footer.legalSectionImprint");
     bullet3={voicePlayBullet3}
     client:load
   />
-  <!-- <PromoVideo client:load /> -->
-  <!-- <Divider /> -->
+  <PromoSlides 
+    title={promoSlidesTitle}
+    client:load 
+  />
+  <Divider />
   <!-- <Pricing client:load /> -->
   <!-- <Team client:load /> -->
   <!-- <NewsLetter client:load /> -->

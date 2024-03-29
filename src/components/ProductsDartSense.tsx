@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import demo from '../assets/images/demo.png';
+import inGameDartbot from '../assets/images/in_game_dartbot.png';
 import appStore from '../assets/images/app_store_badge.png';
 import playStore from '../assets/images/google_play_badge.png';
 
@@ -38,6 +38,7 @@ export const ProductsDartSense = (props: Props) => {
               <li className="mb-4 flex">
                 <CheckArrowIcon />
                 <span>{props.bullet1}</span>
+                {/* <span className="text-xs ml-6">1&#41;</span> */}
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
@@ -78,7 +79,7 @@ export const ProductsDartSense = (props: Props) => {
           <div className="w-4/5 lg:w-2/3 lg:pl-16 mx-auto pt-16 lg:pt-0 flex items-center justify-center">
             <div className="relative inline-flex">
               <img
-                src={demo.src}
+                src={inGameDartbot.src}
                 alt="DartSense Demo"
                 className="rounded-l h-[500px] xs:h-[600px]"
               />
