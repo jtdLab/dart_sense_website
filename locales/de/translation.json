@@ -9,6 +9,9 @@
     "bullet2": "Geringe Latenz",
     "bullet3": "100% Offline"
   },
+  "promoSlides": {
+    "title": "Erleben Sie es live in Aktion"
+  },
   "faqs": [
     {
       "question": "Funktioniert VoicePlay auch in lauten Umgebungen?",
