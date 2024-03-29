@@ -46,6 +46,7 @@ export const PromoSlides = (props: Props) => {
       },
     ],
   };
+
   return (
     <div className="py-16">
       <div className="dartsense-block-big-title text-center mb-16 px-8 sm:px-24 md:px-48">

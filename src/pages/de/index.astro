@@ -1,69 +1,69 @@
 ---
-import { LanguageSelector } from "astro-i18next/components";
-import { changeLanguage, t } from "i18next";
-import { Divider } from "../../components/Divider.jsx";
-import { FAQ } from "../../components/FAQ.jsx";
-import { Footer } from "../../components/Footer.jsx";
-import { Hero } from "../../components/Hero.jsx";
-import { Navbar } from "../../components/Navbar.jsx";
-import { ProductsDartSense } from "../../components/ProductsDartSense";
-import { PromoSlides } from "../../components/PromoSlides.jsx";
-import { ScrollToTopButton } from "../../components/ScrollToTopButton";
-import { config } from "../../config";
-import MainLayout from "../../layouts/MainLayout.astro";
-import "../../styles/Shapes.css";
-import "../../styles/Theme.css";
+import { LanguageSelector } from 'astro-i18next/components';
+import { changeLanguage, t } from 'i18next';
+import { Divider } from '../../components/Divider.jsx';
+import { FAQ } from '../../components/FAQ.jsx';
+import { Footer } from '../../components/Footer.jsx';
+import { Hero } from '../../components/Hero.jsx';
+import { Navbar } from '../../components/Navbar.jsx';
+import { ProductsDartSense } from '../../components/ProductsDartSense';
+import { PromoSlides } from '../../components/PromoSlides.jsx';
+import { ScrollToTopButton } from '../../components/ScrollToTopButton';
+import { config } from '../../config';
+import MainLayout from '../../layouts/MainLayout.astro';
+import '../../styles/Shapes.css';
+import '../../styles/Theme.css';
 
-changeLanguage("de");
+changeLanguage('de');
 
 const links = [
-    { label: "Home", href: "#home", ariaLabel: "Home" },
-    // { label: 'App', href: '#app', ariaLabel: 'App' },
-    // { label: 'VoicePlay', href: '#voice-play', ariaLabel: 'VoicePlay' },
-    // { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
-    // { label: 'Team', href: '#team', ariaLabel: 'Team' },
-    // { label: "Newsletter", href: "#newsletter", ariaLabel: "Newsletter" },
-    { label: "FAQ", href: "#faq", ariaLabel: "FAQ" },
+  { label: 'Home', href: '#home', ariaLabel: 'Home' },
+  // { label: 'App', href: '#app', ariaLabel: 'App' },
+  // { label: 'VoicePlay', href: '#voice-play', ariaLabel: 'VoicePlay' },
+  // { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
+  // { label: 'Team', href: '#team', ariaLabel: 'Team' },
+  // { label: "Newsletter", href: "#newsletter", ariaLabel: "Newsletter" },
+  { label: 'FAQ', href: '#faq', ariaLabel: 'FAQ' },
 ];
-const voicePlayTitle = t("voicePlay.title");
-const voicePlaySlogan = t("voicePlay.slogan");
-const voicePlayBullet1 = t("voicePlay.bullet1");
-const voicePlayBullet2 = t("voicePlay.bullet2");
-const voicePlayBullet3 = t("voicePlay.bullet3");
-const promoSlidesTitle = t("promoSlides.title");
+const voicePlayTitle = t('voicePlay.title');
+const voicePlaySlogan = t('voicePlay.slogan');
+const voicePlayBullet1 = t('voicePlay.bullet1');
+const voicePlayBullet2 = t('voicePlay.bullet2');
+const voicePlayBullet3 = t('voicePlay.bullet3');
+const promoSlidesTitle = t('promoSlides.title');
 const faqs = [
-    {
-        question: t("faqs.0.question"),
-        answer: t("faqs.0.answer"),
-    },
-    {
-        question: t("faqs.1.question"),
-        answer: t("faqs.1.answer"),
-    },
-    {
-        question: t("faqs.2.question"),
-        answer: t("faqs.2.answer"),
-    },
-    {
-        question: t("faqs.3.question"),
-        answer: t("faqs.3.answer"),
-    },
-    {
-        question: t("faqs.4.question"),
-        answer: t("faqs.4.answer"),
-    },
-    {
-        question: t("faqs.5.question"),
-        answer: t("faqs.5.answer"),
-    },
+  {
+    question: t('faqs.0.question'),
+    answer: t('faqs.0.answer'),
+  },
+  {
+    question: t('faqs.1.question'),
+    answer: t('faqs.1.answer'),
+  },
+  {
+    question: t('faqs.2.question'),
+    answer: t('faqs.2.answer'),
+  },
+  {
+    question: t('faqs.3.question'),
+    answer: t('faqs.3.answer'),
+  },
+  {
+    question: t('faqs.4.question'),
+    answer: t('faqs.4.answer'),
+  },
+  {
+    question: t('faqs.5.question'),
+    answer: t('faqs.5.answer'),
+  },
 ];
-const forAdditionalQuestions = t("faq.forAdditionalQuestions");
-const askUsOnDiscord = t("faq.askUsOnDiscord");
-const footerSlogan = t("footer.slogan");
-const companySection = t("footer.companySection");
-const companySectionContactUs = t("footer.companySectionContactUs");
-const legalSection = t("footer.legalSection");
-const legalSectionImprint = t("footer.legalSectionImprint");
+const forAdditionalQuestions = t('faq.forAdditionalQuestions');
+const askUsOnDiscord = t('faq.askUsOnDiscord');
+const footerSlogan = t('footer.slogan');
+const companySection = t('footer.companySection');
+const companySectionContactUs = t('footer.companySectionContactUs');
+const legalSection = t('footer.legalSection');
+const legalSectionImprint = t('footer.legalSectionImprint');
 ---
 
 <MainLayout title={config.app}>
@@ -84,7 +84,8 @@ const legalSectionImprint = t("footer.legalSectionImprint");
     bullet3={voicePlayBullet3}
     client:load
   />
-  <PromoSlides title={promoSlidesTitle} client:load />
+  <!-- https://github.com/withastro/astro/issues/6334 -->
+  <PromoSlides title={promoSlidesTitle} client:only="react" />
   <Divider />
   <!-- <Pricing client:load /> -->
   <!-- <Team client:load /> -->
