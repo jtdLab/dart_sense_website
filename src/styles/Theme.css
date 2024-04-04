@@ -80,3 +80,11 @@ html {
   line-height: 14px;
   color: white !important;
 }
+
+/* Hero */
+.hero-colored-text {
+  line-height: 1.2;
+  /* Adjust as needed */
+  padding-bottom: 0.2em;
+  /* Adjust as needed */
+}

@@ -10,6 +10,8 @@ interface Props {
   companySectionContactUs: string;
   legalSection: string;
   legalSectionImprint: string;
+  legalSectionTerms: string;
+  legalSectionPrivacy: string;
 }
 
 export const Footer = (props: Props) => {
@@ -86,7 +88,7 @@ export const Footer = (props: Props) => {
                       href="/terms"
                       aria-label="terms of use"
                     >
-                      Terms &amp; Conditions
+                      {props.legalSectionTerms}
                     </a>
                   </li>
                   <li>
@@ -95,7 +97,7 @@ export const Footer = (props: Props) => {
                       href="/privacy"
                       aria-label="privacy policy"
                     >
-                      Privacy Policy
+                      {props.legalSectionPrivacy}
                     </a>
                   </li>
                 </ul>

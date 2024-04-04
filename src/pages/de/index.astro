@@ -1,6 +1,11 @@
 ---
 import { LanguageSelector } from 'astro-i18next/components';
-import i18next from 'i18next';
+import i18next, { changeLanguage } from 'i18next';
+import completeGameWon from '../../assets/images/de/complete_game_won.png';
+import createGameDartbot from '../../assets/images/de/create_game_dartbot.png';
+import gameDetails2Player from '../../assets/images/de/game_details_2_player.png';
+import gameDetailsCompareFirstNine2Players from '../../assets/images/de/game_details_compare_first_nine_2_player.png';
+import practiceOverview from '../../assets/images/de/practice_overview.png';
 import inGameDartbot from '../../assets/images/de/in_game_dartbot.png';
 import { Divider } from '../../components/Divider.jsx';
 import { FAQ } from '../../components/FAQ.jsx';
@@ -14,13 +19,8 @@ import { config } from '../../config';
 import MainLayout from '../../layouts/MainLayout.astro';
 import '../../styles/Shapes.css';
 import '../../styles/Theme.css';
-import completeGameWon from '../../assets/images/de/complete_game_won.png';
-import createGameDartbot from '../../assets/images/de/create_game_dartbot.png';
-import gameDetails2Player from '../../assets/images/de/game_details_2_player.png';
-import gameDetailsCompareFirstNine2Players from '../../assets/images/de/game_details_compare_first_nine_2_player.png';
-import practiceOverview from '../../assets/images/de/practice_overview.png';
 
-i18next.changeLanguage('de');
+changeLanguage('de');
 
 const links = [
   { label: 'Home', href: '#home', ariaLabel: 'Home' },
@@ -45,7 +45,6 @@ const promoSlidesImages = [
   gameDetailsCompareFirstNine2Players.src,
   practiceOverview.src,
 ];
-
 const faqs = [
   {
     question: i18next.t('faqs.0.question'),
@@ -79,6 +78,8 @@ const companySection = i18next.t('footer.companySection');
 const companySectionContactUs = i18next.t('footer.companySectionContactUs');
 const legalSection = i18next.t('footer.legalSection');
 const legalSectionImprint = i18next.t('footer.legalSectionImprint');
+const legalSectionTerms = i18next.t('footer.legalSectionTerms');
+const legalSectionPrivacy = i18next.t('footer.legalSectionPrivacy');
 ---
 
 <MainLayout title={config.app}>
@@ -122,6 +123,8 @@ const legalSectionImprint = i18next.t('footer.legalSectionImprint');
     companySectionContactUs={companySectionContactUs}
     legalSection={legalSection}
     legalSectionImprint={legalSectionImprint}
+    legalSectionTerms={legalSectionTerms}
+    legalSectionPrivacy={legalSectionPrivacy}
   />
   <ScrollToTopButton client:load />
 </MainLayout>
