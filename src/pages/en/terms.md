@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/MarkdownLayout.astro
+layout: ../../layouts/MarkdownLayout.astro
 title: Terms of Use
 description: DartSense Terms of Use
 ---

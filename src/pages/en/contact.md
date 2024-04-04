@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/MarkdownLayout.astro
+layout: ../../layouts/MarkdownLayout.astro
 title: Contact us
 description: Contact DartSense
 ---
