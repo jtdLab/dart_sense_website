@@ -15,7 +15,7 @@
   "faqs": [
     {
       "question": "Does VoicePlay work in noisy environments?",
-      "answer": "VoicePlay was developed for quiet to silent environments, especially for practicing. Usage in louder environments is unstable and at your own risk."
+      "answer": "VoicePlay was developed for quiet to silent environments, especially for practicing. Please note that using it in loud environments, especially with multiple people speaking simultaneously, may lead to instability and is at your own risk."
     },
     {
       "question": "How can I play in a noisy environment? (not recommended)",

@@ -15,7 +15,7 @@
   "faqs": [
     {
       "question": "Funktioniert VoicePlay auch in lauten Umgebungen?",
-      "answer": "VoicePlay wurde für leise bis stille Umgebungen entwickelt, insbesondere für das Training. Die Verwendung in lauten Umgebungen ist instabil und auf eigene Gefahr."
+      "answer": "VoicePlay wurde für leise bis stille Umgebungen entwickelt, insbesondere für das Training. Bitte beachten Sie, dass die Verwendung in lauten Umgebungen, insbesondere mit mehreren gleichzeitig sprechenden Personen, instabil sein kann und auf eigene Gefahr erfolgt."
     },
     {
       "question": "Wie kann ich in einer lauten Umgebung spielen? (nicht empfohlen)",
