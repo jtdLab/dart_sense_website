@@ -6,9 +6,6 @@ import astroI18next from 'astro-i18next';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://dartsense.com',
-  build: {
-    redirects: false,
-  },
   i18n: {
     defaultLocale: 'de',
     locales: ['de', 'en'],
