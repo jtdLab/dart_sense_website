@@ -1,24 +1,10 @@
-import createGameDartbot from '../assets/images/create_game_dartbot.png';
-import completeGameWon from '../assets/images/complete_game_won.png';
-import gameDetails2Player from '../assets/images/game_details_2_player.png';
-import gameDetailsCompareFirstNine2Players from '../assets/images/game_details_compare_first_nine_2_player.png';
-import inGameDartbot from '../assets/images/in_game_dartbot.png';
-import practiceOverview from '../assets/images/practice_overview.png';
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
-const images = [
-  createGameDartbot.src,
-  inGameDartbot.src,
-  completeGameWon.src,
-  gameDetails2Player.src,
-  gameDetailsCompareFirstNine2Players.src,
-  practiceOverview.src,
-];
+import 'slick-carousel/slick/slick.css';
 
 interface Props {
   title: string;
+  images: string[];
 }
 
 export const PromoSlides = (props: Props) => {
@@ -53,7 +39,7 @@ export const PromoSlides = (props: Props) => {
         {props.title}
       </div>
       <Slider {...settings}>
-        {images.map((imageSrc, index) => (
+        {props.images.map((imageSrc, index) => (
           <div key={index} className="xxx">
             <img
               src={imageSrc}

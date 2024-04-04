@@ -80,7 +80,7 @@ export const Footer = (props: Props) => {
                       {props.legalSectionImprint}
                     </a>
                   </li>
-                  {/*                 <li className="mb-4">
+                  <li className="mb-4">
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="/terms"
@@ -97,7 +97,7 @@ export const Footer = (props: Props) => {
                     >
                       Privacy Policy
                     </a>
-                  </li>  */}
+                  </li>
                 </ul>
               </div>
             </div>

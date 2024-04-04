@@ -1,6 +1,7 @@
 ---
 import { LanguageSelector } from 'astro-i18next/components';
-import { changeLanguage, t } from 'i18next';
+import i18next from 'i18next';
+import inGameDartbot from '../../assets/images/de/in_game_dartbot.png';
 import { Divider } from '../../components/Divider.jsx';
 import { FAQ } from '../../components/FAQ.jsx';
 import { Footer } from '../../components/Footer.jsx';
@@ -13,8 +14,13 @@ import { config } from '../../config';
 import MainLayout from '../../layouts/MainLayout.astro';
 import '../../styles/Shapes.css';
 import '../../styles/Theme.css';
+import completeGameWon from '../../assets/images/de/complete_game_won.png';
+import createGameDartbot from '../../assets/images/de/create_game_dartbot.png';
+import gameDetails2Player from '../../assets/images/de/game_details_2_player.png';
+import gameDetailsCompareFirstNine2Players from '../../assets/images/de/game_details_compare_first_nine_2_player.png';
+import practiceOverview from '../../assets/images/de/practice_overview.png';
 
-changeLanguage('de');
+i18next.changeLanguage('de');
 
 const links = [
   { label: 'Home', href: '#home', ariaLabel: 'Home' },
@@ -25,45 +31,54 @@ const links = [
   // { label: "Newsletter", href: "#newsletter", ariaLabel: "Newsletter" },
   { label: 'FAQ', href: '#faq', ariaLabel: 'FAQ' },
 ];
-const voicePlayTitle = t('voicePlay.title');
-const voicePlaySlogan = t('voicePlay.slogan');
-const voicePlayBullet1 = t('voicePlay.bullet1');
-const voicePlayBullet2 = t('voicePlay.bullet2');
-const voicePlayBullet3 = t('voicePlay.bullet3');
-const promoSlidesTitle = t('promoSlides.title');
+const voicePlayTitle = i18next.t('voicePlay.title');
+const voicePlaySlogan = i18next.t('voicePlay.slogan');
+const voicePlayBullet1 = i18next.t('voicePlay.bullet1');
+const voicePlayBullet2 = i18next.t('voicePlay.bullet2');
+const voicePlayBullet3 = i18next.t('voicePlay.bullet3');
+const promoSlidesTitle = i18next.t('promoSlides.title');
+const promoSlidesImages = [
+  createGameDartbot.src,
+  inGameDartbot.src,
+  completeGameWon.src,
+  gameDetails2Player.src,
+  gameDetailsCompareFirstNine2Players.src,
+  practiceOverview.src,
+];
+
 const faqs = [
   {
-    question: t('faqs.0.question'),
-    answer: t('faqs.0.answer'),
+    question: i18next.t('faqs.0.question'),
+    answer: i18next.t('faqs.0.answer'),
   },
   {
-    question: t('faqs.1.question'),
-    answer: t('faqs.1.answer'),
+    question: i18next.t('faqs.1.question'),
+    answer: i18next.t('faqs.1.answer'),
   },
   {
-    question: t('faqs.2.question'),
-    answer: t('faqs.2.answer'),
+    question: i18next.t('faqs.2.question'),
+    answer: i18next.t('faqs.2.answer'),
   },
   {
-    question: t('faqs.3.question'),
-    answer: t('faqs.3.answer'),
+    question: i18next.t('faqs.3.question'),
+    answer: i18next.t('faqs.3.answer'),
   },
   {
-    question: t('faqs.4.question'),
-    answer: t('faqs.4.answer'),
+    question: i18next.t('faqs.4.question'),
+    answer: i18next.t('faqs.4.answer'),
   },
   {
-    question: t('faqs.5.question'),
-    answer: t('faqs.5.answer'),
+    question: i18next.t('faqs.5.question'),
+    answer: i18next.t('faqs.5.answer'),
   },
 ];
-const forAdditionalQuestions = t('faq.forAdditionalQuestions');
-const askUsOnDiscord = t('faq.askUsOnDiscord');
-const footerSlogan = t('footer.slogan');
-const companySection = t('footer.companySection');
-const companySectionContactUs = t('footer.companySectionContactUs');
-const legalSection = t('footer.legalSection');
-const legalSectionImprint = t('footer.legalSectionImprint');
+const forAdditionalQuestions = i18next.t('faq.forAdditionalQuestions');
+const askUsOnDiscord = i18next.t('faq.askUsOnDiscord');
+const footerSlogan = i18next.t('footer.slogan');
+const companySection = i18next.t('footer.companySection');
+const companySectionContactUs = i18next.t('footer.companySectionContactUs');
+const legalSection = i18next.t('footer.legalSection');
+const legalSectionImprint = i18next.t('footer.legalSectionImprint');
 ---
 
 <MainLayout title={config.app}>
@@ -82,10 +97,15 @@ const legalSectionImprint = t('footer.legalSectionImprint');
     bullet1={voicePlayBullet1}
     bullet2={voicePlayBullet2}
     bullet3={voicePlayBullet3}
+    image={inGameDartbot.src}
     client:load
   />
   <!-- https://github.com/withastro/astro/issues/6334 -->
-  <PromoSlides title={promoSlidesTitle} client:only="react" />
+  <PromoSlides
+    title={promoSlidesTitle}
+    images={promoSlidesImages}
+    client:only="react"
+  />
   <Divider />
   <!-- <Pricing client:load /> -->
   <!-- <Team client:load /> -->
