@@ -47,6 +47,8 @@
     "companySection": "Company",
     "companySectionContactUs": "Contact Us",
     "legalSection": "Legal",
-    "legalSectionImprint": "Imprint"
+    "legalSectionImprint": "Imprint",
+    "legalSectionTerms": "Terms of Service",
+    "legalSectionPrivacy": "Privacy Policy"
   }
 }
