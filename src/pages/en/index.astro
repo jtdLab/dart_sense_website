@@ -5,8 +5,8 @@ import completeGameWon from '../../assets/images/en/complete_game_won.png';
 import createGameDartbot from '../../assets/images/en/create_game_dartbot.png';
 import gameDetails2Player from '../../assets/images/en/game_details_2_player.png';
 import gameDetailsCompareFirstNine2Players from '../../assets/images/en/game_details_compare_first_nine_2_player.png';
-import inGameDartbot from '../../assets/images/en/in_game_dartbot.png';
 import practiceOverview from '../../assets/images/en/practice_overview.png';
+import inGameDartbot from '../../assets/images/en/in_game_dartbot.png';
 import { Divider } from '../../components/Divider.jsx';
 import { FAQ } from '../../components/FAQ.jsx';
 import { Footer } from '../../components/Footer.jsx';
@@ -23,13 +23,13 @@ import '../../styles/Theme.css';
 changeLanguage('en');
 
 const links = [
-    { label: 'Home', href: '#home', ariaLabel: 'Home' },
-    // { label: 'App', href: '#app', ariaLabel: 'App' },
-    // { label: 'VoicePlay', href: '#voice-play', ariaLabel: 'VoicePlay' },
-    // { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
-    // { label: 'Team', href: '#team', ariaLabel: 'Team' },
-    // { label: "Newsletter", href: "#newsletter", ariaLabel: "Newsletter" },
-    { label: 'FAQ', href: '#faq', ariaLabel: 'FAQ' },
+  { label: 'Home', href: '#home', ariaLabel: 'Home' },
+  // { label: 'App', href: '#app', ariaLabel: 'App' },
+  // { label: 'VoicePlay', href: '#voice-play', ariaLabel: 'VoicePlay' },
+  // { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
+  // { label: 'Team', href: '#team', ariaLabel: 'Team' },
+  // { label: "Newsletter", href: "#newsletter", ariaLabel: "Newsletter" },
+  { label: 'FAQ', href: '#faq', ariaLabel: 'FAQ' },
 ];
 const voicePlayTitle = i18next.t('voicePlay.title');
 const voicePlaySlogan = i18next.t('voicePlay.slogan');
@@ -38,38 +38,38 @@ const voicePlayBullet2 = i18next.t('voicePlay.bullet2');
 const voicePlayBullet3 = i18next.t('voicePlay.bullet3');
 const promoSlidesTitle = i18next.t('promoSlides.title');
 const promoSlidesImages = [
-    createGameDartbot.src,
-    inGameDartbot.src,
-    completeGameWon.src,
-    gameDetails2Player.src,
-    gameDetailsCompareFirstNine2Players.src,
-    practiceOverview.src,
+  createGameDartbot.src,
+  inGameDartbot.src,
+  completeGameWon.src,
+  gameDetails2Player.src,
+  gameDetailsCompareFirstNine2Players.src,
+  practiceOverview.src,
 ];
 const faqs = [
-    {
-        question: i18next.t('faqs.0.question'),
-        answer: i18next.t('faqs.0.answer'),
-    },
-    {
-        question: i18next.t('faqs.1.question'),
-        answer: i18next.t('faqs.1.answer'),
-    },
-    {
-        question: i18next.t('faqs.2.question'),
-        answer: i18next.t('faqs.2.answer'),
-    },
-    {
-        question: i18next.t('faqs.3.question'),
-        answer: i18next.t('faqs.3.answer'),
-    },
-    {
-        question: i18next.t('faqs.4.question'),
-        answer: i18next.t('faqs.4.answer'),
-    },
-    {
-        question: i18next.t('faqs.5.question'),
-        answer: i18next.t('faqs.5.answer'),
-    },
+  {
+    question: i18next.t('faqs.0.question'),
+    answer: i18next.t('faqs.0.answer'),
+  },
+  {
+    question: i18next.t('faqs.1.question'),
+    answer: i18next.t('faqs.1.answer'),
+  },
+  {
+    question: i18next.t('faqs.2.question'),
+    answer: i18next.t('faqs.2.answer'),
+  },
+  {
+    question: i18next.t('faqs.3.question'),
+    answer: i18next.t('faqs.3.answer'),
+  },
+  {
+    question: i18next.t('faqs.4.question'),
+    answer: i18next.t('faqs.4.answer'),
+  },
+  {
+    question: i18next.t('faqs.5.question'),
+    answer: i18next.t('faqs.5.answer'),
+  },
 ];
 const forAdditionalQuestions = i18next.t('faq.forAdditionalQuestions');
 const askUsOnDiscord = i18next.t('faq.askUsOnDiscord');
@@ -83,48 +83,48 @@ const legalSectionPrivacy = i18next.t('footer.legalSectionPrivacy');
 ---
 
 <MainLayout title={config.app}>
-    <Navbar links={links} client:load>
-        <LanguageSelector
-            languageMapping={{ en: 'EN', de: 'DE' }}
-            showFlag={false}
-            class="navbar-link appearance-none bg-dartsenseBg1 lg:bg-dartsenseBgTransparent text-white px-3 py-2 rounded-md focus:outline-none"
-            slot="languageSelector"
-        />
-    </Navbar>
-    <Hero client:load />
-    <ProductsDartSense
-        title={voicePlayTitle}
-        slogan={voicePlaySlogan}
-        bullet1={voicePlayBullet1}
-        bullet2={voicePlayBullet2}
-        bullet3={voicePlayBullet3}
-        image={inGameDartbot.src}
-        client:load
+  <Navbar links={links} client:load>
+    <LanguageSelector
+      languageMapping={{ en: 'EN', de: 'DE' }}
+      showFlag={false}
+      class="navbar-link appearance-none bg-dartsenseBg1 lg:bg-dartsenseBgTransparent text-white px-3 py-2 rounded-md focus:outline-none"
+      slot="languageSelector"
     />
-    <!-- https://github.com/withastro/astro/issues/6334 -->
-    <PromoSlides
-        title={promoSlidesTitle}
-        images={promoSlidesImages}
-        client:only="react"
-    />
-    <Divider />
-    <!-- <Pricing client:load /> -->
-    <!-- <Team client:load /> -->
-    <!-- <NewsLetter client:load /> -->
-    <FAQ
-        faqs={faqs}
-        forAdditionalQuestions={forAdditionalQuestions}
-        askUsOnDiscord={askUsOnDiscord}
-        client:load
-    />
-    <Footer
-        slogan={footerSlogan}
-        companySection={companySection}
-        companySectionContactUs={companySectionContactUs}
-        legalSection={legalSection}
-        legalSectionImprint={legalSectionImprint}
-        legalSectionTerms={legalSectionTerms}
-        legalSectionPrivacy={legalSectionPrivacy}
-    />
-    <ScrollToTopButton client:load />
+  </Navbar>
+  <Hero client:load />
+  <ProductsDartSense
+    title={voicePlayTitle}
+    slogan={voicePlaySlogan}
+    bullet1={voicePlayBullet1}
+    bullet2={voicePlayBullet2}
+    bullet3={voicePlayBullet3}
+    image={inGameDartbot.src}
+    client:load
+  />
+  <!-- https://github.com/withastro/astro/issues/6334 -->
+  <PromoSlides
+    title={promoSlidesTitle}
+    images={promoSlidesImages}
+    client:only="react"
+  />
+  <Divider />
+  <!-- <Pricing client:load /> -->
+  <!-- <Team client:load /> -->
+  <!-- <NewsLetter client:load /> -->
+  <FAQ
+    faqs={faqs}
+    forAdditionalQuestions={forAdditionalQuestions}
+    askUsOnDiscord={askUsOnDiscord}
+    client:load
+  />
+  <Footer
+    slogan={footerSlogan}
+    companySection={companySection}
+    companySectionContactUs={companySectionContactUs}
+    legalSection={legalSection}
+    legalSectionImprint={legalSectionImprint}
+    legalSectionTerms={legalSectionTerms}
+    legalSectionPrivacy={legalSectionPrivacy}
+  />
+  <ScrollToTopButton client:load />
 </MainLayout>

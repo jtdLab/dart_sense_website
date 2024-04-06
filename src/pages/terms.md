@@ -1,22 +1,12 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
-title: Impressum
-description: DartSense Impressum
+layout: ../layouts/MarkdownLayout.astro
+title: Nutzungsbedingungen
+description: DartSense Nutzungsbedingungen
 ---
 
-# Impressum
+# Nutzungsbedingungen
 
-## Inhaber
-
-David Schlauch (Kleinunternehmer)
-
-Abtwilerstr. 11, 87776 Sontheim
-
-Deutschland
-
-## Email
-
-contact@dartsense.com
+TODO
 
 <!-- _Last updated March 21th, 2023._
 

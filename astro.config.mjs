@@ -9,9 +9,6 @@ export default defineConfig({
   i18n: {
     defaultLocale: 'de',
     locales: ['de', 'en'],
-    routing: {
-      prefixDefaultLocale: true,
-    },
   },
   integrations: [react(), tailwind(), astroI18next()],
 });
