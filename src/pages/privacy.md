@@ -2,156 +2,116 @@
 layout: ../layouts/MarkdownLayout.astro
 title: Datenschutzerklärung
 description: DartSense Datenschutzerklärung
+linkGoToHome: /
 ---
 
 # Datenschutzerklärung
 
-TODO
+<!-- _Last updated April 1st, 2024._ -->
 
-<!-- _Last updated March 14, 2023._
+1. Information über die Erhebung personenbezogener Daten und Kontaktdaten des Verantwortlichen
+   1.1 Wir freuen uns, dass Sie unsere Applikation (nachfolgend „App“) verwenden. Im Folgenden informieren wir Sie über den Umgang mit Ihren personenbezogenen Daten bei der Nutzung unserer App. Personenbezogene Daten sind hierbei alle Daten, mit denen Sie persönlich identifiziert werden können.
+   1.2 Verantwortlicher für die Datenverarbeitung bezüglich dieser App im Sinne der Datenschutz-Grundverordnung (DSGVO) ist David Schlauch, PNLP (Inh. David Schlauch), Abtwilerstraße 11, 87776 Sontheim, Deutschland, Tel.: 015154879029, E-Mail: contact@dartsense.com. Der für die Verarbeitung von personenbezogenen Daten Verantwortliche ist diejenige natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.
+   1.3 Diese App nutzt aus Sicherheitsgründen und zum Schutz der Übertragung personenbezogene Daten und anderer vertraulicher Inhalte (z.B. Bestellungen oder Anfragen an den Verantwortlichen) eine SSL-bzw. TLS-Verschlüsselung. Sie können eine verschlüsselte Verbindung an der Zeichenfolge „https://“ und dem Schloss-Symbol in Ihrer Browserzeile erkennen.
 
-### General Information
+1. Verwendung von Single-Sign-On-Verfahren
+   Google Sign-In
+   Auf unserer Website stellen wir eine Single-Sign-On-Funktion des folgenden Anbieters bereit: Google Ireland Limited, Gordon House, 4 Barrow St, Dublin, D04 E5W5, Irland
+   Neben einer Übermittlung von Daten an den o.g. Anbieterstandort können Daten auch übermittelt werden an: Google LLC, USA
+   Wenn Sie über einen Account beim Anbieter verfügen, können Sie sich mit diesen Accountdaten zur Erstellung eines Benutzerkontos bzw. zur Registrierung auf unserer Website anmelden.
+   Beim Besuch dieser Seite kann über diese Anmeldefunktion eine direkte Verbindung zwischen Ihrem Browser und den Servern des Anbieters hergestellt werden, auch wenn Sie keinen Account beim Anbieter besitzen oder nicht in einen solchen eingeloggt sind. Der Anbieter erhält dadurch die Information, dass Sie unsere Seite besucht haben. Die insofern erhobenen Informationen (ggf. einschließlich Ihrer IP-Adresse) werden von Ihrem Browser direkt an einen Server des Anbieters übermittelt und dort gespeichert. Die Informationen werden jedoch nicht dazu verwendet, Sie persönlich zu identifizieren, und werden nicht an Dritte weitergegeben.
+   Diese Datenverarbeitungsvorgänge erfolgen gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses an einer nutzerfreundlichen und interaktiven Ausgestaltung unseres Online-Auftritts.
+   Betätigen Sie den Anmeldebutton, um sich mit den Daten Ihres Accounts beim Anbieter auf unserer Website zu registrieren, übermittelt der Anbieter ausschließlich auf Basis Ihrer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO die in Ihrem Account hinterlegten allgemeinen und öffentlichen zugänglichen Informationen (Nutzer-ID, Name, Anschrift, Mailadresse, Alter und Geschlecht) an uns.
+   Wir speichern und verwenden die vom Anbieter übermittelten Daten zur Einrichtung eines Benutzerkontos mit den notwendigen Daten (Anrede, Vorname, Nachname, Adressdaten, Land, E-Mail-Adresse, Geburtsdatum), sofern Sie diese gegenüber dem Anbieter freigegeben haben. Umgekehrt können auf Basis Ihrer Einwilligung Daten (z.B. Informationen über Ihr Surf- oder Kaufverhalten) von uns auf Ihren Account beim Anbieter übertragen werden.
+   Die erteilte Einwilligung kann jederzeit mit Wirkung für die Zukunft uns gegenüber widerrufen werden.
+   Für Datenübermittlungen in die USA hat sich der Anbieter dem EU-US-Datenschutzrahmen (EU-US Data Privacy Framework) angeschlossen, das auf Basis eines Angemessenheitsbeschlusses der Europäischen Kommission die Einhaltung des europäischen Datenschutzniveaus sicherstellt.
 
-DartSense (legally Jtd Lab, Inc) is committed to protecting the privacy and
-security of the information we collect and to being transparent about the ways
-in which we collect and process your information. This statement (the “Privacy
-Policy”) sets forth our policies and practices for handling the information we
-collect from or about you. It applies to the websites and online services that
-we operate and that link to this Privacy Policy (the “Services”).
+1. Logfiles bei Nutzung unserer mobilen App
+   Wenn Sie unsere mobile App über einen App-Store herunterladen, werden die erforderlichen Informationen an den App Store übertragen, also insbesondere Nutzername, E-Mail-Adresse und Kundennummer Ihres Accounts, Zeitpunkt des Downloads, Zahlungsinformationen und die individuelle Gerätekennziffer. Auf diese Datenerhebung haben wir keinen Einfluss und sind hierfür nicht verantwortlich. Wir verarbeiten die Daten nur, soweit es für das Herunterladen der mobilen App auf Ihr mobiles Endgerät notwendig ist.
+   Bei Nutzung unserer mobilen App erheben wir die nachfolgend beschriebenen personenbezogenen Daten, um die komfortable Nutzung der Funktion zu ermöglichen. Wenn Sie unsere mobile App nutzen möchten, erheben wir die folgenden Daten, die für uns technisch erforderlich sind, um Ihnen die Funktionen unserer mobilen App anzubieten und die Stabilität und Sicherheit zu gewährleisten:
 
-### Collection of Information
+- Datum und Uhrzeit der Anfrage
+- Zeitzonendifferenz zur Greenwich Mean Time (GMT)
+- Inhalt der Anforderung
+- Zugriffsstatus/ http-Statuscode
+- Menge der gesendeten Daten in Byte
+- Quelle/Verweis, von welchem Sie auf die Seite gelangten
+- Verwendeter Browser
+- Sprache und Version der Browsersoftware
+- Verwendetes Betriebssystem und dessen Oberfläche
+- Verwendete IP-Adresse (ggf.: in anonymisierter Form)
+  Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses an der Verbesserung der Stabilität und Funktionalität unserer App. Eine Weitergabe oder anderweitige Verwendung der Daten findet nicht statt. Wir behalten uns allerdings vor, die vorbenannten Logfiles nachträglich zu überprüfen, sollten konkrete Anhaltspunkte auf eine rechtswidrige Nutzung hinweisen.
+  Weiterhin benötigen wir Ihre eindeutige Nummer des Endgeräts (IMEI = International Mobile Equipment Identity), eindeutige Nummer des Netzteilnehmers (IMSI = International Mobile Subscriber Identity), Mobilfunknummer (MSISDN), evtl. MAC-Adresse für die WLAN-Nutzung und den Namen Ihres mobilen Endgerätes.
 
-We collect the following categories of information when you use our Services
-(including when our mobile applications run on your device):
+1. Hosting & Content-Delivery-Network
+   4.1 Firebase Cloud Storage
+   Wir nutzen den Webhosting-Dienst „Firebase Cloud Storage“ der Google Ireland Limited, Gordon House, 4 Barrow St, Dublin, D04 E5W5, Irland („Google“) zum Zwecke des Hostings und der Darstellung der App-Inhalte auf Basis einer Verarbeitung in unserem Auftrag. Sämtliche auf unserer Website erhobenen Daten werden auf den Servern von Google verarbeitet. Im Rahmen der vorgenannten Leistungen können Daten auch im Rahmen einer weiteren Verarbeitung im Auftrag an Server der Google LLC. in den USA übermittelt werden. Wir haben mit Google für die Nutzung von Firebase einen Auftragsverarbeitungsvertrag abgeschlossen, mit dem Google verpflichtet wird, die Daten unserer Seitenbesucher zu schützen und sie nicht an Dritte weiter zu geben.
+   Für Datenübermittlungen in die USA hat sich der Anbieter dem EU-US-Datenschutzrahmen (EU-US Data Privacy Framework) angeschlossen, das auf Basis eines Angemessenheitsbeschlusses der Europäischen Kommission die Einhaltung des europäischen Datenschutzniveaus sicherstellt. Weitere Hinweise zum Datenschutz von Google in Bezug auf Firebase erhalten Sie unter der nachstehenden Internetseite: https://firebase.google.com/support/privacy
+   Eine weitere Verarbeitung auf anderen Servern als den vorgenannten von Google findet nur im nachstehend mitgeteilten Rahmen statt.
+   4.2 Google Cloud CDN
+   Wir nutzen ein Content Delivery Network des folgenden Anbieters: Google Ireland Limited, Gordon House, 4 Barrow St, Dublin, D04 E5W5, Irland
+   Dieser Dienst ermöglicht uns, große Mediendateien wie Grafiken, Seiteninhalte oder Skripte über ein Netz regional verteilter Server schneller auszuliefern. Die Verarbeitung erfolgt zur Wahrung unseres berechtigten Interesses an der Verbesserung der Stabilität und Funktionalität unserer Website gem. Art. 6 Abs. 1 lit. f DSGVO.
+   Daten können zudem übertragen werden an: Google LLC, USA
+   Wir haben mit dem Anbieter einen Auftragsverarbeitungsvertrag geschlossen, der den Schutz der Daten unserer Seitenbesucher sicherstellt und eine unberechtigte Weitergabe an Dritte untersagt.
+   Für Datenübermittlungen in die USA hat sich der Anbieter dem EU-US-Datenschutzrahmen (EU-US Data Privacy Framework) angeschlossen, das auf Basis eines Angemessenheitsbeschlusses der Europäischen Kommission die Einhaltung des europäischen Datenschutzniveaus sicherstellt.
 
-- Information you provide directly to us: Contact Information, like name and
-  email address.
+1. Kontaktaufnahme
+   Im Rahmen der Kontaktaufnahme mit uns (z.B. per Kontaktformular oder E-Mail) werden personenbezogene Daten erhoben. Welche Daten im Falle der Nutzung eines Kontaktformulars erhoben werden, ist aus dem jeweiligen Kontaktformular in der App ersichtlich. Diese Daten werden ausschließlich zum Zweck der Beantwortung Ihres Anliegens bzw. für die Kontaktaufnahme und die damit verbundene technische Administration gespeichert und verwendet. Rechtsgrundlage für die Verarbeitung dieser Daten ist unser berechtigtes Interesse an der Beantwortung Ihres Anliegens gemäß Art. 6 Abs. 1 lit. f DSGVO. Zielt Ihre Kontaktierung auf den Abschluss eines Vertrages ab, so ist zusätzliche Rechtsgrundlage für die Verarbeitung Art. 6 Abs. 1 lit. b DSGVO. Ihre Daten werden nach abschließender Bearbeitung Ihrer Anfrage gelöscht. Dies ist der Fall, wenn sich aus den Umständen entnehmen lässt, dass der betroffene Sachverhalt abschließend geklärt ist und sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
 
-  - Sign-In Information, including your username, password, and site
-    registrations.
-  - Survey Responses, including feedback, company name, website, location,
-    GitHub or Discord usernames, and survey responses.
-  - Transaction and Billing Data, including your bank account and payment card
-    details (credit card number, expiration date, and credit card security
-    code, where needed to complete a transaction) and billing address.
-  - Commercial information, including records of products or services
-    purchased, obtained, or considered, or other purchasing or consuming
-    histories or tendencies.
-  - When end-users use apps made with DartSense, we may collect anonymous
-    device identifiers, if you are utilizing DartSense's code push service.
-  - Correspondence you send to us, such as emails.
+1. Datenverarbeitung bei Eröffnung eines Kundenkontos
+   Gemäß Art. 6 Abs. 1 lit. b DGSVO werden personenbezogene Daten weiterhin erhoben und verarbeitet, wenn Sie uns diese zur Durchführung eines Vertrages oder bei der Eröffnung eines Kundenkontos mitteilen. Welche Daten erhoben werden, ist aus den jeweiligen Eingabeformularen ersichtlich. Eine Löschung Ihres Kundenkontos ist jederzeit möglich und kann durch eine Nachricht an die o.g. Adresse des Verantwortlichen erfolgen. Wir speichern und verwenden die von Ihnen mitgeteilten Daten zur Vertragsabwicklung. Nach vollständiger Abwicklung des Vertrages oder Löschung Ihres Kundenkontos werden Ihre Daten mit Rücksicht auf steuer- und handelsrechtliche Aufbewahrungsfristen gesperrt und nach Ablauf dieser Fristen gelöscht, sofern Sie nicht ausdrücklich in eine weitere Nutzung Ihrer Daten eingewilligt haben oder eine gesetzlich erlaubte weitere Datenverwendung von unserer Seite vorbehalten wurde, über die wir Sie nachstehend entsprechend informieren.
 
-- Information we collect automatically. We collect internet, or other electronic
-  network activity information automatically from the devices and browsers
-  that you use, including your IP address, browser type and operating system
-  (including mobile device information, if applicable), errors, performance
-  metrics, and webpage and app interactions. We also may collect usage and
-  performance statistics from DartSense projects.
+1. Datenverarbeitung zur Vertragsabwicklung
+   Zur Abwicklung von über die App geschlossenen Verträgen arbeiten wir mit dem / den nachstehenden Dienstleistern zusammen, die uns ganz oder teilweise bei der Durchführung geschlossener Verträge unterstützen. An diese Dienstleister werden nach Maßgabe der folgenden Informationen gewisse personenbezogene Daten übermittelt.
+   Die von uns erhobenen personenbezogenen Daten werden im Rahmen der Vertragsabwicklung an das mit der Lieferung beauftragte Transportunternehmen weitergegeben, soweit dies zur Lieferung der Ware erforderlich ist. Ihre Zahlungsdaten geben wir im Rahmen der Zahlungsabwicklung an das beauftragte Kreditinstitut weiter, sofern dies für die Zahlungsabwicklung erforderlich ist. Sofern Zahlungsdienstleister eingesetzt werden, informieren wir Sie hierüber nachstehend explizit. Rechtsgrundlage für die Weitergabe der Daten ist Art. 6 Abs. 1 lit. b DSGVO.
 
-We also receive the categories of information described above from other
-sources, including from users of our Services and third-party services and
-organizations. Without this information, we are not able to provide you with all
-the requested services, and any differences in services are related to your
-information. We may aggregate or de-identify the information described above.
-Aggregated or de-identified data is not subject to this Privacy Policy.
+1. Registrierung in der App
+   Sie können sich in unserer App unter Angabe von personenbezogenen Daten registrieren. Welche personenbezogenen Daten für die Registrierung verarbeitet werden, ergibt sich aus der Eingabemaske, die für die Registrierung verwendet wird. Wir verwenden für die Registrierung das sog. Double-opt-in-Verfahren, d. h. Ihre Registrierung ist erst abgeschlossen, wenn Sie zuvor Ihre Anmeldung über eine Ihnen zu diesem Zweck zugesandte Bestätigungs-E-Mail durch Klick auf den darin enthaltenen Link bestätigt haben. Falls Ihre diesbezügliche Bestätigung nicht binnen 24 Stunden erfolgt, wird Ihre Anmeldung automatisch aus unserer Datenbank gelöscht. Die Angabe der zuvor genannten Daten ist verpflichtend. Alle weiteren Informationen können Sie freiwillig durch Nutzung unseres Portals bereitstellen.
+   Wenn Sie unsere App nutzen, speichern wir Ihre zur Vertragserfüllung erforderlichen Daten, auch evtl. Angaben zur Zahlungsweise, bis Sie Ihren Zugang endgültig löschen. Weiterhin speichern wir die von Ihnen freiwillig angegebenen Daten für die Zeit Ihrer Nutzung des Portals, soweit Sie diese nicht zuvor löschen. Alle Angaben können Sie im geschützten Kundenbereich verwalten und ändern. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO.
+   Darüber hinaus speichern wir alle von Ihnen veröffentlichten Inhalte (wie z.B. öffentliche Beiträge, Pinnwandeinträge, Gästebucheintragungen, etc.) um die App zu betreiben. Wir haben ein berechtiges Interesse in der der Bereitstellung der App mit dem vollständigen User-Generated-Content. Die Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. f DSGVO. Wenn Sie Ihren Account löschen, bleiben Ihre insbesondere im Forum veröffentlichten Äußerungen weiterhin für alle Leser sichtbar, Ihr Account ist jedoch nicht mehr abrufbar. Alle übrigen Daten werden in diesem Fall gelöscht.
 
-### Disclosure of Information
+1. Versand von Push-Benachrichtigungen
+   Sie können sich zum Empfang von unseren Push-Benachrichtigungen anmelden. Sie erhalten über unsere Push-Benachrichtigungen regelmäßig Informationen über unsere angebotenen Leistungen.
+   Zur Anmeldung müssen Sie den Erhalt von Benachrichtigungen bestätigen bzw. in den Einstellungen Ihres Betriebssystems erlauben. Dieser Prozess wird dokumentiert und gespeichert. Hierzu gehört die Speicherung des Anmeldezeitpunkts sowie Ihre Ihre Gerätekennzeichnung. Die Erhebung dieser Daten ist erforderlich, damit wir zum einen die Push-Benachrichtigungen anzeigen lassen können und zum anderen im Falle eines Missbrauchs die Abläufe nachvollziehen können und dient deshalb unserer rechtlichen Absicherung. Die Verarbeitung dieser Daten erfolgt auf Basis des Art. 6 Abs. 1 lit. a DSGVO.
+   Ihre Einwilligung in die Speicherung und Verwendung Ihrer personenbezogenen Daten zum Erhalt unserer Push-Benachrichtigungen und der zuvor beschriebenen statistischen Erhebung können Sie jederzeit mit Wirkung für die Zukunft widerrufen. Zum Zwecke des Widerrufs der Einwilligung können Sie die dazu vorgesehene Einstellung zum Erhalt von Push Benachrichtigungen in Ihren Einstellungen der App in Ihrem Betriebssystem abbestellen.
+   Ihre Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich sind. Ihre Daten werden demnach solange gespeichert, wie das Abonnement für unsere Push-Benachrichtigungen aktiv ist.
 
-We are committed to maintaining your trust, and we want you to understand when
-and with whom we may share the information we collect.
+1. Online-Marketing
+   „Advertising Identifier“
+   Für Werbezwecke nutzen wir den sog. „Advertising Identifier“ (IDFA). Dieser ist eine einzigartige, jedoch nicht-personalisierte und nicht dauerhafte Identifizierungsnummer für ein bestimmtes Endgerät, der durch iOS bereitgestellt wird. Die über den IDFA erhobenen Daten werden nicht mit sonstigen gerätebezogenen Informationen verknüpft. Den IDFA verwenden wir, um Ihnen personalisierte Werbung bereitstellen und ihre Nutzung auswerten zu können. Wenn Sie in den iOS-Einstellungen unter „Datenschutz“ – „Werbung“ die Option „kein Ad-Tracking“ aktivieren, können wir nur folgende Maßnahmen vornehmen: Messung ihrer Interaktion mit Banner durch Zählung der Anzahl der Anzeigen eines Banners ohne Klick darauf („frequency capping“), Klickrate, Feststellung einzigartiger Nutzung („unique user“) sowei Sicherheitsmaßnahmen, Betrugsbekämpfung und Fehlerbeseitigung. Sie können in den Geräteeinstellungen jederzeit den IDFS löschen („Ad-ID zurücksetzen“), dann wird ein neuer IDFA erstellt, der nicht mit den früher erhobenen Daten zusammengeführt wird. Wir weisen Sie darauf hin, dass sie eventuell nicht alle Funktionen unsere App nutzen können, wenn sie die Nutzung des IDFA beschränken.
 
-- Authorized third-party vendors and service providers: We send the information
-  you provide directly to us, the information we collect automatically, and
-  the information we collect from other sources to services that process data
-  for us for business purposes related to providing products or services
-  you’ve requested (such as payment processing, analytics, error logging,
-  customer interactions, and data processing and storage).
-- Business transfers: We may transfer any of the information we collect about
-  you if DartSense is acquired by or merged with another company, in
-  connection with a substantial corporate transaction (e.g. asset sale,
-  initial public offering, or in the unlikely event of bankruptcy).
-- Legal purposes: We may disclose any of the information we collect to respond
-  to subpoenas, court orders, legal process, law enforcement requests, legal
-  claims or government inquiries, and to protect and defend the rights,
-  interests, safety, and security of DartSense, our affiliates, users, or the
-  public (including responding to illegal activities, suspected fraud,
-  situations involving potential threats to the physical safety of any person,
-  or violations of our Terms of Service).
+1. Tools und Sonstiges
+   Firebase Crashlytics
+   Für die Erstellung anonymisierter Absturzberichte nutzen wir „Firebase Crashlytics“, einen Dienst der Google Ireland Ltd., Google Building Gordon House, Barrow Street, Dublin 4, Irland, um die Stabilität und Zuverlässigkeit unserer App zu verbessern.
+   Ausschließlich auf Basis Ihrer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO werden im Falle eines Absturzes der App anonyme Informationen an die Server von Google übertragen (Zustand der App zum Zeitpunkt des Absturzes, Installation UUID, Crash-Trace, Hersteller und Betriebssystem des Handys, letzte Log-Meldungen). Auch Übertragungen an die Google LLC. In den USA sind möglich. Diese Informationen enthalten keine personenbezogenen Daten.
+   Bei der Verwendung eines iOS-basierten Gerätes können Sie die Einwilligung in den Einstellungen der App oder nach einem Absturz erteilen. Bei der Verwendung eines Android-basierten Geräts besteht bei der Einrichtung die Möglichkeit, generell der Übermittlung von Absturzbenachrichtigungen an Google und App-Entwickler zuzustimmen.
+   Sie können Ihre Einwilligung jederzeit widerrufen, indem Sie
 
-Consent: We may share any of the information we collect for any other purposes
-disclosed to you at the time we collect the information or pursuant to your
-consent.
+- in iOS in den Einstellungen der App die Funktion „Absturzberichte“ deaktivieren
+- in Android die Systemeinstellungen anpassen. Öffnen Sie hierzu die Einstellungen der App, wählen den Punkt „Google“ und dort im Dreipunkt-Menü oben rechts den Menüpunkt „Nutzung & Diagnose“. Hier können Sie das Senden der entsprechenden Daten deaktivieren.
+  Weitere Informationen zum Datenschutz erhalten Sie in den Datenschutzhinweisen von Firebase Crashlytics unter https://firebase.google.com/support/privacy
 
-DartSense does not sell your information to third parties. DartSense does permit
-third parties to collect the information described above through our Service and
-discloses such information with third parties for business purposes as described
-in this Privacy Policy. The information practices of these third parties are not
-covered by this Privacy Policy.
+1.  Rechte des Betroffenen
+    12.1 Das geltende Datenschutzrecht gewährt Ihnen gegenüber dem Verantwortlichen hinsichtlich der Verarbeitung Ihrer personenbezogenen Daten umfassende Betroffenenrechte (Auskunfts- und Interventionsrechte), über die wir Sie nachstehend informieren:
 
-### Cookies
+- Auskunftsrecht gemäß Art. 15 DSGVO: Sie haben insbesondere ein Recht auf Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten, die Verarbeitungszwecke, die Kategorien der verarbeiteten personenbezogenen Daten, die Empfänger oder Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer bzw. die Kriterien für die Festlegung der Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch gegen die Verarbeitung, Beschwerde bei einer Aufsichtsbehörde, die Herkunft Ihrer Daten, wenn diese nicht durch uns bei Ihnen erhoben wurden, das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftige Informationen über die involvierte Logik und die Sie betreffende Tragweite und die angestrebten Auswirkungen einer solchen Verarbeitung, sowie Ihr Recht auf Unterrichtung, welche Garantien gemäß Art. 46 DSGVO bei Weiterleitung Ihrer Daten in Drittländer bestehen;
+- Recht auf Berichtigung gemäß Art. 16 DSGVO: Sie haben ein Recht auf unverzügliche Berichtigung Sie betreffender unrichtiger Daten und/oder Vervollständigung Ihrer bei uns gespeicherten unvollständigen Daten;
+- Recht auf Löschung gemäß Art. 17 DSGVO: Sie haben das Recht, die Löschung Ihrer personenbezogenen Daten bei Vorliegen der Voraussetzungen des Art. 17 Abs. 1 DSGVO zu verlangen. Dieses Recht besteht jedoch insbesondere dann nicht, wenn die Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen Verpflichtung, aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist;
+- Recht auf Einschränkung der Verarbeitung gemäß Art. 18 DSGVO: Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen, solange die von Ihnen bestrittene Richtigkeit Ihrer Daten überprüft wird, wenn Sie eine Löschung Ihrer Daten wegen unzulässiger Datenverarbeitung ablehnen und stattdessen die Einschränkung der Verarbeitung Ihrer Daten verlangen, wenn Sie Ihre Daten zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen, nachdem wir diese Daten nach Zweckerreichung nicht mehr benötigen oder wenn Sie Widerspruch aus Gründen Ihrer besonderen Situation eingelegt haben, solange noch nicht feststeht, ob unsere berechtigten Gründe überwiegen;
+- Recht auf Unterrichtung gemäß Art. 19 DSGVO: Haben Sie das Recht auf Berichtigung, Löschung oder Einschränkung der Verarbeitung gegenüber dem Verantwortlichen geltend gemacht, ist dieser verpflichtet, allen Empfängern, denen die Sie betreffenden personenbezogenen Daten offengelegt wurden, diese Berichtigung oder Löschung der Daten oder Einschränkung der Verarbeitung mitzuteilen, es sei denn, dies erweist sich als unmöglich oder ist mit einem unverhältnismäßigen Aufwand verbunden. Ihnen steht das Recht zu, über diese Empfänger unterrichtet zu werden.
+- Recht auf Datenübertragbarkeit gemäß Art. 20 DSGVO: Sie haben das Recht, Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen, soweit dies technisch machbar ist;
+- Recht auf Widerruf erteilter Einwilligungen gemäß Art. 7 Abs. 3 DSGVO: Sie haben das Recht, eine einmal erteilte Einwilligung in die Verarbeitung von Daten jederzeit mit Wirkung für die Zukunft zu widerrufen. Im Falle des Widerrufs werden wir die betroffenen Daten unverzüglich löschen, sofern eine weitere Verarbeitung nicht auf eine Rechtsgrundlage zur einwilligungslosen Verarbeitung gestützt werden kann. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt;
+- Recht auf Beschwerde gemäß Art. 77 DSGVO: Wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die DSGVO verstößt, haben Sie - unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs - das Recht auf Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat Ihres Aufenthaltsortes, Ihres Arbeitsplatzes oder des Ortes des mutmaßlichen Verstoßes.
+  12.2 WIDERSPRUCHSRECHT
+  WENN WIR IM RAHMEN EINER INTERESSENABWÄGUNG IHRE PERSONENBEZOGENEN DATEN AUFGRUND UNSERES ÜBERWIEGENDEN BERECHTIGTEN INTERESSES VERARBEITEN, HABEN SIE DAS JEDERZEITIGE RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIESE VERARBEITUNG WIDERSPRUCH MIT WIRKUNG FÜR DIE ZUKUNFT EINZULEGEN.
+  MACHEN SIE VON IHREM WIDERSPRUCHSRECHT GEBRAUCH, BEENDEN WIR DIE VERARBEITUNG DER BETROFFENEN DATEN. EINE WEITERVERARBEITUNG BLEIBT ABER VORBEHALTEN, WENN WIR ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE VERARBEITUNG NACHWEISEN KÖNNEN, DIE IHRE INTERESSEN, GRUNDRECHTE UND GRUNDFREIHEITEN ÜBERWIEGEN, ODER WENN DIE VERARBEITUNG DER GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON RECHTSANSPRÜCHEN DIENT.
+  WERDEN IHRE PERSONENBEZOGENEN DATEN VON UNS VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN. SIE KÖNNEN DEN WIDERSPRUCH WIE OBEN BESCHRIEBEN AUSÜBEN.
+  MACHEN SIE VON IHREM WIDERSPRUCHSRECHT GEBRAUCH, BEENDEN WIR DIE VERARBEITUNG DER BETROFFENEN DATEN ZU DIREKTWERBEZWECKEN.
 
-DartSense does not use any cookies at this time.
-
-### International Transfers
-
-We may transfer and store your information on servers located outside your
-resident jurisdiction. To the extent you are a resident of a country other than
-the United States, you consent to the transfer of such data to the United States
-for processing by us in accordance with this Privacy Policy.
-
-We do not knowingly collect or sell any information from children, as defined by
-applicable law, without parental consent or as otherwise permitted by applicable
-law. The website is not directed at children.
-
-### Use of Information and Purpose of Data Processing
-
-Information will be retained only for so long as reasonably necessary for the
-purposes set out above, in accordance with applicable laws. We maintain
-reasonable security measures to safeguard information from loss, theft
-interference, misuse, unauthorized access, disclosure, alteration, or
-destruction. We also maintain reasonable procedures to help ensure that such
-data is reliable for its intended use and is accurate, complete, and current.
-
-You should understand that no data storage system or transmission of data over
-the Internet or any other public network can be guaranteed to be 100 percent
-secure, accurate, complete, or current. Please note that information collected
-by third parties may not have the same security protections as information you
-submit to us, and we are not responsible for protecting the security of such
-information. You can see a list of services we use below.
-
-### Data Retention, Security, and Integrity
-
-Information will be retained only for so long as reasonably necessary for the
-purposes set out above, in accordance with applicable laws.
-
-We maintain reasonable security measures to safeguard information from loss,
-theft interference, misuse, unauthorized access, disclosure, alteration, or
-destruction. We also maintain reasonable procedures to help ensure that such
-data is reliable for its intended use and is accurate, complete, and
-current. You should understand that no data storage system or transmission
-of data over the Internet or any other public network can be guaranteed to
-be 100 percent secure, accurate, complete, or current. Please note that
-information collected by third parties may not have the same security
-protections as information you submit to us, and we are not responsible for
-protecting the security of such information.
-
-### Changes to the Privacy Policy
-
-DartSense may periodically update this policy. When we update the Privacy
-Policy, we will revise the “Effective Date” date above and post the new Privacy
-Policy. We recommend that you review the Privacy Policy each time you visit the
-Services to stay informed of our privacy practices.
-
-### Questions
-
-Any questions about this Privacy Policy or our practices should be sent to us
-via email at privacy@dartsense.com.
-
-# DartSense List of Vendors
-
-- Digital Ocean, USA, Cloud infrastructure for our Website & Services.
-- Google, USA, Cloud infrastructure for our Website & Services.
-- Stripe, USA, Payment processing
-- Mailchimp, USA, Customer interactions
-- Discord, USA, Customer support
-- GitHub, USA, Code, bug reports, contributions -->
+1.  Dauer der Speicherung personenbezogener Daten
+    Die Dauer der Speicherung von personenbezogenen Daten bemisst sich anhand der jeweiligen Rechtsgrundlage, am Verarbeitungszweck und – sofern einschlägig – zusätzlich anhand der jeweiligen gesetzlichen Aufbewahrungsfrist (z.B. handels- und steuerrechtliche Aufbewahrungsfristen).
+    Bei der Verarbeitung von personenbezogenen Daten auf Grundlage einer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO werden die betroffenen Daten so lange gespeichert, bis Sie Ihre Einwilligung widerrufen.
+    Existieren gesetzliche Aufbewahrungsfristen für Daten, die im Rahmen rechtsgeschäftlicher bzw. rechtsgeschäftsähnlicher Verpflichtungen auf der Grundlage von Art. 6 Abs. 1 lit. b DSGVO verarbeitet werden, werden diese Daten nach Ablauf der Aufbewahrungsfristen routinemäßig gelöscht, sofern sie nicht mehr zur Vertragserfüllung oder Vertragsanbahnung erforderlich sind und/oder unsererseits kein berechtigtes Interesse an der Weiterspeicherung fortbesteht.
+    Bei der Verarbeitung von personenbezogenen Daten auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO werden diese Daten so lange gespeichert, bis Sie Ihr Widerspruchsrecht nach Art. 21 Abs. 1 DSGVO ausüben, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
+    Bei der Verarbeitung von personenbezogenen Daten zum Zwecke der Direktwerbung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO werden diese Daten so lange gespeichert, bis Sie Ihr Widerspruchsrecht nach Art. 21 Abs. 2 DSGVO ausüben.
+    Sofern sich aus den sonstigen Informationen dieser Erklärung über spezifische Verarbeitungssituationen nichts anderes ergibt, werden gespeicherte personenbezogene Daten im Übrigen dann gelöscht, wenn sie für die Zwecke, für die sie erhoben oder auf sonstige Weise verarbeitet wurden, nicht mehr notwendig sind.

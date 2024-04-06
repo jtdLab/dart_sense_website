@@ -12,6 +12,9 @@ interface Props {
   legalSectionImprint: string;
   legalSectionTerms: string;
   legalSectionPrivacy: string;
+  linkGoToImprint: string;
+  linkGoToTerms: string;
+  linkGoToPrivacy: string;
 }
 
 export const Footer = (props: Props) => {
@@ -76,7 +79,7 @@ export const Footer = (props: Props) => {
                   <li className="mb-4">
                     <a
                       className="text-gray-400 hover:text-gray-300"
-                      href="/imprint"
+                      href={props.linkGoToImprint}
                       aria-label="imprint"
                     >
                       {props.legalSectionImprint}
@@ -85,7 +88,7 @@ export const Footer = (props: Props) => {
                   <li className="mb-4">
                     <a
                       className="text-gray-400 hover:text-gray-300"
-                      href="/terms"
+                      href={props.linkGoToTerms}
                       aria-label="terms of use"
                     >
                       {props.legalSectionTerms}
@@ -94,7 +97,7 @@ export const Footer = (props: Props) => {
                   <li>
                     <a
                       className="text-gray-400 hover:text-gray-300"
-                      href="/privacy"
+                      href={props.linkGoToPrivacy}
                       aria-label="privacy policy"
                     >
                       {props.legalSectionPrivacy}

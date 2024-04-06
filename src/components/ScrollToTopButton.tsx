@@ -39,7 +39,7 @@ export const ScrollToTopButton = () => {
           >
             <path
               d="M4.16732 12.5L10.0007 6.66667L15.834 12.5"
-              stroke="#0196C0"
+              stroke="#91A3FD"
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"

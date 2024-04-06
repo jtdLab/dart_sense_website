@@ -83,7 +83,7 @@ const legalSectionPrivacy = i18next.t('footer.legalSectionPrivacy');
 ---
 
 <MainLayout title={config.app}>
-  <Navbar links={links} client:load>
+  <Navbar linkGoToHome="/en" links={links} client:load>
     <LanguageSelector
       languageMapping={{ en: 'EN', de: 'DE' }}
       showFlag={false}
@@ -125,6 +125,9 @@ const legalSectionPrivacy = i18next.t('footer.legalSectionPrivacy');
     legalSectionImprint={legalSectionImprint}
     legalSectionTerms={legalSectionTerms}
     legalSectionPrivacy={legalSectionPrivacy}
+    linkGoToImprint="en/imprint"
+    linkGoToTerms="en/terms"
+    linkGoToPrivacy="en/privacy"
   />
   <ScrollToTopButton client:load />
 </MainLayout>

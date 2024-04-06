@@ -39,7 +39,7 @@ html {
 /* Buttons */
 
 .dartsense-button-colored {
-  @apply rounded-lg font-bold bg-dartsensePrimary text-white flex justify-center items-center hover:bg-[#0196C0] cursor-pointer transition;
+  @apply rounded-lg font-bold bg-dartsensePrimary text-white flex justify-center items-center hover:bg-[#91A3FD] cursor-pointer transition;
 }
 
 /* Navbar */

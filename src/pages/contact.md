@@ -2,9 +2,12 @@
 layout: ../layouts/MarkdownLayout.astro
 title: Kontaktiere uns
 description: Kontaktiere DartSense
+linkGoToHome: /
 ---
 
 # Kontakt
+
+<!-- _Last updated April 1st, 2024._ -->
 
 ## Support
 
