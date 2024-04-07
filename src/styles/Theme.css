@@ -62,29 +62,37 @@ html {
   @apply visible z-50;
 }
 
-/* Slick Slider */
-.slick-slide > div {
-  display: grid;
-  place-items: center;
-  width: 80%;
-  margin: auto;
-  padding: 0px;
-}
-
-.slick-slide img {
-  margin: auto;
-}
-
-.slick-dots li.slick-active button:before {
-  font-size: 14px;
-  line-height: 14px;
-  color: white !important;
-}
-
 /* Hero */
 .hero-colored-text {
   line-height: 1.2;
   /* Adjust as needed */
   padding-bottom: 0.2em;
   /* Adjust as needed */
+}
+
+/* Pure-React-Carousel */
+.prc-dotGroup {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.carousel__dot {
+  height: 8px;
+  width: 8px;
+  margin: 8px;
+  border-radius: 50%;
+  background-color: #1c1d20;
+}
+
+.carousel__dot--selected {
+  height: 12px;
+  width: 12px;
+  background-color: white;
+}
+
+/* Promo Slides */
+.promo-slides-item {
+  display: grid;
+  place-items: center;
 }
