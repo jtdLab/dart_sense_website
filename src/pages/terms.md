@@ -7,7 +7,7 @@ linkGoToHome: /
 
 # Nutzungsbedingungen
 
-<!-- _Last updated April 1st, 2024._ -->
+_Letzte Aktualisierung am 7. April 2024._
 
 Nutzungsbedingungen für die DartSense-App
 

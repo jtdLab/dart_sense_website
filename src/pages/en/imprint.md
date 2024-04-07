@@ -7,8 +7,6 @@ linkGoToHome: /en
 
 # Imprint
 
-<!-- _Last updated April 1st, 2024._ -->
-
 ## Owner
 
 David Schlauch (Small business owner)

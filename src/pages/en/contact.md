@@ -7,8 +7,6 @@ linkGoToHome: /en
 
 # Contact
 
-<!-- _Last updated April 1st, 2024._ -->
-
 ## Support
 
 DartSense [Discord](https://discord.gg/dartsense) is the fastest way to get

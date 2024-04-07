@@ -7,8 +7,6 @@ linkGoToHome: /
 
 # Kontakt
 
-<!-- _Last updated April 1st, 2024._ -->
-
 ## Support
 
 DartSense [Discord](https://discord.gg/dartsense) ist der schnellste Weg, um Unterstützung zu erhalten.

@@ -7,14 +7,14 @@ linkGoToHome: /
 
 # Datenschutzerklärung
 
-<!-- _Last updated April 1st, 2024._ -->
+_Letzte Aktualisierung am 7. April 2024._
 
 1. Information über die Erhebung personenbezogener Daten und Kontaktdaten des Verantwortlichen
    1.1 Wir freuen uns, dass Sie unsere Applikation (nachfolgend „App“) verwenden. Im Folgenden informieren wir Sie über den Umgang mit Ihren personenbezogenen Daten bei der Nutzung unserer App. Personenbezogene Daten sind hierbei alle Daten, mit denen Sie persönlich identifiziert werden können.
    1.2 Verantwortlicher für die Datenverarbeitung bezüglich dieser App im Sinne der Datenschutz-Grundverordnung (DSGVO) ist David Schlauch, PNLP (Inh. David Schlauch), Abtwilerstraße 11, 87776 Sontheim, Deutschland, Tel.: 015154879029, E-Mail: contact@dartsense.com. Der für die Verarbeitung von personenbezogenen Daten Verantwortliche ist diejenige natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.
    1.3 Diese App nutzt aus Sicherheitsgründen und zum Schutz der Übertragung personenbezogene Daten und anderer vertraulicher Inhalte (z.B. Bestellungen oder Anfragen an den Verantwortlichen) eine SSL-bzw. TLS-Verschlüsselung. Sie können eine verschlüsselte Verbindung an der Zeichenfolge „https://“ und dem Schloss-Symbol in Ihrer Browserzeile erkennen.
 
-1. Verwendung von Single-Sign-On-Verfahren
+2. Verwendung von Single-Sign-On-Verfahren
    Google Sign-In
    Auf unserer Website stellen wir eine Single-Sign-On-Funktion des folgenden Anbieters bereit: Google Ireland Limited, Gordon House, 4 Barrow St, Dublin, D04 E5W5, Irland
    Neben einer Übermittlung von Daten an den o.g. Anbieterstandort können Daten auch übermittelt werden an: Google LLC, USA
@@ -26,7 +26,7 @@ linkGoToHome: /
    Die erteilte Einwilligung kann jederzeit mit Wirkung für die Zukunft uns gegenüber widerrufen werden.
    Für Datenübermittlungen in die USA hat sich der Anbieter dem EU-US-Datenschutzrahmen (EU-US Data Privacy Framework) angeschlossen, das auf Basis eines Angemessenheitsbeschlusses der Europäischen Kommission die Einhaltung des europäischen Datenschutzniveaus sicherstellt.
 
-1. Logfiles bei Nutzung unserer mobilen App
+3. Logfiles bei Nutzung unserer mobilen App
    Wenn Sie unsere mobile App über einen App-Store herunterladen, werden die erforderlichen Informationen an den App Store übertragen, also insbesondere Nutzername, E-Mail-Adresse und Kundennummer Ihres Accounts, Zeitpunkt des Downloads, Zahlungsinformationen und die individuelle Gerätekennziffer. Auf diese Datenerhebung haben wir keinen Einfluss und sind hierfür nicht verantwortlich. Wir verarbeiten die Daten nur, soweit es für das Herunterladen der mobilen App auf Ihr mobiles Endgerät notwendig ist.
    Bei Nutzung unserer mobilen App erheben wir die nachfolgend beschriebenen personenbezogenen Daten, um die komfortable Nutzung der Funktion zu ermöglichen. Wenn Sie unsere mobile App nutzen möchten, erheben wir die folgenden Daten, die für uns technisch erforderlich sind, um Ihnen die Funktionen unserer mobilen App anzubieten und die Stabilität und Sicherheit zu gewährleisten:
 
@@ -43,7 +43,7 @@ linkGoToHome: /
   Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses an der Verbesserung der Stabilität und Funktionalität unserer App. Eine Weitergabe oder anderweitige Verwendung der Daten findet nicht statt. Wir behalten uns allerdings vor, die vorbenannten Logfiles nachträglich zu überprüfen, sollten konkrete Anhaltspunkte auf eine rechtswidrige Nutzung hinweisen.
   Weiterhin benötigen wir Ihre eindeutige Nummer des Endgeräts (IMEI = International Mobile Equipment Identity), eindeutige Nummer des Netzteilnehmers (IMSI = International Mobile Subscriber Identity), Mobilfunknummer (MSISDN), evtl. MAC-Adresse für die WLAN-Nutzung und den Namen Ihres mobilen Endgerätes.
 
-1. Hosting & Content-Delivery-Network
+4. Hosting & Content-Delivery-Network
    4.1 Firebase Cloud Storage
    Wir nutzen den Webhosting-Dienst „Firebase Cloud Storage“ der Google Ireland Limited, Gordon House, 4 Barrow St, Dublin, D04 E5W5, Irland („Google“) zum Zwecke des Hostings und der Darstellung der App-Inhalte auf Basis einer Verarbeitung in unserem Auftrag. Sämtliche auf unserer Website erhobenen Daten werden auf den Servern von Google verarbeitet. Im Rahmen der vorgenannten Leistungen können Daten auch im Rahmen einer weiteren Verarbeitung im Auftrag an Server der Google LLC. in den USA übermittelt werden. Wir haben mit Google für die Nutzung von Firebase einen Auftragsverarbeitungsvertrag abgeschlossen, mit dem Google verpflichtet wird, die Daten unserer Seitenbesucher zu schützen und sie nicht an Dritte weiter zu geben.
    Für Datenübermittlungen in die USA hat sich der Anbieter dem EU-US-Datenschutzrahmen (EU-US Data Privacy Framework) angeschlossen, das auf Basis eines Angemessenheitsbeschlusses der Europäischen Kommission die Einhaltung des europäischen Datenschutzniveaus sicherstellt. Weitere Hinweise zum Datenschutz von Google in Bezug auf Firebase erhalten Sie unter der nachstehenden Internetseite: https://firebase.google.com/support/privacy
@@ -55,43 +55,43 @@ linkGoToHome: /
    Wir haben mit dem Anbieter einen Auftragsverarbeitungsvertrag geschlossen, der den Schutz der Daten unserer Seitenbesucher sicherstellt und eine unberechtigte Weitergabe an Dritte untersagt.
    Für Datenübermittlungen in die USA hat sich der Anbieter dem EU-US-Datenschutzrahmen (EU-US Data Privacy Framework) angeschlossen, das auf Basis eines Angemessenheitsbeschlusses der Europäischen Kommission die Einhaltung des europäischen Datenschutzniveaus sicherstellt.
 
-1. Kontaktaufnahme
+5. Kontaktaufnahme
    Im Rahmen der Kontaktaufnahme mit uns (z.B. per Kontaktformular oder E-Mail) werden personenbezogene Daten erhoben. Welche Daten im Falle der Nutzung eines Kontaktformulars erhoben werden, ist aus dem jeweiligen Kontaktformular in der App ersichtlich. Diese Daten werden ausschließlich zum Zweck der Beantwortung Ihres Anliegens bzw. für die Kontaktaufnahme und die damit verbundene technische Administration gespeichert und verwendet. Rechtsgrundlage für die Verarbeitung dieser Daten ist unser berechtigtes Interesse an der Beantwortung Ihres Anliegens gemäß Art. 6 Abs. 1 lit. f DSGVO. Zielt Ihre Kontaktierung auf den Abschluss eines Vertrages ab, so ist zusätzliche Rechtsgrundlage für die Verarbeitung Art. 6 Abs. 1 lit. b DSGVO. Ihre Daten werden nach abschließender Bearbeitung Ihrer Anfrage gelöscht. Dies ist der Fall, wenn sich aus den Umständen entnehmen lässt, dass der betroffene Sachverhalt abschließend geklärt ist und sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
 
-1. Datenverarbeitung bei Eröffnung eines Kundenkontos
+6. Datenverarbeitung bei Eröffnung eines Kundenkontos
    Gemäß Art. 6 Abs. 1 lit. b DGSVO werden personenbezogene Daten weiterhin erhoben und verarbeitet, wenn Sie uns diese zur Durchführung eines Vertrages oder bei der Eröffnung eines Kundenkontos mitteilen. Welche Daten erhoben werden, ist aus den jeweiligen Eingabeformularen ersichtlich. Eine Löschung Ihres Kundenkontos ist jederzeit möglich und kann durch eine Nachricht an die o.g. Adresse des Verantwortlichen erfolgen. Wir speichern und verwenden die von Ihnen mitgeteilten Daten zur Vertragsabwicklung. Nach vollständiger Abwicklung des Vertrages oder Löschung Ihres Kundenkontos werden Ihre Daten mit Rücksicht auf steuer- und handelsrechtliche Aufbewahrungsfristen gesperrt und nach Ablauf dieser Fristen gelöscht, sofern Sie nicht ausdrücklich in eine weitere Nutzung Ihrer Daten eingewilligt haben oder eine gesetzlich erlaubte weitere Datenverwendung von unserer Seite vorbehalten wurde, über die wir Sie nachstehend entsprechend informieren.
 
-1. Datenverarbeitung zur Vertragsabwicklung
+7. Datenverarbeitung zur Vertragsabwicklung
    Zur Abwicklung von über die App geschlossenen Verträgen arbeiten wir mit dem / den nachstehenden Dienstleistern zusammen, die uns ganz oder teilweise bei der Durchführung geschlossener Verträge unterstützen. An diese Dienstleister werden nach Maßgabe der folgenden Informationen gewisse personenbezogene Daten übermittelt.
    Die von uns erhobenen personenbezogenen Daten werden im Rahmen der Vertragsabwicklung an das mit der Lieferung beauftragte Transportunternehmen weitergegeben, soweit dies zur Lieferung der Ware erforderlich ist. Ihre Zahlungsdaten geben wir im Rahmen der Zahlungsabwicklung an das beauftragte Kreditinstitut weiter, sofern dies für die Zahlungsabwicklung erforderlich ist. Sofern Zahlungsdienstleister eingesetzt werden, informieren wir Sie hierüber nachstehend explizit. Rechtsgrundlage für die Weitergabe der Daten ist Art. 6 Abs. 1 lit. b DSGVO.
 
-1. Registrierung in der App
+8. Registrierung in der App
    Sie können sich in unserer App unter Angabe von personenbezogenen Daten registrieren. Welche personenbezogenen Daten für die Registrierung verarbeitet werden, ergibt sich aus der Eingabemaske, die für die Registrierung verwendet wird. Wir verwenden für die Registrierung das sog. Double-opt-in-Verfahren, d. h. Ihre Registrierung ist erst abgeschlossen, wenn Sie zuvor Ihre Anmeldung über eine Ihnen zu diesem Zweck zugesandte Bestätigungs-E-Mail durch Klick auf den darin enthaltenen Link bestätigt haben. Falls Ihre diesbezügliche Bestätigung nicht binnen 24 Stunden erfolgt, wird Ihre Anmeldung automatisch aus unserer Datenbank gelöscht. Die Angabe der zuvor genannten Daten ist verpflichtend. Alle weiteren Informationen können Sie freiwillig durch Nutzung unseres Portals bereitstellen.
    Wenn Sie unsere App nutzen, speichern wir Ihre zur Vertragserfüllung erforderlichen Daten, auch evtl. Angaben zur Zahlungsweise, bis Sie Ihren Zugang endgültig löschen. Weiterhin speichern wir die von Ihnen freiwillig angegebenen Daten für die Zeit Ihrer Nutzung des Portals, soweit Sie diese nicht zuvor löschen. Alle Angaben können Sie im geschützten Kundenbereich verwalten und ändern. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO.
    Darüber hinaus speichern wir alle von Ihnen veröffentlichten Inhalte (wie z.B. öffentliche Beiträge, Pinnwandeinträge, Gästebucheintragungen, etc.) um die App zu betreiben. Wir haben ein berechtiges Interesse in der der Bereitstellung der App mit dem vollständigen User-Generated-Content. Die Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. f DSGVO. Wenn Sie Ihren Account löschen, bleiben Ihre insbesondere im Forum veröffentlichten Äußerungen weiterhin für alle Leser sichtbar, Ihr Account ist jedoch nicht mehr abrufbar. Alle übrigen Daten werden in diesem Fall gelöscht.
 
-1. Versand von Push-Benachrichtigungen
+9. Versand von Push-Benachrichtigungen
    Sie können sich zum Empfang von unseren Push-Benachrichtigungen anmelden. Sie erhalten über unsere Push-Benachrichtigungen regelmäßig Informationen über unsere angebotenen Leistungen.
    Zur Anmeldung müssen Sie den Erhalt von Benachrichtigungen bestätigen bzw. in den Einstellungen Ihres Betriebssystems erlauben. Dieser Prozess wird dokumentiert und gespeichert. Hierzu gehört die Speicherung des Anmeldezeitpunkts sowie Ihre Ihre Gerätekennzeichnung. Die Erhebung dieser Daten ist erforderlich, damit wir zum einen die Push-Benachrichtigungen anzeigen lassen können und zum anderen im Falle eines Missbrauchs die Abläufe nachvollziehen können und dient deshalb unserer rechtlichen Absicherung. Die Verarbeitung dieser Daten erfolgt auf Basis des Art. 6 Abs. 1 lit. a DSGVO.
    Ihre Einwilligung in die Speicherung und Verwendung Ihrer personenbezogenen Daten zum Erhalt unserer Push-Benachrichtigungen und der zuvor beschriebenen statistischen Erhebung können Sie jederzeit mit Wirkung für die Zukunft widerrufen. Zum Zwecke des Widerrufs der Einwilligung können Sie die dazu vorgesehene Einstellung zum Erhalt von Push Benachrichtigungen in Ihren Einstellungen der App in Ihrem Betriebssystem abbestellen.
    Ihre Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich sind. Ihre Daten werden demnach solange gespeichert, wie das Abonnement für unsere Push-Benachrichtigungen aktiv ist.
 
-1. Online-Marketing
-   „Advertising Identifier“
-   Für Werbezwecke nutzen wir den sog. „Advertising Identifier“ (IDFA). Dieser ist eine einzigartige, jedoch nicht-personalisierte und nicht dauerhafte Identifizierungsnummer für ein bestimmtes Endgerät, der durch iOS bereitgestellt wird. Die über den IDFA erhobenen Daten werden nicht mit sonstigen gerätebezogenen Informationen verknüpft. Den IDFA verwenden wir, um Ihnen personalisierte Werbung bereitstellen und ihre Nutzung auswerten zu können. Wenn Sie in den iOS-Einstellungen unter „Datenschutz“ – „Werbung“ die Option „kein Ad-Tracking“ aktivieren, können wir nur folgende Maßnahmen vornehmen: Messung ihrer Interaktion mit Banner durch Zählung der Anzahl der Anzeigen eines Banners ohne Klick darauf („frequency capping“), Klickrate, Feststellung einzigartiger Nutzung („unique user“) sowei Sicherheitsmaßnahmen, Betrugsbekämpfung und Fehlerbeseitigung. Sie können in den Geräteeinstellungen jederzeit den IDFS löschen („Ad-ID zurücksetzen“), dann wird ein neuer IDFA erstellt, der nicht mit den früher erhobenen Daten zusammengeführt wird. Wir weisen Sie darauf hin, dass sie eventuell nicht alle Funktionen unsere App nutzen können, wenn sie die Nutzung des IDFA beschränken.
+10. Online-Marketing
+    „Advertising Identifier“
+    Für Werbezwecke nutzen wir den sog. „Advertising Identifier“ (IDFA). Dieser ist eine einzigartige, jedoch nicht-personalisierte und nicht dauerhafte Identifizierungsnummer für ein bestimmtes Endgerät, der durch iOS bereitgestellt wird. Die über den IDFA erhobenen Daten werden nicht mit sonstigen gerätebezogenen Informationen verknüpft. Den IDFA verwenden wir, um Ihnen personalisierte Werbung bereitstellen und ihre Nutzung auswerten zu können. Wenn Sie in den iOS-Einstellungen unter „Datenschutz“ – „Werbung“ die Option „kein Ad-Tracking“ aktivieren, können wir nur folgende Maßnahmen vornehmen: Messung ihrer Interaktion mit Banner durch Zählung der Anzahl der Anzeigen eines Banners ohne Klick darauf („frequency capping“), Klickrate, Feststellung einzigartiger Nutzung („unique user“) sowei Sicherheitsmaßnahmen, Betrugsbekämpfung und Fehlerbeseitigung. Sie können in den Geräteeinstellungen jederzeit den IDFS löschen („Ad-ID zurücksetzen“), dann wird ein neuer IDFA erstellt, der nicht mit den früher erhobenen Daten zusammengeführt wird. Wir weisen Sie darauf hin, dass sie eventuell nicht alle Funktionen unsere App nutzen können, wenn sie die Nutzung des IDFA beschränken.
 
-1. Tools und Sonstiges
-   Firebase Crashlytics
-   Für die Erstellung anonymisierter Absturzberichte nutzen wir „Firebase Crashlytics“, einen Dienst der Google Ireland Ltd., Google Building Gordon House, Barrow Street, Dublin 4, Irland, um die Stabilität und Zuverlässigkeit unserer App zu verbessern.
-   Ausschließlich auf Basis Ihrer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO werden im Falle eines Absturzes der App anonyme Informationen an die Server von Google übertragen (Zustand der App zum Zeitpunkt des Absturzes, Installation UUID, Crash-Trace, Hersteller und Betriebssystem des Handys, letzte Log-Meldungen). Auch Übertragungen an die Google LLC. In den USA sind möglich. Diese Informationen enthalten keine personenbezogenen Daten.
-   Bei der Verwendung eines iOS-basierten Gerätes können Sie die Einwilligung in den Einstellungen der App oder nach einem Absturz erteilen. Bei der Verwendung eines Android-basierten Geräts besteht bei der Einrichtung die Möglichkeit, generell der Übermittlung von Absturzbenachrichtigungen an Google und App-Entwickler zuzustimmen.
-   Sie können Ihre Einwilligung jederzeit widerrufen, indem Sie
+11. Tools und Sonstiges
+    Firebase Crashlytics
+    Für die Erstellung anonymisierter Absturzberichte nutzen wir „Firebase Crashlytics“, einen Dienst der Google Ireland Ltd., Google Building Gordon House, Barrow Street, Dublin 4, Irland, um die Stabilität und Zuverlässigkeit unserer App zu verbessern.
+    Ausschließlich auf Basis Ihrer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO werden im Falle eines Absturzes der App anonyme Informationen an die Server von Google übertragen (Zustand der App zum Zeitpunkt des Absturzes, Installation UUID, Crash-Trace, Hersteller und Betriebssystem des Handys, letzte Log-Meldungen). Auch Übertragungen an die Google LLC. In den USA sind möglich. Diese Informationen enthalten keine personenbezogenen Daten.
+    Bei der Verwendung eines iOS-basierten Gerätes können Sie die Einwilligung in den Einstellungen der App oder nach einem Absturz erteilen. Bei der Verwendung eines Android-basierten Geräts besteht bei der Einrichtung die Möglichkeit, generell der Übermittlung von Absturzbenachrichtigungen an Google und App-Entwickler zuzustimmen.
+    Sie können Ihre Einwilligung jederzeit widerrufen, indem Sie
 
 - in iOS in den Einstellungen der App die Funktion „Absturzberichte“ deaktivieren
 - in Android die Systemeinstellungen anpassen. Öffnen Sie hierzu die Einstellungen der App, wählen den Punkt „Google“ und dort im Dreipunkt-Menü oben rechts den Menüpunkt „Nutzung & Diagnose“. Hier können Sie das Senden der entsprechenden Daten deaktivieren.
   Weitere Informationen zum Datenschutz erhalten Sie in den Datenschutzhinweisen von Firebase Crashlytics unter https://firebase.google.com/support/privacy
 
-1.  Rechte des Betroffenen
+12. Rechte des Betroffenen
     12.1 Das geltende Datenschutzrecht gewährt Ihnen gegenüber dem Verantwortlichen hinsichtlich der Verarbeitung Ihrer personenbezogenen Daten umfassende Betroffenenrechte (Auskunfts- und Interventionsrechte), über die wir Sie nachstehend informieren:
 
 - Auskunftsrecht gemäß Art. 15 DSGVO: Sie haben insbesondere ein Recht auf Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten, die Verarbeitungszwecke, die Kategorien der verarbeiteten personenbezogenen Daten, die Empfänger oder Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer bzw. die Kriterien für die Festlegung der Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch gegen die Verarbeitung, Beschwerde bei einer Aufsichtsbehörde, die Herkunft Ihrer Daten, wenn diese nicht durch uns bei Ihnen erhoben wurden, das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftige Informationen über die involvierte Logik und die Sie betreffende Tragweite und die angestrebten Auswirkungen einer solchen Verarbeitung, sowie Ihr Recht auf Unterrichtung, welche Garantien gemäß Art. 46 DSGVO bei Weiterleitung Ihrer Daten in Drittländer bestehen;
@@ -108,7 +108,7 @@ linkGoToHome: /
   WERDEN IHRE PERSONENBEZOGENEN DATEN VON UNS VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN. SIE KÖNNEN DEN WIDERSPRUCH WIE OBEN BESCHRIEBEN AUSÜBEN.
   MACHEN SIE VON IHREM WIDERSPRUCHSRECHT GEBRAUCH, BEENDEN WIR DIE VERARBEITUNG DER BETROFFENEN DATEN ZU DIREKTWERBEZWECKEN.
 
-1.  Dauer der Speicherung personenbezogener Daten
+13. Dauer der Speicherung personenbezogener Daten
     Die Dauer der Speicherung von personenbezogenen Daten bemisst sich anhand der jeweiligen Rechtsgrundlage, am Verarbeitungszweck und – sofern einschlägig – zusätzlich anhand der jeweiligen gesetzlichen Aufbewahrungsfrist (z.B. handels- und steuerrechtliche Aufbewahrungsfristen).
     Bei der Verarbeitung von personenbezogenen Daten auf Grundlage einer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO werden die betroffenen Daten so lange gespeichert, bis Sie Ihre Einwilligung widerrufen.
     Existieren gesetzliche Aufbewahrungsfristen für Daten, die im Rahmen rechtsgeschäftlicher bzw. rechtsgeschäftsähnlicher Verpflichtungen auf der Grundlage von Art. 6 Abs. 1 lit. b DSGVO verarbeitet werden, werden diese Daten nach Ablauf der Aufbewahrungsfristen routinemäßig gelöscht, sofern sie nicht mehr zur Vertragserfüllung oder Vertragsanbahnung erforderlich sind und/oder unsererseits kein berechtigtes Interesse an der Weiterspeicherung fortbesteht.

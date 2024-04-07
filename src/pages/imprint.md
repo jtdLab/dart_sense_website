@@ -7,8 +7,6 @@ linkGoToHome: /
 
 # Impressum
 
-<!-- _Last updated April 1st, 2024._ -->
-
 ## Inhaber
 
 David Schlauch (Kleinunternehmer)
