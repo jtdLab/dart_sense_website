@@ -5,7 +5,7 @@ description: DartSense Terms of Use
 linkGoToHome: /en
 ---
 
-# Terms of Service
+# Terms of Use
 
 _Last updated April 7th, 2024._
 
