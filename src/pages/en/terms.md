@@ -11,7 +11,7 @@ _Last updated April 7th, 2024._
 
 Terms of Use for the DartSense App
 
-1. Scope: These terms of use apply to all users of the DartSense App in Germany.
+1. Scope: These terms of use apply to all users of the DartSense App.
 
 2. License: The operator of DartSense grants you a limited, non-exclusive, revocable license to use the app.
 

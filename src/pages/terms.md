@@ -11,7 +11,7 @@ _Letzte Aktualisierung am 7. April 2024._
 
 Nutzungsbedingungen für die DartSense-App
 
-1. Geltungsbereich: Diese Nutzungsbedingungen gelten für alle Nutzer der DartSense-App in Deutschland.
+1. Geltungsbereich: Diese Nutzungsbedingungen gelten für alle Nutzer der DartSense-App.
 
 2. Lizenz: Der Betreiber von DartSense gewährt Ihnen eine beschränkte, nicht-exklusive, widerrufbare Lizenz zur Nutzung der App.
 
