@@ -76,11 +76,7 @@ _Letzte Aktualisierung am 7. April 2024._
    Ihre Einwilligung in die Speicherung und Verwendung Ihrer personenbezogenen Daten zum Erhalt unserer Push-Benachrichtigungen und der zuvor beschriebenen statistischen Erhebung können Sie jederzeit mit Wirkung für die Zukunft widerrufen. Zum Zwecke des Widerrufs der Einwilligung können Sie die dazu vorgesehene Einstellung zum Erhalt von Push Benachrichtigungen in Ihren Einstellungen der App in Ihrem Betriebssystem abbestellen.
    Ihre Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich sind. Ihre Daten werden demnach solange gespeichert, wie das Abonnement für unsere Push-Benachrichtigungen aktiv ist.
 
-10. Online-Marketing
-    „Advertising Identifier“
-    Für Werbezwecke nutzen wir den sog. „Advertising Identifier“ (IDFA). Dieser ist eine einzigartige, jedoch nicht-personalisierte und nicht dauerhafte Identifizierungsnummer für ein bestimmtes Endgerät, der durch iOS bereitgestellt wird. Die über den IDFA erhobenen Daten werden nicht mit sonstigen gerätebezogenen Informationen verknüpft. Den IDFA verwenden wir, um Ihnen personalisierte Werbung bereitstellen und ihre Nutzung auswerten zu können. Wenn Sie in den iOS-Einstellungen unter „Datenschutz“ – „Werbung“ die Option „kein Ad-Tracking“ aktivieren, können wir nur folgende Maßnahmen vornehmen: Messung ihrer Interaktion mit Banner durch Zählung der Anzahl der Anzeigen eines Banners ohne Klick darauf („frequency capping“), Klickrate, Feststellung einzigartiger Nutzung („unique user“) sowei Sicherheitsmaßnahmen, Betrugsbekämpfung und Fehlerbeseitigung. Sie können in den Geräteeinstellungen jederzeit den IDFS löschen („Ad-ID zurücksetzen“), dann wird ein neuer IDFA erstellt, der nicht mit den früher erhobenen Daten zusammengeführt wird. Wir weisen Sie darauf hin, dass sie eventuell nicht alle Funktionen unsere App nutzen können, wenn sie die Nutzung des IDFA beschränken.
-
-11. Tools und Sonstiges
+10. Tools und Sonstiges
     Firebase Crashlytics
     Für die Erstellung anonymisierter Absturzberichte nutzen wir „Firebase Crashlytics“, einen Dienst der Google Ireland Ltd., Google Building Gordon House, Barrow Street, Dublin 4, Irland, um die Stabilität und Zuverlässigkeit unserer App zu verbessern.
     Ausschließlich auf Basis Ihrer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO werden im Falle eines Absturzes der App anonyme Informationen an die Server von Google übertragen (Zustand der App zum Zeitpunkt des Absturzes, Installation UUID, Crash-Trace, Hersteller und Betriebssystem des Handys, letzte Log-Meldungen). Auch Übertragungen an die Google LLC. In den USA sind möglich. Diese Informationen enthalten keine personenbezogenen Daten.
@@ -91,7 +87,7 @@ _Letzte Aktualisierung am 7. April 2024._
 - in Android die Systemeinstellungen anpassen. Öffnen Sie hierzu die Einstellungen der App, wählen den Punkt „Google“ und dort im Dreipunkt-Menü oben rechts den Menüpunkt „Nutzung & Diagnose“. Hier können Sie das Senden der entsprechenden Daten deaktivieren.
   Weitere Informationen zum Datenschutz erhalten Sie in den Datenschutzhinweisen von Firebase Crashlytics unter https://firebase.google.com/support/privacy
 
-12. Rechte des Betroffenen
+11. Rechte des Betroffenen
     12.1 Das geltende Datenschutzrecht gewährt Ihnen gegenüber dem Verantwortlichen hinsichtlich der Verarbeitung Ihrer personenbezogenen Daten umfassende Betroffenenrechte (Auskunfts- und Interventionsrechte), über die wir Sie nachstehend informieren:
 
 - Auskunftsrecht gemäß Art. 15 DSGVO: Sie haben insbesondere ein Recht auf Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten, die Verarbeitungszwecke, die Kategorien der verarbeiteten personenbezogenen Daten, die Empfänger oder Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer bzw. die Kriterien für die Festlegung der Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch gegen die Verarbeitung, Beschwerde bei einer Aufsichtsbehörde, die Herkunft Ihrer Daten, wenn diese nicht durch uns bei Ihnen erhoben wurden, das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftige Informationen über die involvierte Logik und die Sie betreffende Tragweite und die angestrebten Auswirkungen einer solchen Verarbeitung, sowie Ihr Recht auf Unterrichtung, welche Garantien gemäß Art. 46 DSGVO bei Weiterleitung Ihrer Daten in Drittländer bestehen;
@@ -108,7 +104,7 @@ _Letzte Aktualisierung am 7. April 2024._
   WERDEN IHRE PERSONENBEZOGENEN DATEN VON UNS VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN. SIE KÖNNEN DEN WIDERSPRUCH WIE OBEN BESCHRIEBEN AUSÜBEN.
   MACHEN SIE VON IHREM WIDERSPRUCHSRECHT GEBRAUCH, BEENDEN WIR DIE VERARBEITUNG DER BETROFFENEN DATEN ZU DIREKTWERBEZWECKEN.
 
-13. Dauer der Speicherung personenbezogener Daten
+12. Dauer der Speicherung personenbezogener Daten
     Die Dauer der Speicherung von personenbezogenen Daten bemisst sich anhand der jeweiligen Rechtsgrundlage, am Verarbeitungszweck und – sofern einschlägig – zusätzlich anhand der jeweiligen gesetzlichen Aufbewahrungsfrist (z.B. handels- und steuerrechtliche Aufbewahrungsfristen).
     Bei der Verarbeitung von personenbezogenen Daten auf Grundlage einer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO werden die betroffenen Daten so lange gespeichert, bis Sie Ihre Einwilligung widerrufen.
     Existieren gesetzliche Aufbewahrungsfristen für Daten, die im Rahmen rechtsgeschäftlicher bzw. rechtsgeschäftsähnlicher Verpflichtungen auf der Grundlage von Art. 6 Abs. 1 lit. b DSGVO verarbeitet werden, werden diese Daten nach Ablauf der Aufbewahrungsfristen routinemäßig gelöscht, sofern sie nicht mehr zur Vertragserfüllung oder Vertragsanbahnung erforderlich sind und/oder unsererseits kein berechtigtes Interesse an der Weiterspeicherung fortbesteht.

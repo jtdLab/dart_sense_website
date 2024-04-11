@@ -80,11 +80,7 @@ Privacy Policy
    You can revoke your consent to the storage and use of your personal data to receive our push notifications and the described statistical collection at any time with effect for the future. For the purpose of revoking consent, you can adjust the corresponding setting for receiving push notifications in your device settings of the app.
    Your data will be deleted as soon as it is no longer required for the purpose of its collection. Thus, your data will be stored as long as the subscription to our push notifications is active.
 
-10. Online Marketing
-    "Advertising Identifier"
-    For advertising purposes, we use the so-called "Advertising Identifier" (IDFA). This is a unique, but non-personalized and non-permanent identification number for a specific device provided by iOS. The data collected through the IDFA is not linked to any other device-related information. We use the IDFA to provide you with personalized advertising and to evaluate its use. If you activate the option "no ad-tracking" under "Privacy" - "Advertising" in the iOS settings, we can only take the following actions: Measure your interaction with banners by counting the number of displays of a banner without clicking on it ("frequency capping"), click rate, determining unique usage ("unique user") as well as security measures, fraud prevention, and troubleshooting. You can reset the IDFS at any time in the device settings ("Reset Ad-ID"), then a new IDFA will be created, which is not merged with previously collected data. Please note that you may not be able to use all the features of our app if you limit the use of the IDFA.
-
-11. Tools and Miscellaneous
+10. Tools and Miscellaneous
     Firebase Crashlytics
     We use "Firebase Crashlytics", a service of Google Ireland Ltd., Google Building Gordon House, Barrow Street, Dublin 4, Ireland, for the creation of anonymized crash reports to improve the stability and reliability of our app.
     Only based on your explicit consent according to Art. 6 Para. 1 lit. a GDPR, anonymous information is transmitted to Google's servers in case of an app crash (state of the app at the time of the crash, installation UUID, crash trace, manufacturer and operating system of the phone, last log messages). Transmissions to Google LLC in the USA are also possible. This information does not contain any personal data.
@@ -95,7 +91,7 @@ Privacy Policy
 - adjusting the system settings on Android. Open the app settings, select "Google" and then in the top-right three-dot menu select "Usage & Diagnosis". Here, you can disable the sending of the respective data.
   Further information on data protection can be found in the privacy notices of Firebase Crashlytics at https://firebase.google.com/support/privacy
 
-12. Rights of the Data Subject
+11. Rights of the Data Subject
     12.1 The applicable data protection law grants you comprehensive rights of data subjects (rights of access and intervention) with regard to the processing of your personal data, about which we inform you below:
 
 - Right of access by the data subject according to Art. 15 GDPR: You have the right to obtain confirmation as to whether or not personal data concerning you are being processed, and, where that is the case, access to the personal data and the information specified in Art. 15 GDPR.
@@ -112,7 +108,7 @@ Privacy Policy
   IF YOUR PERSONAL DATA IS PROCESSED BY US FOR DIRECT MARKETING PURPOSES, YOU HAVE THE RIGHT TO OBJECT AT ANY TIME TO THE PROCESSING OF PERSONAL DATA CONCERNING YOU FOR THE PURPOSE OF SUCH ADVERTISING. YOU CAN EXERCISE THE OBJECTION AS DESCRIBED ABOVE.
   IF YOU EXERCISE YOUR RIGHT TO OBJECT, WE WILL STOP PROCESSING THE DATA CONCERNED FOR DIRECT MARKETING PURPOSES.
 
-13. Duration of Storage of Personal Data
+12. Duration of Storage of Personal Data
     The duration of the storage of personal data is determined by the respective legal basis, the purpose of processing, and - if relevant - additionally by the respective legal retention period (e.g., commercial and tax retention periods).
     If personal data is processed based on an express consent according to Art. 6 Para. 1 lit. a GDPR, this data is stored until the data subject revokes their consent.
 
