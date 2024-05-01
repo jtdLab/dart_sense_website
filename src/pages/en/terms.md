@@ -41,4 +41,6 @@ Terms of Use for the DartSense App
     - Price and Service Changes: Prices and services may change. Users will be informed about significant changes.
     - Subscription Management: Subscriptions can be managed and cancelled by the user at any time.
 
-13. Contact Information: If you have any questions about these terms of use, please contact the operator of DartSense at contact@dartsense.de.
+13. Account-Sharing: Sharing account credentials and simultaneous usage by multiple individuals are not allowed and may result in an account ban. Our platform requires each account to be used exclusively by a single user to ensure the security and integrity of the services. We appreciate your understanding and cooperation in avoiding misuse.
+
+14. Contact Information: If you have any questions about these terms of use, please contact the operator of DartSense at contact@dartsense.de.

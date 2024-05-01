@@ -41,4 +41,6 @@ Nutzungsbedingungen für die DartSense-App
 - Preis- und Dienstleistungsänderungen: Preise und Dienstleistungen können geändert werden. Nutzer werden über wesentliche Änderungen informiert.
 - Abonnementverwaltung: Abonnements können jederzeit vom Nutzer verwaltet und gekündigt werden.
 
-13. Kontaktinformationen: Bei Fragen zu diesen Nutzungsbedingungen kontaktieren Sie bitte den Betreiber von DartSense unter contact@dartsense.de.
+13. Account-Sharing: Das Teilen von Account-Zugangsdaten und die gleichzeitige Nutzung durch mehrere Personen sind nicht gestattet und können zur Sperrung des Kontos führen. Unsere Plattform sieht vor, dass jedes Konto ausschließlich von einem einzelnen Nutzer verwendet wird, um die Sicherheit und Integrität der Dienste zu gewährleisten. Wir bitten um Ihr Verständnis und Ihre Kooperation, um Missbrauch zu vermeiden.
+
+14. Kontaktinformationen: Bei Fragen zu diesen Nutzungsbedingungen kontaktieren Sie bitte den Betreiber von DartSense unter contact@dartsense.de.
