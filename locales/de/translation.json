@@ -3,7 +3,7 @@
     "title": "DartSense"
   },
   "voicePlay": {
-    "title": "Spiele Steel Darts ohne lästiges Eintippen",
+    "title": "Spiele Steel Darts nur mit deiner Stimme",
     "slogan": "Bleibe im Flow und verbessere dein Spiel.",
     "bullet1": "97% Genauigkeit",
     "bullet2": "Geringe Latenz",
@@ -15,27 +15,31 @@
   "faqs": [
     {
       "question": "Funktioniert VoicePlay auch in lauten Umgebungen?",
-      "answer": "VoicePlay wurde für leise bis stille Umgebungen entwickelt, insbesondere für das Training. Bitte beachten Sie, dass die Verwendung in lauten Umgebungen, insbesondere mit mehreren gleichzeitig sprechenden Personen, instabil sein kann und auf eigene Gefahr erfolgt."
+      "answer": "VoicePlay wurde für leise bis stille Umgebungen entwickelt, insbesondere für das Training. Laute Umgebungen, mit mehreren gleichzeitig sprechenden Personen können zu Instabilität führen."
     },
     {
       "question": "Wie kann ich in einer lauten Umgebung spielen? (nicht empfohlen)",
-      "answer": "Sie können versuchen, die automatische Bestätigung zu deaktivieren und VoicePlay so zu konfigurieren, dass für jede Anweisung eine separate Bestätigung erforderlich ist."
+      "answer": "Du kannst die automatische Bestätigung (Auto-Commit) deaktivieren und VoicePlay so konfigurieren, dass jeder Sprachbefehl separat bestätigt werden muss."
     },
     {
       "question": "Funktioniert VoicePlay ohne Internetverbindung?",
       "answer": "Ja."
     },
     {
-      "question": "Wie viele Geräte kann ich mit meinem Abonnement verwenden?",
-      "answer": "Ein Abonnement ist jeweils an EIN Gerät gebunden. Wenn Sie sich auf einem neuen Gerät anmelden, werden Sie automatisch von Ihrem vorherigen abgemeldet."
+      "question": "Auf wie vielen Geräten gleichzeitig kann ich meinen DartSense Account verwenden?",
+      "answer": "DartSense Accounts sind auf EIN gleichzeitig aktives Gerät begrenzt. Wenn du dich auf einem neuen Gerät anmeldest, wirst du automatisch vom vorherigen abgemeldet."
     },
     {
-      "question": "Haben Sie Fragen zur Abrechnung oder benötigen Sie Hilfe bei der Zahlung?",
-      "answer": "Für Fragen zur Abrechnung und Unterstützung bei Zahlungen besuchen Sie bitte unseren dedizierten [Discord-Kanal](https://discord.com/channels/1227611762719854652/1227616575415255051)."
+      "question": "Was passiert, wenn ein Konto geteilt wird?",
+      "answer": "Verstöße gegen die \"EIN gleichzeitig aktives Gerät\"-Richtlinie oder anderweitiges Teilen können zur Sperrung des Kontos führen."
     },
     {
-      "question": "Treffen Sie auf technische Probleme oder möchten Sie einen Fehler melden?",
-      "answer": "Für technischen Support und Fehlermeldungen besuchen Sie bitte unseren dedizierten [Discord-Kanal](https://discord.com/channels/1227611762719854652/1227616480519127124)."
+      "question": "Du hast Fragen zur Abrechnung oder benötigst Hilfe bei der Zahlung?",
+      "answer": "Für Fragen zur Abrechnung und Unterstützung bei Zahlungen besuche bitte unseren dedizierten [Discord-Kanal](https://discord.com/channels/1227611762719854652/1227616575415255051)."
+    },
+    {
+      "question": "Du triffst auf technische Probleme oder möchtest einen Fehler melden?",
+      "answer": "Für technischen Support und Fehlermeldungen besuche bitte unseren dedizierten [Discord-Kanal](https://discord.com/channels/1227611762719854652/1227616480519127124)."
     }
   ],
   "faq": {

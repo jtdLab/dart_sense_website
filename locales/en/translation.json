@@ -3,7 +3,7 @@
     "title": "DartSense"
   },
   "voicePlay": {
-    "title": "Play Steel Darts without typing",
+    "title": "Play Steel Darts using your voice",
     "slogan": "Stay in flow and improve your game.",
     "bullet1": "97% Accuracy",
     "bullet2": "Low Latency",
@@ -15,19 +15,23 @@
   "faqs": [
     {
       "question": "Does VoicePlay work in noisy environments?",
-      "answer": "VoicePlay was developed for quiet to silent environments, especially for practicing. Please note that using it in loud environments, especially with multiple people speaking simultaneously, may lead to instability and is at your own risk."
+      "answer": "VoicePlay was developed for quiet to silent environments, especially for practicing. Noisy environments with multiple people speaking simultaneously can lead to instability."
     },
     {
       "question": "How can I play in a noisy environment? (not recommended)",
-      "answer": "You can try disabling auto-commit, configuring VoicePlay to require separate confirmation for each command."
+      "answer": "You can disable auto-commit, configuring VoicePlay to require separate confirmation for each voice command."
     },
     {
       "question": "Does VoicePlay work without an internet connection?",
       "answer": "Yes."
     },
     {
-      "question": "How many devices can I use with my subscription?",
-      "answer": "A subscription is bound to ONE device at a time. If you sign in on a new device, you'll be automatically logged out from the previous one."
+      "question": "How many devices can I use my DartSense account on simultaneously?",
+      "answer": "DartSense accounts are limited to ONE active device at a time. If you log in on a new device, you will be automatically logged out from the previous one."
+    },
+    {
+      "question": "What happens if an account is shared?",
+      "answer": "Violations of the \"ONE active device at a time\" policy or any form of account sharing can lead to account suspension."
     },
     {
       "question": "Have questions about billing or need assistance with payment?",
