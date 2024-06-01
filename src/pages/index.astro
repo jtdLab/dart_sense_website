@@ -2,11 +2,11 @@
 import { LanguageSelector } from 'astro-i18next/components';
 import i18next, { changeLanguage } from 'i18next';
 import completeGameWon from '../assets/images/de/complete_game_won.png';
-import createGameDartbot from '../assets/images/de/create_game_dartbot.png';
+import createGameDartbotVoicePlay from '../assets/images/de/create_game_dartbot_voice_play.png';
 import gameDetails2Player from '../assets/images/de/game_details_2_player.png';
-import gameDetailsCompareFirstNine2Players from '../assets/images/de/game_details_compare_first_nine_2_player.png';
+import gameDetailsCompareAverage2Players from '../assets/images/de/game_details_compare_average_2_player.png';
 import practiceOverview from '../assets/images/de/practice_overview.png';
-import inGameDartbot from '../assets/images/de/in_game_dartbot.png';
+import inGameDartbotVoicePlay from '../assets/images/de/in_game_dartbot_voice_play.png';
 import { Divider } from '../components/Divider.jsx';
 import { FAQ } from '../components/FAQ.jsx';
 import { Footer } from '../components/Footer.jsx';
@@ -38,11 +38,11 @@ const voicePlayBullet2 = i18next.t('voicePlay.bullet2');
 const voicePlayBullet3 = i18next.t('voicePlay.bullet3');
 const promoSlidesTitle = i18next.t('promoSlides.title');
 const promoSlidesImages = [
-  createGameDartbot.src,
-  inGameDartbot.src,
+  createGameDartbotVoicePlay.src,
+  inGameDartbotVoicePlay.src,
   completeGameWon.src,
   gameDetails2Player.src,
-  gameDetailsCompareFirstNine2Players.src,
+  gameDetailsCompareAverage2Players.src,
   practiceOverview.src,
 ];
 const faqs = [
@@ -102,7 +102,7 @@ const legalSectionPrivacy = i18next.t('footer.legalSectionPrivacy');
     bullet1={voicePlayBullet1}
     bullet2={voicePlayBullet2}
     bullet3={voicePlayBullet3}
-    image={inGameDartbot.src}
+    image={inGameDartbotVoicePlay.src}
     client:load
   />
   <!-- https://github.com/withastro/astro/issues/6334 -->
