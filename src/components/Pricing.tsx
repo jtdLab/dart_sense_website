@@ -13,7 +13,7 @@ const pricing: Pricing[] = [
     highlight: true,
     features: [
       { title: '97% Accuracy' },
-      { title: '100% Offline' },
+      { title: 'On-Device' },
       { title: 'Fast' },
       { title: '1 Device' },
     ],
@@ -29,7 +29,7 @@ const pricing: Pricing[] = [
   //   price: 99.99,
   //   features: [
   //     { title: '97% Accuracy' },
-  //     { title: '100% Offline' },
+  //     { title: 'On-Device' },
   //     { title: 'Fast' },
   //     { title: 'Unlimited Devices' },
   //   ],

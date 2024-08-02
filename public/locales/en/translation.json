@@ -5,9 +5,9 @@
   "voicePlay": {
     "title": "Play Steel Darts using your voice",
     "slogan": "Stay in flow and improve your game.",
-    "bullet1": "97% Accuracy",
-    "bullet2": "Low Latency",
-    "bullet3": "100% Offline"
+    "bullet1": "On-Device",
+    "bullet2": "97% Accuracy",
+    "bullet3": "Low Latency"
   },
   "promoSlides": {
     "title": "See it in action"
