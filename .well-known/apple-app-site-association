@@ -1,0 +1,26 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "RA653K74L8.com.jtdlab.dart-sense",
+          "RA653K74L8.com.jtdlab.dart-sense.stg"
+        ],
+        "paths": [
+          "*"
+        ],
+        "components": [
+          {
+            "/": "/*"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "RA653K74L8.com.jtdlab.dart-sense"
+    ]
+  }
+}
