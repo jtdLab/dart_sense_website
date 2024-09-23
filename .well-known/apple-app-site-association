@@ -5,7 +5,8 @@
       {
         "appIDs": [
           "RA653K74L8.com.jtdlab.dart-sense",
-          "RA653K74L8.com.jtdlab.dart-sense.stg"
+          "RA653K74L8.com.jtdlab.dart-sense.stg",
+          "RA653K74L8.com.jtdlab.dart-sense.dev"
         ],
         "paths": [
           "*"
@@ -16,11 +17,6 @@
           }
         ]
       }
-    ]
-  },
-  "webcredentials": {
-    "apps": [
-      "RA653K74L8.com.jtdlab.dart-sense"
     ]
   }
 }
