@@ -3,10 +3,19 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
+      "package_name": "com.jtdlab.dart_sense.stg",
+      "sha256_cert_fingerprints": [
+        "59:C1:79:F7:52:CC:C0:B3:D8:20:DA:E7:83:85:1E:B3:9D:93:31:91:65:FF:54:06:7C:BA:8F:7F:CA:48:E1:CF"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
       "package_name": "com.jtdlab.dart_sense",
       "sha256_cert_fingerprints": [
-        "BD:DA:CF:69:74:96:D6:80:B2:BC:79:C1:D8:BB:95:1B:BD:84:52:F7:7C:FD:FF:17:70:FD:F0:3C:65:53:E4:E0",
-        "59:C1:79:F7:52:CC:C0:B3:D8:20:DA:E7:83:85:1E:B3:9D:93:31:91:65:FF:54:06:7C:BA:8F:7F:CA:48:E1:CF"
+        "BD:DA:CF:69:74:96:D6:80:B2:BC:79:C1:D8:BB:95:1B:BD:84:52:F7:7C:FD:FF:17:70:FD:F0:3C:65:53:E4:E0"
       ]
     }
   }
