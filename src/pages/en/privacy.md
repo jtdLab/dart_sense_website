@@ -7,7 +7,7 @@ linkGoToHome: /en
 
 # Privacy Policy
 
-_Last updated April 7th, 2024._
+_Last updated October 4th, 2024._
 
 Privacy Policy
 

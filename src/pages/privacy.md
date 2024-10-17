@@ -7,7 +7,7 @@ linkGoToHome: /
 
 # Datenschutzerklärung
 
-_Letzte Aktualisierung am 7. April 2024._
+_Letzte Aktualisierung am 4. Oktober 2024._
 
 1. Information über die Erhebung personenbezogener Daten und Kontaktdaten des Verantwortlichen
    1.1 Wir freuen uns, dass Sie unsere Applikation (nachfolgend „App“) verwenden. Im Folgenden informieren wir Sie über den Umgang mit Ihren personenbezogenen Daten bei der Nutzung unserer App. Personenbezogene Daten sind hierbei alle Daten, mit denen Sie persönlich identifiziert werden können.
