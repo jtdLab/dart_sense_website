@@ -15,23 +15,15 @@
   "faqs": [
     {
       "question": "Funktioniert VoicePlay auch in lauten Umgebungen?",
-      "answer": "VoicePlay wurde für leise bis stille Umgebungen entwickelt, insbesondere für das Training. Laute Umgebungen, mit mehreren gleichzeitig sprechenden Personen können zu Instabilität führen."
-    },
-    {
-      "question": "Wie kann ich in einer lauten Umgebung spielen? (nicht empfohlen)",
-      "answer": "Du kannst die automatische Bestätigung (Auto-Commit) deaktivieren und VoicePlay so konfigurieren, dass jeder Sprachbefehl separat bestätigt werden muss."
+      "answer": "Nein. VoicePlay wurde für leise bis stille Umgebungen entwickelt, insbesondere für das Training. Laute Umgebungen, mit mehreren gleichzeitig sprechenden Personen können zu Instabilität führen."
     },
     {
       "question": "Funktioniert VoicePlay ohne Internetverbindung?",
       "answer": "Ja."
     },
     {
-      "question": "Auf wie vielen Geräten gleichzeitig kann ich meinen DartSense Account verwenden?",
-      "answer": "DartSense Accounts sind auf EIN gleichzeitig aktives Gerät begrenzt. Wenn du dich auf einem neuen Gerät anmeldest, wirst du automatisch vom vorherigen abgemeldet."
-    },
-    {
       "question": "Was passiert, wenn ein Konto geteilt wird?",
-      "answer": "Verstöße gegen die \"EIN gleichzeitig aktives Gerät\"-Richtlinie oder anderweitiges Teilen können zur Sperrung des Kontos führen."
+      "answer": "Ein Konto ist an den Kontoinhaber gebunden. Teilen kann zur Sperrung des Kontos führen."
     },
     {
       "question": "Du hast Fragen zur Abrechnung oder benötigst Hilfe bei der Zahlung?",
