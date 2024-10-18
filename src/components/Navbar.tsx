@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { config } from '../config';
 import { DartSenseLogo } from '../assets/logos/DartSenseLogo';
 import { DiscordIcon } from '../assets/icons/DiscordIcon';
+import { InstagramIcon } from '../assets/icons/InstagramIcon';
 
 interface NavbarLink {
   label: string;
@@ -74,11 +75,11 @@ export const Navbar = (props) => {
               <a
                 className="text-white rounded-xl
            bg-dartsenseBg2 text-sm flex"
-                href={config.discordUrl}
+                href={config.instagramUrl}
                 target="_blank"
                 aria-label="discord"
               >
-                <DiscordIcon />
+                <InstagramIcon />
               </a>
               {/*             <a
               className="text-white ml-4 border-2 border-slate-600 rounded-md p-2 hover:border-slate-400"
