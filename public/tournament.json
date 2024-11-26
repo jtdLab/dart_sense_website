@@ -218,5 +218,870 @@
       "type": "total170Checkouts"
     }
   ],
-  "players": []
+  "players": [
+    {
+      "id": "1",
+      "firstName": "Luke",
+      "lastName": "Humphries",
+      "nickname": "Cool Hand Luke",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Nr. 01"
+    },
+    {
+      "id": "2",
+      "firstName": "Michael",
+      "lastName": "Smith",
+      "nickname": "Bully Boy",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Nr. 02"
+    },
+    {
+      "id": "3",
+      "firstName": "Michael",
+      "lastName": "van Gerwen",
+      "nickname": "MVG",
+      "nation": "NL",
+      "photo": null,
+      "qualification": "PDC Nr. 03"
+    },
+    {
+      "id": "4",
+      "firstName": "Luke",
+      "lastName": "Littler",
+      "nickname": "The Nuke",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Nr. 04"
+    },
+    {
+      "id": "5",
+      "firstName": "Rob",
+      "lastName": "Cross",
+      "nickname": "Voltage",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Nr. 05"
+    },
+    {
+      "id": "6",
+      "firstName": "Dave",
+      "lastName": "Chisnall",
+      "nickname": "Chizzy",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Nr. 06"
+    },
+    {
+      "id": "7",
+      "firstName": "Jonny",
+      "lastName": "Clayton",
+      "nickname": "The Ferret",
+      "nation": "GB-WAL",
+      "photo": null,
+      "qualification": "PDC Nr. 07"
+    },
+    {
+      "id": "8",
+      "firstName": "Stephen",
+      "lastName": "Bunting",
+      "nickname": "The Bullet",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Nr. 08"
+    },
+    {
+      "id": "9",
+      "firstName": "Damon",
+      "lastName": "Heta",
+      "nickname": "The Heat",
+      "nation": "AU",
+      "photo": null,
+      "qualification": "PDC Nr. 09"
+    },
+    {
+      "id": "10",
+      "firstName": "Gerwyn",
+      "lastName": "Price",
+      "nickname": "The Iceman",
+      "nation": "GB-WAL",
+      "photo": null,
+      "qualification": "PDC Nr. 10"
+    },
+    {
+      "id": "11",
+      "firstName": "Dimitri",
+      "lastName": "Van den Bergh",
+      "nickname": "The DreamMaker",
+      "nation": "BE",
+      "photo": null,
+      "qualification": "PDC Nr. 11"
+    },
+    {
+      "id": "12",
+      "firstName": "Nathan",
+      "lastName": "Aspinall",
+      "nickname": "The Asp",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Nr. 12"
+    },
+    {
+      "id": "13",
+      "firstName": "Danny",
+      "lastName": "Noppert",
+      "nickname": "The Freeze",
+      "nation": "NL",
+      "photo": null,
+      "qualification": "PDC Nr. 13"
+    },
+    {
+      "id": "14",
+      "firstName": "Gary",
+      "lastName": "Anderson",
+      "nickname": "The Flying Scotsman",
+      "nation": "GB-SCO",
+      "photo": null,
+      "qualification": "PDC Nr. 14"
+    },
+    {
+      "id": "15",
+      "firstName": "Chris",
+      "lastName": "Dobey",
+      "nickname": "Hollywood",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Nr. 15"
+    },
+    {
+      "id": "16",
+      "firstName": "James",
+      "lastName": "Wade",
+      "nickname": "The Machine",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Nr. 16"
+    },
+    {
+      "id": "17",
+      "firstName": "Peter",
+      "lastName": "Wright",
+      "nickname": "Snakebite",
+      "nation": "GB-SCO",
+      "photo": null,
+      "qualification": "PDC Nr. 17"
+    },
+    {
+      "id": "18",
+      "firstName": "Josh",
+      "lastName": "Rock",
+      "nickname": "Rocky",
+      "nation": "GB-NIR",
+      "photo": null,
+      "qualification": "PDC Nr. 18"
+    },
+    {
+      "id": "19",
+      "firstName": "Ross",
+      "lastName": "Smith",
+      "nickname": "Smudger",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Nr. 19"
+    },
+    {
+      "id": "20",
+      "firstName": "Ryan",
+      "lastName": "Searle",
+      "nickname": "Heavy Metal",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Nr. 20"
+    },
+    {
+      "id": "21",
+      "firstName": "Andrew",
+      "lastName": "Gilding",
+      "nickname": "Goldfinger",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Nr. 21"
+    },
+    {
+      "id": "22",
+      "firstName": "Martin",
+      "lastName": "Schindler",
+      "nickname": "The Wall",
+      "nation": "DE",
+      "photo": null,
+      "qualification": "PDC Nr. 22"
+    },
+    {
+      "id": "23",
+      "firstName": "Joe",
+      "lastName": "Cullen",
+      "nickname": "The Rockstar",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Nr. 23"
+    },
+    {
+      "id": "24",
+      "firstName": "Mike",
+      "lastName": "De Decker",
+      "nickname": "The Real Deal",
+      "nation": "BE",
+      "photo": null,
+      "qualification": "PDC Nr. 24"
+    },
+    {
+      "id": "25",
+      "firstName": "Dirk",
+      "lastName": "van Duijvenbode",
+      "nickname": "The Titan",
+      "nation": "NL",
+      "photo": null,
+      "qualification": "PDC Nr. 25"
+    },
+    {
+      "id": "26",
+      "firstName": "Daryl",
+      "lastName": "Gurney",
+      "nickname": "Superchin",
+      "nation": "GB-NIR",
+      "photo": null,
+      "qualification": "PDC Nr. 26"
+    },
+    {
+      "id": "27",
+      "firstName": "Gabriel",
+      "lastName": "Clemens",
+      "nickname": "The German Giant",
+      "nation": "DE",
+      "photo": null,
+      "qualification": "PDC Nr. 27"
+    },
+    {
+      "id": "28",
+      "firstName": "Gian",
+      "lastName": "van Veen",
+      "nickname": null,
+      "nation": "NL",
+      "photo": null,
+      "qualification": "PDC Nr. 28"
+    },
+    {
+      "id": "29",
+      "firstName": "Ritchie",
+      "lastName": "Edhouse",
+      "nickname": "Madhouse",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Nr. 29"
+    },
+    {
+      "id": "30",
+      "firstName": "Brendan",
+      "lastName": "Dolan",
+      "nickname": "The History Maker",
+      "nation": "GB-NIR",
+      "photo": null,
+      "qualification": "PDC Nr. 30"
+    },
+    {
+      "id": "31",
+      "firstName": "Krzysztof",
+      "lastName": "Ratajski",
+      "nickname": "The Polish Eagle",
+      "nation": "PL",
+      "photo": null,
+      "qualification": "PDC Nr. 31"
+    },
+    {
+      "id": "32",
+      "firstName": "Raymond",
+      "lastName": "van Barneveld",
+      "nickname": "Barney",
+      "nation": "NL",
+      "photo": null,
+      "qualification": "PDC Nr. 32"
+    },
+    {
+      "id": "33",
+      "firstName": "Cameron",
+      "lastName": "Menzies",
+      "nickname": null,
+      "nation": "GB-SCO",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 01"
+    },
+    {
+      "id": "34",
+      "firstName": "Wessel",
+      "lastName": "Nijman",
+      "nickname": null,
+      "nation": "NL",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 02"
+    },
+    {
+      "id": "35",
+      "firstName": "Jermaine",
+      "lastName": "Wattimena",
+      "nickname": "The Machine Gun",
+      "nation": "NL",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 03"
+    },
+    {
+      "id": "36",
+      "firstName": "Ricardo",
+      "lastName": "Pietreczko",
+      "nickname": "Pikachu",
+      "nation": "DE",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 04"
+    },
+    {
+      "id": "37",
+      "firstName": "Luke",
+      "lastName": "Woodhouse",
+      "nickname": "Woody",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 05"
+    },
+    {
+      "id": "38",
+      "firstName": "Ryan",
+      "lastName": "Joyce",
+      "nickname": "Relentless",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 06"
+    },
+    {
+      "id": "39",
+      "firstName": "Niels",
+      "lastName": "Zonneveld",
+      "nickname": null,
+      "nation": "NL",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 07"
+    },
+    {
+      "id": "40",
+      "firstName": "Alan",
+      "lastName": "Soutar",
+      "nickname": "Soots",
+      "nation": "GB-SCO",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 08"
+    },
+    {
+      "id": "41",
+      "firstName": "Madars",
+      "lastName": "Razma",
+      "nickname": "Razmatazz",
+      "nation": "LV",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 09"
+    },
+    {
+      "id": "42",
+      "firstName": "Callan",
+      "lastName": "Rydz",
+      "nickname": "The Riot",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 10"
+    },
+    {
+      "id": "43",
+      "firstName": "Wesley",
+      "lastName": "Plaisier",
+      "nickname": null,
+      "nation": "NL",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 11"
+    },
+    {
+      "id": "44",
+      "firstName": "Martin",
+      "lastName": "Lukeman",
+      "nickname": "Smash",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 12"
+    },
+    {
+      "id": "45",
+      "firstName": "Kevin",
+      "lastName": "Doets",
+      "nickname": null,
+      "nation": "NL",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 13"
+    },
+    {
+      "id": "46",
+      "firstName": "Richard",
+      "lastName": "Veenstra",
+      "nickname": "Flyers",
+      "nation": "NL",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 14"
+    },
+    {
+      "id": "47",
+      "firstName": "Scott",
+      "lastName": "Williams",
+      "nickname": "Shaggy",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 15"
+    },
+    {
+      "id": "48",
+      "firstName": "Kim",
+      "lastName": "Huybrechts",
+      "nickname": "The Hurricane",
+      "nation": "BE",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 16"
+    },
+    {
+      "id": "49",
+      "firstName": "William",
+      "lastName": "O'Connor",
+      "nickname": "The Magpie",
+      "nation": "IE",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 17"
+    },
+    {
+      "id": "50",
+      "firstName": "Karel",
+      "lastName": "Sedláček",
+      "nickname": "Evil Charlie",
+      "nation": "CZ",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 18"
+    },
+    {
+      "id": "51",
+      "firstName": "Stephen",
+      "lastName": "Burton",
+      "nickname": null,
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 19"
+    },
+    {
+      "id": "52",
+      "firstName": "Thibault",
+      "lastName": "Tricole",
+      "nickname": null,
+      "nation": "FR",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 20"
+    },
+    {
+      "id": "53",
+      "firstName": "Connor",
+      "lastName": "Scutt",
+      "nickname": null,
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 21"
+    },
+    {
+      "id": "54",
+      "firstName": "Mensur",
+      "lastName": "Suljović",
+      "nickname": "The Gentle",
+      "nation": "AT",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 22"
+    },
+    {
+      "id": "55",
+      "firstName": "Ian",
+      "lastName": "White",
+      "nickname": "Diamond",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 23"
+    },
+    {
+      "id": "56",
+      "firstName": "Jeffrey",
+      "lastName": "de Graaf",
+      "nickname": null,
+      "nation": "SE",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 24"
+    },
+    {
+      "id": "57",
+      "firstName": "Jim",
+      "lastName": "Williams",
+      "nickname": null,
+      "nation": "GB-WAL",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 25"
+    },
+    {
+      "id": "58",
+      "firstName": "Florian",
+      "lastName": "Hempel",
+      "nickname": null,
+      "nation": "DE",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 26"
+    },
+    {
+      "id": "59",
+      "firstName": "Ryan",
+      "lastName": "Meikle",
+      "nickname": "The Barber",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 27"
+    },
+    {
+      "id": "60",
+      "firstName": "Chris",
+      "lastName": "Landman",
+      "nickname": null,
+      "nation": "NL",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 28"
+    },
+    {
+      "id": "61",
+      "firstName": "Nick",
+      "lastName": "Kenny",
+      "nickname": null,
+      "nation": "GB-WAL",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 29"
+    },
+    {
+      "id": "62",
+      "firstName": "James",
+      "lastName": "Hurrell",
+      "nickname": null,
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 30"
+    },
+    {
+      "id": "63",
+      "firstName": "Michael",
+      "lastName": "Mansell",
+      "nickname": "Mickey",
+      "nation": "GB-NIR",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 31"
+    },
+    {
+      "id": "64",
+      "firstName": "Ricky",
+      "lastName": "Evans",
+      "nickname": "Rapid",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "PDC Pro Tour Nr. 32"
+    },
+    {
+      "id": "65",
+      "firstName": "Xiaochen",
+      "lastName": "Zong",
+      "nickname": "The Pandaman",
+      "nation": "CN",
+      "photo": null,
+      "qualification": "China Qualifier"
+    },
+    {
+      "id": "66",
+      "firstName": "Darius",
+      "lastName": "Labanauskas",
+      "nickname": "Lucky D",
+      "nation": "LT",
+      "photo": null,
+      "qualification": "PDC Nordic"
+    },
+    {
+      "id": "67",
+      "firstName": "Tomoya",
+      "lastName": "Goto",
+      "nickname": null,
+      "nation": "JP",
+      "photo": null,
+      "qualification": "Japan Tour"
+    },
+    {
+      "id": "68",
+      "firstName": "Joe",
+      "lastName": "Comito",
+      "nickname": null,
+      "nation": "AU",
+      "photo": null,
+      "qualification": "DPA Qualifier"
+    },
+    {
+      "id": "69",
+      "firstName": "Leonard",
+      "lastName": "Gates",
+      "nickname": "Soulger",
+      "nation": "US",
+      "photo": null,
+      "qualification": "CDC Top 1 USA"
+    },
+    {
+      "id": "70",
+      "firstName": "Jim",
+      "lastName": "Long",
+      "nickname": null,
+      "nation": "CA",
+      "photo": null,
+      "qualification": "CDC Top 1 Canada"
+    },
+    {
+      "id": "71",
+      "firstName": "Stowe",
+      "lastName": "Buntz",
+      "nickname": null,
+      "nation": "US",
+      "photo": null,
+      "qualification": "CDC US Tour"
+    },
+    {
+      "id": "72",
+      "firstName": "Cameron",
+      "lastName": "Carolissen",
+      "nickname": null,
+      "nation": "ZA",
+      "photo": null,
+      "qualification": "Africa Qualifier"
+    },
+    {
+      "id": "73",
+      "firstName": "Alexis",
+      "lastName": "Toylo",
+      "nickname": null,
+      "nation": "PH",
+      "photo": null,
+      "qualification": "Asian Tour 1"
+    },
+    {
+      "id": "74",
+      "firstName": "Paolo",
+      "lastName": "Nebrida",
+      "nickname": null,
+      "nation": "PH",
+      "photo": null,
+      "qualification": "Asian Tour 2"
+    },
+    {
+      "id": "75",
+      "firstName": "Ryusei",
+      "lastName": "Azemoto",
+      "nickname": null,
+      "nation": "JP",
+      "photo": null,
+      "qualification": "Asian Tour 3"
+    },
+    {
+      "id": "76",
+      "firstName": "Lourence",
+      "lastName": "Ilagan",
+      "nickname": "The Gunner",
+      "nation": "PH",
+      "photo": null,
+      "qualification": "Asian Tour 4"
+    },
+    {
+      "id": "77",
+      "firstName": "Ben",
+      "lastName": "Robb",
+      "nickname": "Big Rig",
+      "nation": "NZ",
+      "photo": null,
+      "qualification": "DPNZ Qualifier"
+    },
+    {
+      "id": "78",
+      "firstName": "Rashad",
+      "lastName": "Sweeting",
+      "nickname": null,
+      "nation": "BS",
+      "photo": null,
+      "qualification": "CLDC Tour"
+    },
+    {
+      "id": "79",
+      "firstName": "Niko",
+      "lastName": "Springer",
+      "nickname": null,
+      "nation": "DE",
+      "photo": null,
+      "qualification": "Development Tour 1"
+    },
+    {
+      "id": "80",
+      "firstName": "Keane",
+      "lastName": "Barry",
+      "nickname": "Dynamite",
+      "nation": "IE",
+      "photo": null,
+      "qualification": "Development Tour 2"
+    },
+    {
+      "id": "81",
+      "firstName": "Sandro Eric",
+      "lastName": "Sosing",
+      "nickname": null,
+      "nation": "PH",
+      "photo": null,
+      "qualification": "Asian Championship 1"
+    },
+    {
+      "id": "82",
+      "firstName": "Lok-Yin",
+      "lastName": "Lee",
+      "nickname": null,
+      "nation": "HK",
+      "photo": null,
+      "qualification": "Asian Championship 2"
+    },
+    {
+      "id": "83",
+      "firstName": "Gordon",
+      "lastName": "Mathers",
+      "nickname": "GG",
+      "nation": "AU",
+      "photo": null,
+      "qualification": "Oceanic Masters"
+    },
+    {
+      "id": "84",
+      "firstName": "Noa-Lynn",
+      "lastName": "van Leuven",
+      "nickname": null,
+      "nation": "NL",
+      "photo": null,
+      "qualification": "Women's Series 1"
+    },
+    {
+      "id": "85",
+      "firstName": "Fallon",
+      "lastName": "Sherrock",
+      "nickname": "The Queen of the Palace",
+      "nation": "GB-ENG",
+      "photo": null,
+      "qualification": "Women's Series 2"
+    },
+    {
+      "id": "86",
+      "firstName": "Nitin",
+      "lastName": "Kumar",
+      "nickname": null,
+      "nation": "IN",
+      "photo": null,
+      "qualification": "India Qualifier"
+    },
+    {
+      "id": "87",
+      "firstName": "Christian",
+      "lastName": "Kist",
+      "nickname": "The Lipstick",
+      "nation": "NL",
+      "photo": null,
+      "qualification": "Challenge Tour 1"
+    },
+    {
+      "id": "88",
+      "firstName": "Alexander",
+      "lastName": "Merkx",
+      "nickname": null,
+      "nation": "NL",
+      "photo": null,
+      "qualification": "Challenge Tour 2"
+    },
+    {
+      "id": "89",
+      "firstName": "Kai",
+      "lastName": "Gotthardt",
+      "nickname": null,
+      "nation": "DE",
+      "photo": null,
+      "qualification": "Super League"
+    },
+    {
+      "id": "90",
+      "firstName": "Stefan",
+      "lastName": "Bellmont",
+      "nickname": null,
+      "nation": "CH",
+      "photo": null,
+      "qualification": "Europa West Q"
+    },
+    {
+      "id": "91",
+      "firstName": "Romeo",
+      "lastName": "Grbavac",
+      "nickname": null,
+      "nation": "HR",
+      "photo": null,
+      "qualification": "Europa East Q"
+    },
+    {
+      "id": "92",
+      "firstName": "Robert",
+      "lastName": "Owen",
+      "nickname": "Stack Attack",
+      "nation": "GB-WAL",
+      "photo": null,
+      "qualification": "ProTour Replacement"
+    },
+    {
+      "id": "93",
+      "firstName": "Rhys",
+      "lastName": "Griffin",
+      "nickname": null,
+      "nation": "GB-WAL",
+      "photo": null,
+      "qualification": "PDPA Qualifier 1"
+    },
+    {
+      "id": "94",
+      "firstName": "Jeffrey",
+      "lastName": "de Zwaan",
+      "nickname": "The Black Cobra",
+      "nation": "NL",
+      "photo": null,
+      "qualification": "PDPA Qualifier 2"
+    },
+    {
+      "id": "95",
+      "firstName": "Dylan",
+      "lastName": "Slevin",
+      "nickname": null,
+      "nation": "IE",
+      "photo": null,
+      "qualification": "PDPA Qualifier 3"
+    },
+    {
+      "id": "96",
+      "firstName": "Matt",
+      "lastName": "Campbell",
+      "nickname": "Ginja Ninja",
+      "nation": "CA",
+      "photo": null,
+      "qualification": "PDPA Qualifier 4"
+    }
+  ]
 }
