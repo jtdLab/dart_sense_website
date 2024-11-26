@@ -1,813 +1,222 @@
 {
   "id": "1",
-  "name": "Grand Slam of Darts",
-  "location": "Aldersley Leisure Village, Wolverhampton",
+  "name": "Weltmeisterschaft 2025",
+  "location": "Alexandra Palace, London",
   "stages": [
     {
       "id": "1",
-      "name": "Gruppenphase",
+      "name": "1. Runde",
       "mode": "bestOf",
-      "size": 9,
-      "type": "legs"
+      "size": 5,
+      "type": "sets"
     },
     {
       "id": "2",
-      "name": "Achtelfinale",
+      "name": "2. Runde",
       "mode": "bestOf",
-      "size": 19,
-      "type": "legs"
+      "size": 5,
+      "type": "sets"
     },
     {
       "id": "3",
-      "name": "Viertelfinale",
+      "name": "3. Runde",
       "mode": "bestOf",
-      "size": 31,
-      "type": "legs"
+      "size": 7,
+      "type": "sets"
     },
     {
       "id": "4",
-      "name": "Halbfinale",
+      "name": "Achtelfinale",
       "mode": "bestOf",
-      "size": 31,
-      "type": "legs"
+      "size": 7,
+      "type": "sets"
     },
     {
       "id": "5",
+      "name": "Viertelfinale",
+      "mode": "bestOf",
+      "size": 9,
+      "type": "sets"
+    },
+    {
+      "id": "6",
+      "name": "Halbfinale",
+      "mode": "bestOf",
+      "size": 11,
+      "type": "sets"
+    },
+    {
+      "id": "7",
       "name": "Finale",
       "mode": "bestOf",
-      "size": 31,
-      "type": "legs"
+      "size": 13,
+      "type": "sets"
     }
   ],
   "sessions": [
     {
       "id": "1",
-      "startTime": "2024-11-09T14:00:00.000",
+      "startTime": "2024-12-15T20:00:00.000",
       "name": null
     },
     {
       "id": "2",
-      "startTime": "2024-11-09T20:00:00.000",
+      "startTime": "2024-12-16T13:30:00.000",
       "name": null
     },
     {
       "id": "3",
-      "startTime": "2024-11-10T14:00:00.000",
+      "startTime": "2024-12-16T20:00:00.000",
       "name": null
     },
     {
       "id": "4",
-      "startTime": "2024-11-10T20:00:00.000",
+      "startTime": "2024-12-17T13:30:00.000",
       "name": null
     },
     {
       "id": "5",
-      "startTime": "2024-11-11T20:00:00.000",
+      "startTime": "2024-12-17T20:00:00.000",
       "name": null
     },
     {
       "id": "6",
-      "startTime": "2024-11-12T20:00:00.000",
+      "startTime": "2024-12-18T20:00:00.000",
       "name": null
     },
     {
       "id": "7",
-      "startTime": "2024-11-13T20:00:00.000",
+      "startTime": "2024-12-19T13:30:00.000",
       "name": null
     },
     {
       "id": "8",
-      "startTime": "2024-11-14T20:00:00.000",
+      "startTime": "2024-12-19T20:00:00.000",
       "name": null
     },
     {
       "id": "9",
-      "startTime": "2024-11-15T20:00:00.000",
+      "startTime": "2024-12-20T13:30:00.000",
       "name": null
     },
     {
       "id": "10",
-      "startTime": "2024-11-16T20:00:00.000",
+      "startTime": "2024-12-20T20:00:00.000",
       "name": null
     },
     {
       "id": "11",
-      "startTime": "2024-11-17T14:00:00.000",
+      "startTime": "2024-12-21T13:30:00.000",
       "name": null
     },
     {
       "id": "12",
-      "startTime": "2024-11-17T20:00:00.000",
+      "startTime": "2024-12-21T20:00:00.000",
       "name": null
-    }
-  ],
-  "matches": [
-    {
-      "id": "1",
-      "stageId": "1",
-      "sessionId": "1",
-      "player1Id": "1",
-      "player2Id": "71"
-    },
-    {
-      "id": "2",
-      "stageId": "1",
-      "sessionId": "1",
-      "player1Id": "16",
-      "player2Id": "56"
-    },
-    {
-      "id": "3",
-      "stageId": "1",
-      "sessionId": "1",
-      "player1Id": "12",
-      "player2Id": "226"
-    },
-    {
-      "id": "4",
-      "stageId": "1",
-      "sessionId": "1",
-      "player1Id": "23",
-      "player2Id": "40"
-    },
-    {
-      "id": "5",
-      "stageId": "1",
-      "sessionId": "1",
-      "player1Id": "4",
-      "player2Id": "170"
-    },
-    {
-      "id": "6",
-      "stageId": "1",
-      "sessionId": "1",
-      "player1Id": "14",
-      "player2Id": "45"
-    },
-    {
-      "id": "7",
-      "stageId": "1",
-      "sessionId": "1",
-      "player1Id": "6",
-      "player2Id": "83"
-    },
-    {
-      "id": "8",
-      "stageId": "1",
-      "sessionId": "1",
-      "player1Id": "22",
-      "player2Id": "29"
-    },
-    {
-      "id": "9",
-      "stageId": "1",
-      "sessionId": "2",
-      "player1Id": "2",
-      "player2Id": "57"
-    },
-    {
-      "id": "10",
-      "stageId": "1",
-      "sessionId": "2",
-      "player1Id": "25",
-      "player2Id": "37"
-    },
-    {
-      "id": "11",
-      "stageId": "1",
-      "sessionId": "2",
-      "player1Id": "11",
-      "player2Id": "227"
-    },
-    {
-      "id": "12",
-      "stageId": "1",
-      "sessionId": "2",
-      "player1Id": "18",
-      "player2Id": "224"
     },
     {
       "id": "13",
-      "stageId": "1",
-      "sessionId": "2",
-      "player1Id": "3",
-      "player2Id": "228"
+      "startTime": "2024-12-22T13:30:00.000",
+      "name": null
     },
     {
       "id": "14",
-      "stageId": "1",
-      "sessionId": "2",
-      "player1Id": "20",
-      "player2Id": "35"
+      "startTime": "2024-12-22T20:00:00.000",
+      "name": null
     },
     {
       "id": "15",
-      "stageId": "1",
-      "sessionId": "2",
-      "player1Id": "10",
-      "player2Id": "62"
+      "startTime": "2024-12-23T13:30:00.000",
+      "name": null
     },
     {
       "id": "16",
-      "stageId": "1",
-      "sessionId": "2",
-      "player1Id": "15",
-      "player2Id": "32"
+      "startTime": "2024-12-23T20:00:00.000",
+      "name": null
     },
     {
       "id": "17",
-      "stageId": "1",
-      "sessionId": "3",
-      "player1Id": "1",
-      "player2Id": "16"
+      "startTime": "2024-12-27T13:30:00.000",
+      "name": null
     },
     {
       "id": "18",
-      "stageId": "1",
-      "sessionId": "3",
-      "player1Id": "56",
-      "player2Id": "71"
+      "startTime": "2024-12-27T20:00:00.000",
+      "name": null
     },
     {
       "id": "19",
-      "stageId": "1",
-      "sessionId": "3",
-      "player1Id": "12",
-      "player2Id": "23"
+      "startTime": "2024-12-28T13:30:00.000",
+      "name": null
     },
     {
       "id": "20",
-      "stageId": "1",
-      "sessionId": "3",
-      "player1Id": "40",
-      "player2Id": "226"
+      "startTime": "2024-12-28T20:00:00.000",
+      "name": null
     },
     {
       "id": "21",
-      "stageId": "1",
-      "sessionId": "3",
-      "player1Id": "4",
-      "player2Id": "14"
+      "startTime": "2024-12-29T13:30:00.000",
+      "name": null
     },
     {
       "id": "22",
-      "stageId": "1",
-      "sessionId": "3",
-      "player1Id": "45",
-      "player2Id": "170"
+      "startTime": "2024-12-29T20:00:00.000",
+      "name": null
     },
     {
       "id": "23",
-      "stageId": "1",
-      "sessionId": "3",
-      "player1Id": "6",
-      "player2Id": "22"
+      "startTime": "2024-12-30T13:30:00.000",
+      "name": null
     },
     {
       "id": "24",
-      "stageId": "1",
-      "sessionId": "3",
-      "player1Id": "29",
-      "player2Id": "83"
+      "startTime": "2024-12-30T20:30:00.000",
+      "name": null
     },
     {
       "id": "25",
-      "stageId": "1",
-      "sessionId": "4",
-      "player1Id": "2",
-      "player2Id": "25"
+      "startTime": "2025-01-01T13:30:00.000",
+      "name": null
     },
     {
       "id": "26",
-      "stageId": "1",
-      "sessionId": "4",
-      "player1Id": "37",
-      "player2Id": "57"
+      "startTime": "2025-01-01T20:00:00.000",
+      "name": null
     },
     {
       "id": "27",
-      "stageId": "1",
-      "sessionId": "4",
-      "player1Id": "11",
-      "player2Id": "18"
+      "startTime": "2025-01-02T20:30:00.000",
+      "name": null
     },
     {
       "id": "28",
-      "stageId": "1",
-      "sessionId": "4",
-      "player1Id": "224",
-      "player2Id": "227"
-    },
-    {
-      "id": "29",
-      "stageId": "1",
-      "sessionId": "4",
-      "player1Id": "3",
-      "player2Id": "20"
-    },
-    {
-      "id": "30",
-      "stageId": "1",
-      "sessionId": "4",
-      "player1Id": "35",
-      "player2Id": "228"
-    },
-    {
-      "id": "31",
-      "stageId": "1",
-      "sessionId": "4",
-      "player1Id": "10",
-      "player2Id": "15"
-    },
-    {
-      "id": "32",
-      "stageId": "1",
-      "sessionId": "4",
-      "player1Id": "32",
-      "player2Id": "62"
-    },
-    {
-      "id": "33",
-      "stageId": "1",
-      "sessionId": "5",
-      "player1Id": "1",
-      "player2Id": "56"
-    },
-    {
-      "id": "34",
-      "stageId": "1",
-      "sessionId": "5",
-      "player1Id": "16",
-      "player2Id": "71"
-    },
-    {
-      "id": "35",
-      "stageId": "1",
-      "sessionId": "5",
-      "player1Id": "12",
-      "player2Id": "40"
-    },
-    {
-      "id": "36",
-      "stageId": "1",
-      "sessionId": "5",
-      "player1Id": "23",
-      "player2Id": "226"
-    },
-    {
-      "id": "37",
-      "stageId": "1",
-      "sessionId": "5",
-      "player1Id": "4",
-      "player2Id": "45"
-    },
-    {
-      "id": "38",
-      "stageId": "1",
-      "sessionId": "5",
-      "player1Id": "14",
-      "player2Id": "170"
-    },
-    {
-      "id": "39",
-      "stageId": "1",
-      "sessionId": "5",
-      "player1Id": "6",
-      "player2Id": "29"
-    },
-    {
-      "id": "40",
-      "stageId": "1",
-      "sessionId": "5",
-      "player1Id": "22",
-      "player2Id": "83"
-    },
-    {
-      "id": "41",
-      "stageId": "1",
-      "sessionId": "6",
-      "player1Id": "2",
-      "player2Id": "37"
-    },
-    {
-      "id": "42",
-      "stageId": "1",
-      "sessionId": "6",
-      "player1Id": "25",
-      "player2Id": "57"
-    },
-    {
-      "id": "43",
-      "stageId": "1",
-      "sessionId": "6",
-      "player1Id": "11",
-      "player2Id": "224"
-    },
-    {
-      "id": "44",
-      "stageId": "1",
-      "sessionId": "6",
-      "player1Id": "18",
-      "player2Id": "227"
-    },
-    {
-      "id": "45",
-      "stageId": "1",
-      "sessionId": "6",
-      "player1Id": "3",
-      "player2Id": "35"
-    },
-    {
-      "id": "46",
-      "stageId": "1",
-      "sessionId": "6",
-      "player1Id": "20",
-      "player2Id": "228"
-    },
-    {
-      "id": "47",
-      "stageId": "1",
-      "sessionId": "6",
-      "player1Id": "10",
-      "player2Id": "32"
-    },
-    {
-      "id": "48",
-      "stageId": "1",
-      "sessionId": "6",
-      "player1Id": "15",
-      "player2Id": "62"
-    },
-    {
-      "id": "49",
-      "stageId": "2",
-      "sessionId": "7",
-      "player1Id": null,
-      "player2Id": null
-    },
-    {
-      "id": "50",
-      "stageId": "2",
-      "sessionId": "7",
-      "player1Id": null,
-      "player2Id": null
-    },
-    {
-      "id": "51",
-      "stageId": "2",
-      "sessionId": "7",
-      "player1Id": null,
-      "player2Id": null
-    },
-    {
-      "id": "52",
-      "stageId": "2",
-      "sessionId": "7",
-      "player1Id": null,
-      "player2Id": null
-    },
-    {
-      "id": "53",
-      "stageId": "2",
-      "sessionId": "8",
-      "player1Id": null,
-      "player2Id": null
-    },
-    {
-      "id": "54",
-      "stageId": "2",
-      "sessionId": "8",
-      "player1Id": null,
-      "player2Id": null
-    },
-    {
-      "id": "55",
-      "stageId": "2",
-      "sessionId": "8",
-      "player1Id": null,
-      "player2Id": null
-    },
-    {
-      "id": "56",
-      "stageId": "2",
-      "sessionId": "8",
-      "player1Id": null,
-      "player2Id": null
-    },
-    {
-      "id": "57",
-      "stageId": "3",
-      "sessionId": "9",
-      "player1Id": null,
-      "player2Id": null
-    },
-    {
-      "id": "58",
-      "stageId": "3",
-      "sessionId": "9",
-      "player1Id": null,
-      "player2Id": null
-    },
-    {
-      "id": "59",
-      "stageId": "3",
-      "sessionId": "10",
-      "player1Id": null,
-      "player2Id": null
-    },
-    {
-      "id": "60",
-      "stageId": "3",
-      "sessionId": "10",
-      "player1Id": null,
-      "player2Id": null
-    },
-    {
-      "id": "61",
-      "stageId": "4",
-      "sessionId": "11",
-      "player1Id": null,
-      "player2Id": null
-    },
-    {
-      "id": "62",
-      "stageId": "4",
-      "sessionId": "11",
-      "player1Id": null,
-      "player2Id": null
-    },
-    {
-      "id": "63",
-      "stageId": "5",
-      "sessionId": "12",
-      "player1Id": null,
-      "player2Id": null
+      "startTime": "2025-01-03T21:00:00.000",
+      "name": null
     }
   ],
+  "matches": [],
   "bonuses": [
     {
       "id": "1",
-      "name": "Sieger",
-      "description": null,
-      "type": "Player"
-    }
-  ],
-  "players": [
-    {
-      "id": "1",
-      "firstName": "Luke",
-      "lastName": "Humphries",
-      "nickname": null,
-      "nation": "GB-ENG",
-      "photo": null
+      "type": "winner"
     },
     {
       "id": "2",
-      "firstName": "Michael",
-      "lastName": "Smith",
-      "nickname": null,
-      "nation": "GB-ENG",
-      "photo": null
+      "type": "totalNineDarters"
     },
     {
       "id": "3",
-      "firstName": "Michael",
-      "lastName": "van Gerwen",
-      "nickname": null,
-      "nation": "NL",
-      "photo": null
+      "type": "total180s"
     },
     {
       "id": "4",
-      "firstName": "Rob",
-      "lastName": "Cross",
-      "nickname": null,
-      "nation": "GB-ENG",
-      "photo": null
+      "type": "most180sByAPlayerInAGame"
     },
     {
-      "id": "6",
-      "firstName": "Dave",
-      "lastName": "Chisnall",
-      "nickname": null,
-      "nation": "GB-ENG",
-      "photo": null
-    },
-    {
-      "id": "10",
-      "firstName": "Stephen",
-      "lastName": "Bunting",
-      "nickname": null,
-      "nation": "GB-ENG",
-      "photo": null
-    },
-    {
-      "id": "11",
-      "firstName": "Dimitri",
-      "lastName": "van den Bergh",
-      "nickname": null,
-      "nation": "BE",
-      "photo": null
-    },
-    {
-      "id": "12",
-      "firstName": "Danny",
-      "lastName": "Noppert",
-      "nickname": null,
-      "nation": "NL",
-      "photo": null
-    },
-    {
-      "id": "14",
-      "firstName": "Peter",
-      "lastName": "Wright",
-      "nickname": null,
-      "nation": "GB-SCT",
-      "photo": null
-    },
-    {
-      "id": "15",
-      "firstName": "Josh",
-      "lastName": "Rock",
-      "nickname": null,
-      "nation": "GB-NIR",
-      "photo": null
-    },
-    {
-      "id": "16",
-      "firstName": "James",
-      "lastName": "Wade",
-      "nickname": null,
-      "nation": "GB-ENG",
-      "photo": null
-    },
-    {
-      "id": "18",
-      "firstName": "Luke",
-      "lastName": "Littler",
-      "nickname": null,
-      "nation": "GB-ENG",
-      "photo": null
-    },
-    {
-      "id": "20",
-      "firstName": "Gary",
-      "lastName": "Anderson",
-      "nickname": null,
-      "nation": "GB-SCT",
-      "photo": null
-    },
-    {
-      "id": "22",
-      "firstName": "Ross",
-      "lastName": "Smith",
-      "nickname": null,
-      "nation": "GB-ENG",
-      "photo": null
-    },
-    {
-      "id": "23",
-      "firstName": "Martin",
-      "lastName": "Schindler",
-      "nickname": null,
-      "nation": "DE",
-      "photo": null
-    },
-    {
-      "id": "25",
-      "firstName": "Mike",
-      "lastName": "De Decker",
-      "nickname": null,
-      "nation": "BE",
-      "photo": null
-    },
-    {
-      "id": "29",
-      "firstName": "Ritchie",
-      "lastName": "Edhouse",
-      "nickname": null,
-      "nation": "GB-ENG",
-      "photo": null
-    },
-    {
-      "id": "32",
-      "firstName": "Gian",
-      "lastName": "van Veen",
-      "nickname": null,
-      "nation": "NL",
-      "photo": null
-    },
-    {
-      "id": "35",
-      "firstName": "Ryan",
-      "lastName": "Joyce",
-      "nickname": null,
-      "nation": "GB-ENG",
-      "photo": null
-    },
-    {
-      "id": "37",
-      "firstName": "Jermaine",
-      "lastName": "Wattimena",
-      "nickname": null,
-      "nation": "NL",
-      "photo": null
-    },
-    {
-      "id": "40",
-      "firstName": "Cameron",
-      "lastName": "Menzies",
-      "nickname": null,
-      "nation": "GB-SCT",
-      "photo": null
-    },
-    {
-      "id": "45",
-      "firstName": "Martin",
-      "lastName": "Lukeman",
-      "nickname": null,
-      "nation": "GB-ENG",
-      "photo": null
-    },
-    {
-      "id": "56",
-      "firstName": "Mickey",
-      "lastName": "Mansell",
-      "nickname": null,
-      "nation": "GB-NIR",
-      "photo": null
-    },
-    {
-      "id": "57",
-      "firstName": "Mensur",
-      "lastName": "Suljovic",
-      "nickname": null,
-      "nation": "AT",
-      "photo": null
-    },
-    {
-      "id": "62",
-      "firstName": "Wessel",
-      "lastName": "Nijman",
-      "nickname": null,
-      "nation": "NL",
-      "photo": null
-    },
-    {
-      "id": "71",
-      "firstName": "Rowby-John",
-      "lastName": "Rodriguez",
-      "nickname": null,
-      "nation": "AT",
-      "photo": null
-    },
-    {
-      "id": "83",
-      "firstName": "Connor",
-      "lastName": "Scutt",
-      "nickname": null,
-      "nation": "GB-ENG",
-      "photo": null
-    },
-    {
-      "id": "170",
-      "firstName": "Leonard",
-      "lastName": "Gates",
-      "nickname": null,
-      "nation": "US",
-      "photo": null
-    },
-    {
-      "id": "224",
-      "firstName": "Keane",
-      "lastName": "Barry",
-      "nickname": null,
-      "nation": "IE",
-      "photo": null
-    },
-    {
-      "id": "226",
-      "firstName": "Beau",
-      "lastName": "Greaves",
-      "nickname": null,
-      "nation": "GB-ENG",
-      "photo": null
-    },
-    {
-      "id": "227",
-      "firstName": "Lourence",
-      "lastName": "Ilagan",
-      "nickname": null,
-      "nation": "PH",
-      "photo": null
-    },
-    {
-      "id": "228",
-      "firstName": "Noa-Lynn",
-      "lastName": "van Leuven",
-      "nickname": null,
-      "nation": "NL",
-      "photo": null
+      "id": "5",
+      "type": "total170Checkouts"
     }
-  ]
+  ],
+  "players": []
 }
