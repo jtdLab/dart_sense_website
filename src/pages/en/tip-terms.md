@@ -5,20 +5,20 @@ description: DartSense Prediction Game Terms of Use
 linkGoToHome: /en
 ---
 
-# Rules for the World Championship Prediction Game for the Darts World Championship 2025
+# Rules for the WM-Tippspiel for the Darts World Cup 2025
 
-_Last updated on December 1, 2024._
+_Last updated on December 12, 2024._
 
 Organized by **DartSense** and **Darts_ger**.
 
 ---
 
-## **Points System**
+## **Point Allocation**
 
-- **3 Points**: Correct prediction (exact result).
-- **2 Points**: Correct winner, but incorrect result.
-- **0 Points**: Incorrect prediction.
-- **10 Points**: Correct bonus prediction.
+- **3 points**: Correct prediction (exact result).
+- **2 points**: Correct winner, but wrong result.
+- **0 points**: Incorrect prediction.
+- **10 points**: Correct bonus prediction.
 
 ---
 
@@ -28,53 +28,57 @@ Organized by **DartSense** and **Darts_ger**.
 2. **In case of a tie**, the winner will be determined by a random draw.
 3. **Prizes** will be sent to the winners within one month.
 4. **No claim to the prize** exists before the official announcement of the winners.
+5. The prize limit for darts is €100 and for jerseys is €70.
+6. If prizes are not available for purchase due to lack of availability or other reasons, the organizer may request the selection of an alternative product.
+7. No prize can be replaced by a cash payout. Only non-cash prizes will be awarded.
 
 ---
 
 ## **Announcement of Winners**
 
-- All winners will be **transparently announced on Instagram** via the channels **DartSense** and **Darts_ger**.
-- Winners must provide their address via **private message (PM)**. **Data protection** will be ensured.
+- All winners will be **announced transparently on Instagram** via the **DartSense** and **Darts_ger** channels.
+- Winners must send us their address via **private message (PM)**. **Data protection** will be ensured.
 
 ---
 
 ## **Technical Issues**
 
-- **No liability** will be accepted for point loss due to technical problems.
-- However, we will do our best to resolve all cases to the **satisfaction of all participants**.
+- **No liability** is assumed for point loss due to technical problems.
+- However, we strive to resolve all cases to the **satisfaction of all**.
+- If the tips game cannot be completed due to technical problems or if technical problems cause a premature termination, the organizer is not obliged to award the prizes.
 
 ---
 
 ## **Disqualification**
 
-- **Abuse** or a **rule violation** will lead to immediate disqualification.
-- The organizer reserves the right to **exclude participants** at their discretion.
+- **Abuse** or a **rule violation** leads to immediate disqualification.
+- The organizer reserves the right to **exclude** participants at their own discretion.
 
 ---
 
-## **Deadline for Predictions**
+## **Submission Deadline for Tips**
 
-- All predictions must be submitted **before the start of the match** or **tournament (for bonus predictions)** to be valid.
-
----
-
-## **Bonus Predictions**
-
-- A correct bonus prediction earns **10 additional points**.
+- All tips must be submitted **before the start of the game** or **tournament (for bonus tips)** to be valid.
 
 ---
 
-## **Points Evaluation**
+## **Bonus Tips**
 
-- A **table with each player’s points** will be maintained for evaluation at the end of the tournament.
-- The evaluation will be transparent and fair.
+- A correct bonus tip earns **10 additional points**.
 
 ---
 
-## **Liability Disclaimer**
+## **Point Evaluation**
 
-- **Legal recourse is excluded**.
-- We are not liable for **delivery issues** or **damage to the prizes**.
+- For point evaluation, a **table with the points of each player** is maintained, which will be used at the end of the tournament.
+- The evaluation is carried out transparently and fairly.
+
+---
+
+## **Disclaimer**
+
+- Legal recourse is **excluded**.
+- We are not liable for **delivery issues** or **damages** to the prizes.
 
 ---
 
@@ -84,5 +88,5 @@ Organized by **DartSense** and **Darts_ger**.
 
 ---
 
-We wish you lots of fun and success with the prediction game! 🎯  
+We wish you lots of fun and success with the WM-Tippspiel! 🎯  
 Your **DartSense** and **Darts_ger** Team
